@@ -136,11 +136,7 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     }
 }
 
-impl From<SignalPeriod> for esp_hal::rmt::PulseCode {
-    fn from(value: SignalPeriod) -> Self {
-        todo!()
-    }
-}
+
 
 impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     LedStrip<LENGTH, LENGTH_TIMES_24_PLUS_1, Rgb>

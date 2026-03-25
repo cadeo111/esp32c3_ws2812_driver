@@ -1,36 +1,22 @@
-mod color {
-    use core::fmt::{
-        Display,
-        Formatter,
-    };
+use core::fmt::{
+    Display,
+    Formatter,
+};
 
-    use super::super::Color24bit;
+use super::{
+    Color24bit,
+    rgb_to_packed,
+};
+
+mod color {
+
+    use super::*;
 
     #[derive(Clone, Copy, PartialEq, PartialOrd, Eq, Ord, Debug, Hash, Default)]
     pub struct Rgb(u32);
     impl Rgb {
-        /// save RGB as u32 color value (24bit) representation for neopixel
-        ///
-        /// e.g. rgb: (1,2,4)
-        /// G        R        B
-        /// 7      0 7      0 7      0
-        /// 00000010 00000001 00000100
         pub const fn raw(r: u8, g: u8, b: u8) -> Self {
-            Rgb(((g as u32) << 16) | ((r as u32) << 8) | b as u32)
-        }
-        #[inline(always)]
-        pub fn green(&self) -> u8 {
-            ((self.0 >> 16) & 0xFF) as u8
-        }
-
-        #[inline(always)]
-        pub fn red(&self) -> u8 {
-            ((self.0 >> 8) & 0xFF) as u8
-        }
-
-        #[inline(always)]
-        pub fn blue(&self) -> u8 {
-            (self.0 & 0xFF) as u8
+            Rgb(rgb_to_packed(r, g, b))
         }
 
         #[inline(always)]
@@ -41,8 +27,24 @@ mod color {
     }
 
     impl Color24bit for Rgb {
+        #[inline(always)]
         fn as_24_bit_color_u32(&self) -> u32 {
             self.0
+        }
+
+        #[inline(always)]
+        fn green(&self) -> u8 {
+            ((self.0 >> 16) & 0xFF) as u8
+        }
+
+        #[inline(always)]
+        fn red(&self) -> u8 {
+            ((self.0 >> 8) & 0xFF) as u8
+        }
+
+        #[inline(always)]
+        fn blue(&self) -> u8 {
+            (self.0 & 0xFF) as u8
         }
     }
 

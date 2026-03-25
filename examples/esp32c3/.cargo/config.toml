@@ -16,3 +16,7 @@ target = "riscv32imc-unknown-none-elf"
 
 [unstable]
 build-std = ["core"]
+
+[alias]
+# Now 'cargo b' will only build your specific binary
+b = "build --bin ws2812-driver"

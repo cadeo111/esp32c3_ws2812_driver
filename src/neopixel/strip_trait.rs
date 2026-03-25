@@ -1,10 +1,47 @@
-use core::time::Duration;
+use core::{
+    marker::PhantomData,
+    time::Duration,
+};
 
 use heapless::Vec;
+use smart_leds::RGB8;
 use thiserror::Error;
 
+
+/// save RGB as u32 color value (24bit) representation for neopixel
+///
+/// e.g. rgb: (1,2,4)
+/// G        R        B
+/// 7      0 7      0 7      0
+/// 00000010 00000001 00000100
+pub const fn rgb_to_packed(r: u8, g: u8, b: u8) -> u32 {
+    ((g as u32) << 16) | ((r as u32) << 8) | b as u32
+}
+
 pub trait Color24bit: Sized {
-    fn as_24_bit_color_u32(&self) -> u32;
+    fn as_24_bit_color_u32(&self) -> u32 {
+        rgb_to_packed(self.red(), self.green(), self.blue())
+    }
+    fn red(&self) -> u8;
+    fn green(&self) -> u8;
+    fn blue(&self) -> u8;
+    fn to_rgb8(&self) -> RGB8 {
+        RGB8::new(self.red(), self.green(), self.blue())
+    }
+}
+
+impl Color24bit for RGB8 {
+    fn red(&self) -> u8 {
+        self.r
+    }
+
+    fn green(&self) -> u8 {
+        self.g
+    }
+
+    fn blue(&self) -> u8 {
+        self.b
+    }
 }
 
 #[derive(Error, Debug)]
@@ -32,13 +69,16 @@ impl SignalPeriod {
     }
 }
 
+#[allow(dead_code)]
 pub const fn times_24(length: usize) -> usize {
     length * 24 + 1
 }
 
 /// MIN_SIGNAL_LENGTH should be at least LENGTH *24
 /// _methods are internal, should be avoided
-pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color24bit> {
+pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color24bit>:
+    Sized
+{
     type Error: core::error::Error + From<LedStripTraitError>;
     type SignalPeriodType;
 
@@ -66,7 +106,7 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     }
 
     fn get_led(&self, index: usize) -> core::result::Result<C, Self::Error> {
-         if index >= LENGTH {
+        if index >= LENGTH {
             Err(LedStripTraitError::IndexOutOfRangeOfStrip {
                 length: LENGTH,
                 index,
@@ -75,7 +115,7 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
         Ok(self._get_led_unchecked(index))
     }
 
-    fn _get_led_unchecked(&self, index: usize) -> C; 
+    fn _get_led_unchecked(&self, index: usize) -> C;
 
     fn _get_periods(
         &mut self,
@@ -91,7 +131,7 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
         let mut signal = Vec::<Self::SignalPeriodType, MIN_SIGNAL_LENGTH>::new();
 
         let mut s = [SignalPeriod::default(); 24];
-    
+
         for index in 0..LENGTH {
             let c = self.get_led(index)?;
             let color: u32 = c.as_24_bit_color_u32();
@@ -122,5 +162,18 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     fn refresh(&mut self) -> core::result::Result<(), Self::Error> {
         let signal = self._get_periods()?;
         self._transmit_signal(signal)
+    }
+
+    /// createsd to mimic the smart LEDs interface
+    /// https://github.com/smart-leds-rs/smart-leds-trait/tree/master
+    fn write_all<T, I>(&mut self, iterator: T) -> Result<(), Self::Error>
+    where
+        T: IntoIterator<Item = I>,
+        I: Into<C>,
+    {
+        for (index, color) in iterator.into_iter().enumerate() {
+            self.set_led(index, color.into())?
+        }
+        self.refresh()
     }
 }

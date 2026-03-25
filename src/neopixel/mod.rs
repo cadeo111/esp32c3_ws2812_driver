@@ -14,4 +14,5 @@ pub use strip_trait::{
     LedStrip,
     LedStripTraitError,
     SignalPeriod,
+    rgb_to_packed
 };
