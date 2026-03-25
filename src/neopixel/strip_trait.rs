@@ -28,19 +28,9 @@ pub trait Color24bit: Sized {
     fn to_rgb8(&self) -> RGB8 {
         RGB8::new(self.red(), self.green(), self.blue())
     }
-}
-
-impl Color24bit for RGB8 {
-    fn red(&self) -> u8 {
-        self.r
-    }
-
-    fn green(&self) -> u8 {
-        self.g
-    }
-
-    fn blue(&self) -> u8 {
-        self.b
+    fn from_rgb(r: u8, g: u8, b: u8) -> Self;
+    fn from_other_color<C: Color24bit>(c: C) -> Self {
+        Self::from_rgb(c.red(), c.green(), c.blue())
     }
 }
 
@@ -94,14 +84,14 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     }
     fn _zero_out_index_unchecked(&mut self, index: usize);
     fn _set_led_unchecked(&mut self, index: usize, color: C);
-    fn set_led(&mut self, index: usize, color: C) -> core::result::Result<(), Self::Error> {
+    fn set_led<C24B:Color24bit>(&mut self, index: usize, color: C24B) -> core::result::Result<(), Self::Error> {
         if index >= LENGTH {
             Err(LedStripTraitError::IndexOutOfRangeOfStrip {
                 length: LENGTH,
                 index,
             })?;
         }
-        self._set_led_unchecked(index, color);
+        self._set_led_unchecked(index, C::from_other_color(color));
         Ok(())
     }
 
@@ -169,10 +159,10 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     fn write_all<T, I>(&mut self, iterator: T) -> Result<(), Self::Error>
     where
         T: IntoIterator<Item = I>,
-        I: Into<C>,
+        I: Color24bit,
     {
         for (index, color) in iterator.into_iter().enumerate() {
-            self.set_led(index, color.into())?
+            self.set_led(index, color)?
         }
         self.refresh()
     }

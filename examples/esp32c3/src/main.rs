@@ -52,9 +52,12 @@ async fn main(spawner: Spawner) -> ! {
 
     info!("Embassy initialized!");
 
-    const LED_LENGTH: usize = 64;
-    let mut strip: LedStripEsp32C3<'_, LED_LENGTH, { min_length_times_24_plus_one(LED_LENGTH) }> =
-        LedStripEsp32C3::new(peripherals.GPIO6, peripherals.RMT).unwrap();
+    const LED_LENGTH: u8 = 64;
+    let mut strip: LedStripEsp32C3<
+        '_,
+        { LED_LENGTH as usize },
+        { min_length_times_24_plus_one(LED_LENGTH as usize) },
+    > = LedStripEsp32C3::new(peripherals.GPIO6, peripherals.RMT).unwrap();
     strip.set_led(0, Rgb::RED).unwrap();
     strip.refresh().unwrap();
 
@@ -79,8 +82,102 @@ async fn main(spawner: Spawner) -> ! {
 
         // strip.refresh().unwrap();
         idx += 1;
-        idx %= LED_LENGTH;
+        idx %= { LED_LENGTH as usize };
         // Timer::after(Duration::from_secs(1)).await;
+        if idx == 5 {
+            break;
+        }
+    }
+
+    use myrtio_light_composer::{
+        Duration,
+        EffectId,
+        FilterProcessorConfig,
+        Instant,
+        IntentChannel,
+        LightChangeIntent,
+        LightEngineConfig,
+        LightStateIntent,
+        Renderer,
+        Rgb as ComposerRGB,
+        TransitionTimings,
+        bounds::RenderingBounds,
+        filter::BrightnessFilterConfig,
+    };
+    use ws2812_driver::neopixel::Color24bit;
+
+    // 1. Create communication channel (static for 'static lifetime)
+    static INTENTS: IntentChannel<16> = IntentChannel::new();
+
+    const last_index: u8 = LED_LENGTH - 1;
+
+    // 2. Configure the engine
+    let config = LightEngineConfig {
+        effect: EffectId::RainbowShort,
+        bounds: RenderingBounds {
+            start: 0,
+            end: last_index,
+        },
+        timings: TransitionTimings {
+            fade_out: Duration::from_millis(10),
+            fade_in: Duration::from_millis(10),
+            color_change: Duration::from_millis(10),
+            brightness: Duration::from_millis(10),
+        },
+        filters: FilterProcessorConfig {
+            brightness: BrightnessFilterConfig {
+                min_brightness: 0,
+                scale: 255,
+                adjust: None,
+            },
+            color_correction: ComposerRGB::new(255, 255, 255),
+        },
+        brightness: 255,
+        color: ComposerRGB::new(255, 180, 100),
+    };
+
+    // 3. Initialize renderer
+    let receiver = INTENTS.receiver();
+    let mut renderer = Renderer::<{ last_index as usize }, 16>::new(receiver, &config);
+
+    // 4. Send commands (from anywhere - thread/interrupt safe)
+    let sender = INTENTS.sender();
+    let _ = sender.try_send(LightChangeIntent::State(LightStateIntent {
+        brightness: Some(255),
+        color: Some(ComposerRGB::new(255, 0, 0)),
+        ..Default::default()
+    }));
+
+    struct WrapperRGB(ComposerRGB);
+    impl Color24bit for WrapperRGB {
+        fn red(&self) -> u8 {
+            self.0.r
+        }
+
+        fn green(&self) -> u8 {
+            self.0.g
+        }
+
+        fn blue(&self) -> u8 {
+            self.0.b
+        }
+        fn from_rgb(r: u8, g: u8, b: u8) -> Self {
+            Self(ComposerRGB::new(r, g, b))
+        }
+    }
+
+    // 5. Render loop (caller provides timing)
+    let mut time_ms: u64 = 0;
+    loop {
+        let now = Instant::from_millis(time_ms);
+        let frame: &[ComposerRGB] = renderer.render(now);
+        strip
+            .write_all(frame.iter().map(|c| WrapperRGB(*c)))
+            .unwrap();
+
+        // Platform-specific delay (e.g., embassy Timer, std::thread::sleep, busy-wait)
+        Timer::after(Duration::from_millis(10)).await;
+        time_ms += 10;
     }
 
     // for inspiration have a look at the examples at https://github.com/esp-rs/esp-hal/tree/esp-hal-v1.0.0/examples

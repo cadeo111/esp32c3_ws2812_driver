@@ -46,6 +46,10 @@ mod color {
         fn blue(&self) -> u8 {
             (self.0 & 0xFF) as u8
         }
+
+        fn from_rgb(r: u8, g: u8, b: u8) -> Self {
+            Self::new(r, g, b)
+        }
     }
 
     impl Display for Rgb {
