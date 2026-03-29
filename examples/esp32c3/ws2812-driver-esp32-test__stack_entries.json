@@ -1,0 +1,3541 @@
+{
+  "timestamp": 1774814534268,
+  "data": [
+    {
+      "mangledName": "_start_trap_rust_hal",
+      "demangledName": "_start_trap_rust_hal",
+      "canonicalName": "_start_trap_rust_hal",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 775
+    },
+    {
+      "mangledName": "_start_trap_rust",
+      "demangledName": "_start_trap_rust",
+      "canonicalName": "_start_trap_rust",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-rt-0.16.0/src/lib.rs",
+      "line": 819
+    },
+    {
+      "mangledName": "_RNvNtCs762OGJxUvLv_8esp_rtos5timer18timer_tick_handler",
+      "demangledName": "esp_rtos::timer::timer_tick_handler",
+      "canonicalName": "esp_rtos::timer::timer_tick_handler",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/timer/mod.rs",
+      "line": 225
+    },
+    {
+      "mangledName": "_RNvXNtCs762OGJxUvLv_8esp_rtos4taskINtNtNtCs80p5DAyp3TR_4core3ptr8non_null7NonNullNtB2_4TaskENtB2_7TaskExt6resume",
+      "demangledName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::resume",
+      "canonicalName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::resume",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+      "line": 131
+    },
+    {
+      "mangledName": "__pender",
+      "demangledName": "__pender",
+      "canonicalName": "__pender",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9schedulerNtB5_14SchedulerState11resume_task",
+      "demangledName": "<esp_rtos::scheduler::SchedulerState>::resume_task",
+      "canonicalName": "<esp_rtos::scheduler::SchedulerState>::resume_task",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCs762OGJxUvLv_8esp_rtos9run_queueNtB5_8RunQueue15mark_task_ready",
+      "demangledName": "<esp_rtos::run_queue::RunQueue>::mark_task_ready",
+      "canonicalName": "<esp_rtos::run_queue::RunQueue>::mark_task_ready",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCs762OGJxUvLv_8esp_rtos9run_queueNtB5_8RunQueue36select_scheduler_trigger_single_core",
+      "demangledName": "<esp_rtos::run_queue::RunQueue>::select_scheduler_trigger_single_core",
+      "canonicalName": "<esp_rtos::run_queue::RunQueue>::select_scheduler_trigger_single_core",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCs762OGJxUvLv_8esp_rtos9run_queueNtB5_8RunQueue3pop",
+      "demangledName": "<esp_rtos::run_queue::RunQueue>::pop",
+      "canonicalName": "<esp_rtos::run_queue::RunQueue>::pop",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs762OGJxUvLv_8esp_rtos4task13arch_specific13swint_handler",
+      "demangledName": "esp_rtos::task::arch_specific::swint_handler",
+      "canonicalName": "esp_rtos::task::arch_specific::swint_handler",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/riscv.rs",
+      "line": 312
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt27user_gpio_interrupt_handler",
+      "demangledName": "esp_hal::gpio::interrupt::user_gpio_interrupt_handler",
+      "canonicalName": "esp_hal::gpio::interrupt::user_gpio_interrupt_handler",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+      "line": 184
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt30default_gpio_interrupt_handler",
+      "demangledName": "esp_hal::gpio::interrupt::default_gpio_interrupt_handler",
+      "canonicalName": "esp_hal::gpio::interrupt::default_gpio_interrupt_handler",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+      "line": 149
+    },
+    {
+      "mangledName": "_RNvNtCsjsYHBdtEVy3_7esp_hal3rsa41___esp_hal_internal_rsa_work_queue_handler",
+      "demangledName": "esp_hal::rsa::__esp_hal_internal_rsa_work_queue_handler",
+      "canonicalName": "esp_hal::rsa::__esp_hal_internal_rsa_work_queue_handler",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rsa/mod.rs",
+      "line": 1104
+    },
+    {
+      "mangledName": "handle_interrupts",
+      "demangledName": "handle_interrupts",
+      "canonicalName": "handle_interrupts",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_start_rust",
+      "demangledName": "_start_rust",
+      "canonicalName": "_start_rust",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-rt-0.16.0/src/lib.rs",
+      "line": 694
+    },
+    {
+      "mangledName": "_RINvMs2_Cs50b7kpjjkp9_8esp_syncNtB6_8RawMutex4lockINtNtCs80p5DAyp3TR_4core6result6ResultuNtNtBR_3fmt5ErrorENCINvCs71F1xfqOZID_11esp_println4withBM_NCNvNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6logger16print_log_record9__do_print0E0EB2t_",
+      "demangledName": "<esp_sync::RawMutex>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, ws2812_driver_esp32_test::logger::print_log_record::_do_print::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::RawMutex>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, ws2812_driver_esp32_test::logger::print_log_record::_do_print",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvXs4_Cs50b7kpjjkp9_8esp_syncNtB6_8RawMutexNtNtNtCs9KaHtKtAgu7_12embassy_sync14blocking_mutex3raw8RawMutex4lockuNCINvMs0_BL_INtBL_5MutexBt_INtNtCs80p5DAyp3TR_4core4cell7RefCellNtNtCs762OGJxUvLv_8esp_rtos9scheduler14SchedulerStateEE4lockuNCINvMs1_B2S_NtB2S_9Scheduler11with_shareduNCINvB3U_4withuNCINvB2U_20start_with_idle_hookNtNtNtCsjsYHBdtEVy3_7esp_hal5timer4timg5TimerE0E0E0E0ECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_sync::RawMutex as embassy_sync::blocking_mutex::raw::RawMutex>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), esp_rtos::start_with_idle_hook<esp_hal::timer::timg::Timer>::{closure#0}>::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::RawMutex as embassy_sync::blocking_mutex::raw::RawMutex>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), esp_rtos::start_with_idle_hook<esp_hal::timer::timg::Timer>",
+      "size": 96,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+      "line": 357
+    },
+    {
+      "mangledName": "_RINvMNtNtCsjsYHBdtEVy3_7esp_hal3rmt6writerNtB3_9RmtWriter5writeNtB5_9PulseCodeECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_hal::rmt::writer::RmtWriter>::write::<esp_hal::rmt::PulseCode>",
+      "canonicalName": "<esp_hal::rmt::writer::RmtWriter>::write::<esp_hal::rmt::PulseCode>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvCs762OGJxUvLv_8esp_rtos5startNtNtNtCsjsYHBdtEVy3_7esp_hal5timer4timg5TimerECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "esp_rtos::start::<esp_hal::timer::timg::Timer>",
+      "canonicalName": "esp_rtos::start::<esp_hal::timer::timg::Timer>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/lib.rs",
+      "line": 273
+    },
+    {
+      "mangledName": "_RNvNtNtCs762OGJxUvLv_8esp_rtos4task13arch_specific9idle_hook.llvm.254999674423747814",
+      "demangledName": "esp_rtos::task::arch_specific::idle_hook",
+      "canonicalName": "esp_rtos::task::arch_specific::idle_hook",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMNtNtCscoqPtFXXy8i_16embassy_executor3raw4utilINtB3_10UninitCellNCNvNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main21_____embassy_main_task36_____embassy_main_task_inner_function0E14write_in_placeNCNvB1a_14___embassy_main0EB1c_",
+      "demangledName": "<embassy_executor::raw::util::UninitCell<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function::{closure#0}>>::write_in_place::<ws2812_driver_esp32_test::__main::__embassy_main::{closure#0}>",
+      "canonicalName": "<embassy_executor::raw::util::UninitCell<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMsq_NtCsjsYHBdtEVy3_7esp_hal3rmtINtB6_7ChannelNtB8_8BlockingNtB6_2TxE8transmitNtB6_9PulseCodeECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>::transmit::<esp_hal::rmt::PulseCode>",
+      "canonicalName": "<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>::transmit::<esp_hal::rmt::PulseCode>",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvXs18_NtCsjsYHBdtEVy3_7esp_hal3rmtINtB7_14ChannelCreatorNtB9_8BlockingKh0_EINtB7_16TxChannelCreatorBV_E12configure_txNtNtB9_11peripherals5GPIO6ECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_hal::rmt::ChannelCreator<esp_hal::Blocking, 0> as esp_hal::rmt::TxChannelCreator<esp_hal::Blocking>>::configure_tx::<esp_hal::peripherals::GPIO6>",
+      "canonicalName": "<esp_hal::rmt::ChannelCreator<esp_hal::Blocking, 0> as esp_hal::rmt::TxChannelCreator<esp_hal::Blocking>>::configure_tx::<esp_hal::peripherals::GPIO6>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rmt.rs",
+      "line": 779
+    },
+    {
+      "mangledName": "_RNvMsk_NtCsjsYHBdtEVy3_7esp_hal3rmtINtB5_23SingleShotTxTransactionNtB5_9PulseCodeE4waitCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_hal::rmt::SingleShotTxTransaction<esp_hal::rmt::PulseCode>>::wait",
+      "canonicalName": "<esp_hal::rmt::SingleShotTxTransaction<esp_hal::rmt::PulseCode>>::wait",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRNtNtCsjsYHBdtEVy3_7esp_hal3rmt5ErrorNtB6_5Debug3fmtCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<&esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<&esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "main",
+      "demangledName": "main",
+      "canonicalName": "main",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+      "line": 76
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRNtNtNtB8_3num5error15TryFromIntErrorNtB6_5Debug3fmtCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<&core::num::error::TryFromIntError as core::fmt::Debug>::fmt",
+      "canonicalName": "<&core::num::error::TryFromIntError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs3_NtCscoqPtFXXy8i_16embassy_executor7spawnerNtB6_7Spawner10must_spawnNCNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main14___embassy_main0EB1h_",
+      "demangledName": "<embassy_executor::spawner::Spawner>::must_spawn::<ws2812_driver_esp32_test::__main::__embassy_main::{closure#0}>",
+      "canonicalName": "<embassy_executor::spawner::Spawner>::must_spawn::<ws2812_driver_esp32_test::__main::__embassy_main",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvXs0_NtNtNtCs80p5DAyp3TR_4core4iter8adapters3mapINtB6_3MapINtNtB8_9enumerate9EnumerateINtNtNtBc_5slice4iter7IterMutNtNtNtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based3rgb5color3RgbEENCNvMs7_NtNtB20_10grid_based12grid_esp32c3INtB34_9Grid2dMutKj8_KB3U_B1S_E8iter_mut0ENtNtNtBa_6traits8iterator8Iterator4folduNCINvNtB8_6filter11filter_foldTTjjEQB1S_EuNCNCINvCsa2rSFu666NR_24ws2812_driver_esp32_test16led_grid_exampleNtNtCsjsYHBdtEVy3_7esp_hal11peripherals5GPIO6E00NCINvNvB4i_8for_each4callB5q_NCB5E_s_0E0E0EB5J_",
+      "demangledName": "<core::iter::adapters::map::Map<core::iter::adapters::enumerate::Enumerate<core::slice::iter::IterMut<ws2812_driver::strip_based::rgb::color::Rgb>>, <ws2812_driver::grid_based::grid_esp32c3::Grid2dMut<8, 8, ws2812_driver::strip_based::rgb::color::Rgb>>::iter_mut::{closure#0}> as core::iter::traits::iterator::Iterator>::fold::<(), core::iter::adapters::filter::filter_fold<((usize, usize), &mut ws2812_driver::strip_based::rgb::color::Rgb), (), ws2812_driver_esp32_test::led_grid_example<esp_hal::peripherals::GPIO6>::{closure#0}::{closure#0}, core::iter::traits::iterator::Iterator::for_each::call<((usize, usize), &mut ws2812_driver::strip_based::rgb::color::Rgb), ws2812_driver_esp32_test::led_grid_example<esp_hal::peripherals::GPIO6>::{closure#0}::{closure#1}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<core::iter::adapters::map::Map<core::iter::adapters::enumerate::Enumerate<core::slice::iter::IterMut<ws2812_driver::strip_based::rgb::color::Rgb>>, <ws2812_driver::grid_based::grid_esp32c3::Grid2dMut<8, 8, ws2812_driver::strip_based::rgb::color::Rgb>>::iter_mut",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs3_NtCscoqPtFXXy8i_16embassy_executor3rawINtB6_8TaskPoolNCNvNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main21_____embassy_main_task36_____embassy_main_task_inner_function0Kj1_E15__spawn_async_fnNCNvB13_14___embassy_main0EB15_",
+      "demangledName": "<embassy_executor::raw::TaskPool<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function::{closure#0}, 1>>::_spawn_async_fn::<ws2812_driver_esp32_test::__main::__embassy_main::{closure#0}>",
+      "canonicalName": "<embassy_executor::raw::TaskPool<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCscoqPtFXXy8i_16embassy_executor3rawINtB5_11TaskStorageNCNvNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main21_____embassy_main_task36_____embassy_main_task_inner_function0E4pollB18_.llvm.16486880603890114773",
+      "demangledName": "<embassy_executor::raw::TaskStorage<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function::{closure#0}>>::poll",
+      "canonicalName": "<embassy_executor::raw::TaskStorage<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function",
+      "size": 608,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs4_NtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based13strip_esp32c3NtB5_17Esp32c3StripErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<ws2812_driver::strip_based::strip_esp32c3::Esp32c3StripError as core::fmt::Debug>::fmt",
+      "canonicalName": "<ws2812_driver::strip_based::strip_esp32c3::Esp32c3StripError as core::fmt::Debug>::fmt",
+      "size": 32,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/strip_based/strip_esp32c3.rs",
+      "line": 34
+    },
+    {
+      "mangledName": "_RNvXsZ_NtNtCs80p5DAyp3TR_4core3fmt3numjNtB7_5Debug3fmt",
+      "demangledName": "<usize as core::fmt::Debug>::fmt",
+      "canonicalName": "<usize as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCs80p5DAyp3TR_4core3ptr13drop_in_placeINtNtCsjsYHBdtEVy3_7esp_hal3rmt7ChannelNtBL_8BlockingNtBJ_2TxEECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "core::ptr::drop_in_place::<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>",
+      "canonicalName": "core::ptr::drop_in_place::<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs_NtNtCs8SpYKmHYVaQ_13ws2812_driver10grid_based12grid_esp32c3INtB5_14LedGridEsp32c3Kj8_KB1p_Kj40_Kj601_Kj1_KB1y_INtB5_17RowsSameDirectionKB1p_KB1p_EE3newNtNtCsjsYHBdtEVy3_7esp_hal11peripherals5GPIO6ECsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<ws2812_driver::grid_based::grid_esp32c3::LedGridEsp32c3<8, 8, 64, 1537, 1, 64, ws2812_driver::grid_based::grid_esp32c3::RowsSameDirection<8, 8>>>::new::<esp_hal::peripherals::GPIO6>",
+      "canonicalName": "<ws2812_driver::grid_based::grid_esp32c3::LedGridEsp32c3<8, 8, 64, 1537, 1, 64, ws2812_driver::grid_based::grid_esp32c3::RowsSameDirection<8, 8>>>::new::<esp_hal::peripherals::GPIO6>",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCs8SpYKmHYVaQ_13ws2812_driver10grid_based12grid_esp32c3INtB5_6Grid3dKj8_KB1g_Kj1_Kj40_NtNtNtNtB9_11strip_based3rgb5color3RgbE22composite_for_positionCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<ws2812_driver::grid_based::grid_esp32c3::Grid3d<8, 8, 1, 64, ws2812_driver::strip_based::rgb::color::Rgb>>::composite_for_position",
+      "canonicalName": "<ws2812_driver::grid_based::grid_esp32c3::Grid3d<8, 8, 1, 64, ws2812_driver::strip_based::rgb::color::Rgb>>::composite_for_position",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsD_NtCsjsYHBdtEVy3_7esp_hal3rmtNtB5_5ErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt.llvm.12406013428700882442",
+      "demangledName": "<esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs8WBuTbND90m_8heapless3vecINtB4_8VecInnerNtNtCsjsYHBdtEVy3_7esp_hal3rmt9PulseCodejINtNtB4_7storage15VecStorageInnerAINtNtNtCs80p5DAyp3TR_4core3mem12maybe_uninit11MaybeUninitBM_Ej601_EE4pushCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<heapless::vec::VecInner<esp_hal::rmt::PulseCode, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_hal::rmt::PulseCode>; 1537]>>>::push",
+      "canonicalName": "<heapless::vec::VecInner<esp_hal::rmt::PulseCode, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_hal::rmt::PulseCode>; 1537]>>>::push",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6logger18init_custom_logger",
+      "demangledName": "ws2812_driver_esp32_test::logger::init_custom_logger",
+      "canonicalName": "ws2812_driver_esp32_test::logger::init_custom_logger",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+      "line": 360
+    },
+    {
+      "mangledName": "_RNvXNtCsa2rSFu666NR_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCsY2VCYhJxIU_3log3Log3log.llvm.1997663693660924050",
+      "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::log",
+      "canonicalName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::log",
+      "size": 160,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+      "line": 296
+    },
+    {
+      "mangledName": "_RNvXNtCsa2rSFu666NR_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCsY2VCYhJxIU_3log3Log5flush.llvm.1997663693660924050",
+      "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::flush",
+      "canonicalName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::flush",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+      "line": 309
+    },
+    {
+      "mangledName": "_RNvXNtCsa2rSFu666NR_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCsY2VCYhJxIU_3log3Log7enabled.llvm.1997663693660924050",
+      "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::enabled",
+      "canonicalName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::enabled",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+      "line": 291
+    },
+    {
+      "mangledName": "_RNvXs17_CsY2VCYhJxIU_3logNtB6_14SetLoggerErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt.llvm.1997663693660924050",
+      "demangledName": "<log::SetLoggerError as core::fmt::Debug>::fmt",
+      "canonicalName": "<log::SetLoggerError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCsjsYHBdtEVy3_7esp_hal9interrupt8softwareINtB2_17SoftwareInterruptKh0_E21set_interrupt_handlerCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<esp_hal::interrupt::software::SoftwareInterrupt<0>>::set_interrupt_handler",
+      "canonicalName": "<esp_hal::interrupt::software::SoftwareInterrupt<0>>::set_interrupt_handler",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNvXs0_NtNtCs80p5DAyp3TR_4core5slice5indexjINtB7_10SliceIndexSpE13get_unchecked18precondition_check.llvm.15086091443317164673",
+      "demangledName": "<usize as core::slice::index::SliceIndex<[_]>>::get_unchecked::precondition_check",
+      "canonicalName": "<usize as core::slice::index::SliceIndex<[_]>>::get_unchecked::precondition_check",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_NtCs762OGJxUvLv_8esp_rtos7embassyNtB6_8Executor3runNCNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main17___risc_v_rt__main0EB11_",
+      "demangledName": "<esp_rtos::embassy::Executor>::run::<ws2812_driver_esp32_test::__main::__risc_v_rt__main::{closure#0}>",
+      "canonicalName": "<esp_rtos::embassy::Executor>::run::<ws2812_driver_esp32_test::__main::__risc_v_rt__main",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_NtCs762OGJxUvLv_8esp_rtos7embassyNtB6_8Executor9run_innerNCNvNtCsa2rSFu666NR_24ws2812_driver_esp32_test6___main17___risc_v_rt__main0NtNvB2_3run7NoHooksEB17_.llvm.932056480549785181",
+      "demangledName": "<esp_rtos::embassy::Executor>::run_inner::<ws2812_driver_esp32_test::__main::__risc_v_rt__main::{closure#0}, <esp_rtos::embassy::Executor>::run::NoHooks>",
+      "canonicalName": "<esp_rtos::embassy::Executor>::run_inner::<ws2812_driver_esp32_test::__main::__risc_v_rt__main",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYTQINtNtCs80p5DAyp3TR_4core6option6OptionINtNtCsjsYHBdtEVy3_7esp_hal3rmt7ChannelNtBL_8BlockingNtBJ_2TxEENtNtBL_4time4RateRINtNtNtCs8SpYKmHYVaQ_13ws2812_driver10grid_based12grid_esp32c36Grid3dKj8_KB37_Kj1_Kj40_NtNtNtNtB26_11strip_based3rgb5color3RgbEINtNtB9_6marker11PhantomDataINtB22_17RowsSameDirectionKB37_KB37_EEEINtNtB3u_11strip_trait8LedStripKB3k_Kj601_B3o_E7refreshCsa2rSFu666NR_24ws2812_driver_esp32_test",
+      "demangledName": "<(&mut core::option::Option<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>, esp_hal::time::Rate, &ws2812_driver::grid_based::grid_esp32c3::Grid3d<8, 8, 1, 64, ws2812_driver::strip_based::rgb::color::Rgb>, core::marker::PhantomData<ws2812_driver::grid_based::grid_esp32c3::RowsSameDirection<8, 8>>) as ws2812_driver::strip_based::strip_trait::LedStrip<64, 1537, ws2812_driver::strip_based::rgb::color::Rgb>>::refresh",
+      "canonicalName": "<(&mut core::option::Option<esp_hal::rmt::Channel<esp_hal::Blocking, esp_hal::rmt::Tx>>, esp_hal::time::Rate, &ws2812_driver::grid_based::grid_esp32c3::Grid3d<8, 8, 1, 64, ws2812_driver::strip_based::rgb::color::Rgb>, core::marker::PhantomData<ws2812_driver::grid_based::grid_esp32c3::RowsSameDirection<8, 8>>) as ws2812_driver::strip_based::strip_trait::LedStrip<64, 1537, ws2812_driver::strip_based::rgb::color::Rgb>>::refresh",
+      "size": 26320,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/strip_based/strip_trait.rs",
+      "line": 157
+    },
+    {
+      "mangledName": "_RINvMs0_NtCs762OGJxUvLv_8esp_rtos5timerNtB6_10TimeDriver12handle_alarmNCNCNvB6_18timer_tick_handler00EB8_",
+      "demangledName": "<esp_rtos::timer::TimeDriver>::handle_alarm::<esp_rtos::timer::timer_tick_handler::{closure#0}::{closure#0}>",
+      "canonicalName": "<esp_rtos::timer::TimeDriver>::handle_alarm::<esp_rtos::timer::timer_tick_handler",
+      "size": 112,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos4taskINtB5_9TaskQueueNtB5_21TaskReadyQueueElementE4pushB7_",
+      "demangledName": "<esp_rtos::task::TaskQueue<esp_rtos::task::TaskReadyQueueElement>>::push",
+      "canonicalName": "<esp_rtos::task::TaskQueue<esp_rtos::task::TaskReadyQueueElement>>::push",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos4taskINtB5_9TaskQueueNtB5_21TaskTimerQueueElementE4pushB7_.llvm.14828477556985312505",
+      "demangledName": "<esp_rtos::task::TaskQueue<esp_rtos::task::TaskTimerQueueElement>>::push",
+      "canonicalName": "<esp_rtos::task::TaskQueue<esp_rtos::task::TaskTimerQueueElement>>::push",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos5timerNtB5_10TimeDriver14set_time_slice",
+      "demangledName": "<esp_rtos::timer::TimeDriver>::set_time_slice",
+      "canonicalName": "<esp_rtos::timer::TimeDriver>::set_time_slice",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos5timerNtB5_10TimeDriver15arm_next_wakeup",
+      "demangledName": "<esp_rtos::timer::TimeDriver>::arm_next_wakeup",
+      "canonicalName": "<esp_rtos::timer::TimeDriver>::arm_next_wakeup",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos5timerNtB5_10TimeDriver15schedule_wakeup",
+      "demangledName": "<esp_rtos::timer::TimeDriver>::schedule_wakeup",
+      "canonicalName": "<esp_rtos::timer::TimeDriver>::schedule_wakeup",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos5timerNtB5_10TimeDriver3new",
+      "demangledName": "<esp_rtos::timer::TimeDriver>::new",
+      "canonicalName": "<esp_rtos::timer::TimeDriver>::new",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs762OGJxUvLv_8esp_rtos4taskINtB4_8TaskListNtB4_21TaskReadyQueueElementE4pushB6_",
+      "demangledName": "<esp_rtos::task::TaskList<esp_rtos::task::TaskReadyQueueElement>>::push",
+      "canonicalName": "<esp_rtos::task::TaskList<esp_rtos::task::TaskReadyQueueElement>>::push",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs762OGJxUvLv_8esp_rtos4taskINtB4_8TaskListNtB4_21TaskReadyQueueElementE6removeB6_",
+      "demangledName": "<esp_rtos::task::TaskList<esp_rtos::task::TaskReadyQueueElement>>::remove",
+      "canonicalName": "<esp_rtos::task::TaskList<esp_rtos::task::TaskReadyQueueElement>>::remove",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs762OGJxUvLv_8esp_rtos5timerNtB4_10TimerQueue6remove",
+      "demangledName": "<esp_rtos::timer::TimerQueue>::remove",
+      "canonicalName": "<esp_rtos::timer::TimerQueue>::remove",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs762OGJxUvLv_8esp_rtos4task18allocate_main_task",
+      "demangledName": "esp_rtos::task::allocate_main_task",
+      "canonicalName": "esp_rtos::task::allocate_main_task",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+      "line": 512
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRNtNtCs762OGJxUvLv_8esp_rtos4task9TaskStateNtB6_5Debug3fmtBA_",
+      "demangledName": "<&esp_rtos::task::TaskState as core::fmt::Debug>::fmt",
+      "canonicalName": "<&esp_rtos::task::TaskState as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs2_NtCs762OGJxUvLv_8esp_rtos4taskNtB5_4TaskNtNtNtCs80p5DAyp3TR_4core3ops4drop4Drop4drop",
+      "demangledName": "<esp_rtos::task::Task as core::ops::drop::Drop>::drop",
+      "canonicalName": "<esp_rtos::task::Task as core::ops::drop::Drop>::drop",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+      "line": 495
+    },
+    {
+      "mangledName": "_RNvXse_NtCsjsYHBdtEVy3_7esp_hal5timerNtB5_5ErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<esp_hal::timer::Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::timer::Error as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/mod.rs",
+      "line": 67
+    },
+    {
+      "mangledName": "_RNvXsq_NtCs80p5DAyp3TR_4core3fmtONtNtCs762OGJxUvLv_8esp_rtos4task4TaskNtB5_5Debug3fmtBz_",
+      "demangledName": "<*mut esp_rtos::task::Task as core::fmt::Debug>::fmt",
+      "canonicalName": "<*mut esp_rtos::task::Task as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCs762OGJxUvLv_8esp_rtos3fmt15___unwrap_failedNtB2_9NoneErrorEB4_",
+      "demangledName": "esp_rtos::fmt::__unwrap_failed::<esp_rtos::fmt::NoneError>",
+      "canonicalName": "esp_rtos::fmt::__unwrap_failed::<esp_rtos::fmt::NoneError>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+      "line": 237
+    },
+    {
+      "mangledName": "_RINvNtCs762OGJxUvLv_8esp_rtos3fmt15___unwrap_failedNtNtCs80p5DAyp3TR_4core4cell14BorrowMutErrorEB4_",
+      "demangledName": "esp_rtos::fmt::__unwrap_failed::<core::cell::BorrowMutError>",
+      "canonicalName": "esp_rtos::fmt::__unwrap_failed::<core::cell::BorrowMutError>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+      "line": 237
+    },
+    {
+      "mangledName": "_RNvCs762OGJxUvLv_8esp_rtos3now",
+      "demangledName": "esp_rtos::now",
+      "canonicalName": "esp_rtos::now",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/lib.rs",
+      "line": 492
+    },
+    {
+      "mangledName": "_RNvMNtNtCs762OGJxUvLv_8esp_rtos5timer7embassyNtB2_15TimerQueueInner12handle_alarm",
+      "demangledName": "<esp_rtos::timer::embassy::TimerQueueInner>::handle_alarm",
+      "canonicalName": "<esp_rtos::timer::embassy::TimerQueueInner>::handle_alarm",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCsjsYHBdtEVy3_7esp_hal9interrupt8softwareINtB2_17SoftwareInterruptKh0_E5raiseCs762OGJxUvLv_8esp_rtos",
+      "demangledName": "<esp_hal::interrupt::software::SoftwareInterrupt<0>>::raise",
+      "canonicalName": "<esp_hal::interrupt::software::SoftwareInterrupt<0>>::raise",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos7embassyNtB5_8Executor3new",
+      "demangledName": "<esp_rtos::embassy::Executor>::new",
+      "canonicalName": "<esp_rtos::embassy::Executor>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1_NtCs762OGJxUvLv_8esp_rtos7embassyNtB5_8ExecutorNtNtCs80p5DAyp3TR_4core7default7Default7default",
+      "demangledName": "<esp_rtos::embassy::Executor as core::default::Default>::default",
+      "canonicalName": "<esp_rtos::embassy::Executor as core::default::Default>::default",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs762OGJxUvLv_8esp_rtos7embassyNtB4_10ThreadFlag3new",
+      "demangledName": "<esp_rtos::embassy::ThreadFlag>::new",
+      "canonicalName": "<esp_rtos::embassy::ThreadFlag>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs762OGJxUvLv_8esp_rtos7embassyNtB4_10ThreadFlag4wait",
+      "demangledName": "<esp_rtos::embassy::ThreadFlag>::wait",
+      "canonicalName": "<esp_rtos::embassy::ThreadFlag>::wait",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtCs762OGJxUvLv_8esp_rtos4taskINtNtNtCs80p5DAyp3TR_4core3ptr8non_null7NonNullNtB2_4TaskENtB2_7TaskExt9set_state",
+      "demangledName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::set_state",
+      "canonicalName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::set_state",
+      "size": 64,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+      "line": 148
+    },
+    {
+      "mangledName": "_RNvXs1d_NtCs80p5DAyp3TR_4core4cellNtB6_14BorrowMutErrorNtNtB8_3fmt5Debug3fmt",
+      "demangledName": "<core::cell::BorrowMutError as core::fmt::Debug>::fmt",
+      "canonicalName": "<core::cell::BorrowMutError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRINtNtNtB8_3ptr8non_null7NonNullNtNtCs762OGJxUvLv_8esp_rtos4task4TaskENtB6_5Debug3fmtB15_",
+      "demangledName": "<&core::ptr::non_null::NonNull<esp_rtos::task::Task> as core::fmt::Debug>::fmt",
+      "canonicalName": "<&core::ptr::non_null::NonNull<esp_rtos::task::Task> as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtCs762OGJxUvLv_8esp_rtos3fmtNtB5_9NoneErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<esp_rtos::fmt::NoneError as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_rtos::fmt::NoneError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+      "line": 275
+    },
+    {
+      "mangledName": "_RNvXs9_NtCs762OGJxUvLv_8esp_rtos4taskNtB5_9TaskStateNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt.llvm.4658632862087347198",
+      "demangledName": "<esp_rtos::task::TaskState as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_rtos::task::TaskState as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsb_NtNtCs80p5DAyp3TR_4core3ptr8non_nullINtB5_7NonNullNtNtCs762OGJxUvLv_8esp_rtos4task4TaskENtNtB9_3fmt5Debug3fmtBX_",
+      "demangledName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as core::fmt::Debug>::fmt",
+      "canonicalName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_embassy_time_now",
+      "demangledName": "_embassy_time_now",
+      "canonicalName": "_embassy_time_now",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCs80p5DAyp3TR_4core9panicking13assert_failedNtNtCs762OGJxUvLv_8esp_rtos4task9TaskStateBM_EBQ_",
+      "demangledName": "core::panicking::assert_failed::<esp_rtos::task::TaskState, esp_rtos::task::TaskState>",
+      "canonicalName": "core::panicking::assert_failed::<esp_rtos::task::TaskState, esp_rtos::task::TaskState>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9run_queueNtB5_8Priority3new",
+      "demangledName": "<esp_rtos::run_queue::Priority>::new",
+      "canonicalName": "<esp_rtos::run_queue::Priority>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9schedulerNtB5_14SchedulerState11switch_task",
+      "demangledName": "<esp_rtos::scheduler::SchedulerState>::switch_task",
+      "canonicalName": "<esp_rtos::scheduler::SchedulerState>::switch_task",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9schedulerNtB5_14SchedulerState16sleep_task_until",
+      "demangledName": "<esp_rtos::scheduler::SchedulerState>::sleep_task_until",
+      "canonicalName": "<esp_rtos::scheduler::SchedulerState>::sleep_task_until",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9schedulerNtB5_14SchedulerState19delete_marked_tasks",
+      "demangledName": "<esp_rtos::scheduler::SchedulerState>::delete_marked_tasks",
+      "canonicalName": "<esp_rtos::scheduler::SchedulerState>::delete_marked_tasks",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtCs762OGJxUvLv_8esp_rtos9schedulerNtB5_14SchedulerState5setup",
+      "demangledName": "<esp_rtos::scheduler::SchedulerState>::setup",
+      "canonicalName": "<esp_rtos::scheduler::SchedulerState>::setup",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5timerINtB5_12OneShotTimerNtB7_8BlockingE21set_interrupt_handlerCs762OGJxUvLv_8esp_rtos",
+      "demangledName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::set_interrupt_handler",
+      "canonicalName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::set_interrupt_handler",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5timerINtB5_12OneShotTimerNtB7_8BlockingE6listenCs762OGJxUvLv_8esp_rtos",
+      "demangledName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::listen",
+      "canonicalName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::listen",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs4_Cs762OGJxUvLv_8esp_rtosNtNtNtCsjsYHBdtEVy3_7esp_hal5timer4timg5TimerNtB5_11TimerSource5timer",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_rtos::TimerSource>::timer",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_rtos::TimerSource>::timer",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/lib.rs",
+      "line": 253
+    },
+    {
+      "mangledName": "_RNvXsR_NtCs80p5DAyp3TR_4core6optionINtB5_6OptionINtNtNtB7_3ptr8non_null7NonNullNtNtCs762OGJxUvLv_8esp_rtos4task4TaskEENtNtB7_3fmt5Debug3fmtB1j_",
+      "demangledName": "<core::option::Option<core::ptr::non_null::NonNull<esp_rtos::task::Task>> as core::fmt::Debug>::fmt",
+      "canonicalName": "<core::option::Option<core::ptr::non_null::NonNull<esp_rtos::task::Task>> as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCs762OGJxUvLv_8esp_rtos7embassy10FlagsInnerE4withuNCINvMs_B2p_NtB2p_10ThreadFlag4withuNCNvB3k_3set0E0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::embassy::FlagsInner>>::with<(), <esp_rtos::embassy::ThreadFlag>::with<(), <esp_rtos::embassy::ThreadFlag>::set::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::embassy::FlagsInner>>::with<(), <esp_rtos::embassy::ThreadFlag>::with<(), <esp_rtos::embassy::ThreadFlag>::set",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCs762OGJxUvLv_8esp_rtos7embassy10FlagsInnerE4withuNCINvMs_B2p_NtB2p_10ThreadFlag4withuNCNvB3k_4wait0E0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::embassy::FlagsInner>>::with<(), <esp_rtos::embassy::ThreadFlag>::with<(), <esp_rtos::embassy::ThreadFlag>::wait::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::embassy::FlagsInner>>::with<(), <esp_rtos::embassy::ThreadFlag>::with<(), <esp_rtos::embassy::ThreadFlag>::wait",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtNtCs762OGJxUvLv_8esp_rtos5timer7embassy15TimerQueueInnerE4withuNCNvMs_B2p_NtB2p_10TimerQueue12handle_alarm0E0EB2t_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::timer::embassy::TimerQueueInner>>::with<(), <esp_rtos::timer::embassy::TimerQueue>::handle_alarm::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_rtos::timer::embassy::TimerQueueInner>>::with<(), <esp_rtos::timer::embassy::TimerQueue>::handle_alarm",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockINtNtNtCs80p5DAyp3TR_4core3ptr8non_null7NonNullNtNtCs762OGJxUvLv_8esp_rtos4task4TaskENCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB32_5MutexNtB6_8RawMutexINtNtB1D_4cell7RefCellNtNtB2l_9scheduler14SchedulerStateEE4lockB1w_NCINvMs1_B4B_NtB4B_9Scheduler11with_sharedB1w_NCINvB5n_4withB1w_NCNvMs_NtB2l_7embassyNtB6r_10ThreadFlag3new0E0E0E0EB2l_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::scheduler::Scheduler>::with_shared<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::scheduler::Scheduler>::with<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::embassy::ThreadFlag>::new::{closure#0}>::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::scheduler::Scheduler>::with_shared<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::scheduler::Scheduler>::with<core::ptr::non_null::NonNull<esp_rtos::task::Task>, <esp_rtos::embassy::ThreadFlag>::new",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB1G_5MutexNtB6_8RawMutexINtNtCs80p5DAyp3TR_4core4cell7RefCellNtNtCs762OGJxUvLv_8esp_rtos9scheduler14SchedulerStateEE4lockuNCINvMs1_B3u_NtB3u_9Scheduler11with_shareduNCINvB4w_4withuNCNCNvMs_NtB3w_7embassyNtB5w_10ThreadFlag4wait00E0E0E0EB3w_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), <esp_rtos::embassy::ThreadFlag>::wait::{closure#0}::{closure#0}>::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), <esp_rtos::embassy::ThreadFlag>::wait",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB1G_5MutexNtB6_8RawMutexINtNtCs80p5DAyp3TR_4core4cell7RefCellNtNtCs762OGJxUvLv_8esp_rtos9scheduler14SchedulerStateEE4lockuNCINvMs1_B3u_NtB3u_9Scheduler11with_shareduNCINvB4w_4withuNCNvNtNtB3w_4task13arch_specific13swint_handler0E0E0E0EB3w_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), esp_rtos::task::arch_specific::swint_handler::{closure#0}>::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), esp_rtos::task::arch_specific::swint_handler",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB1G_5MutexNtB6_8RawMutexINtNtCs80p5DAyp3TR_4core4cell7RefCellNtNtCs762OGJxUvLv_8esp_rtos9scheduler14SchedulerStateEE4lockuNCINvMs1_B3u_NtB3u_9Scheduler11with_shareduNCINvB4w_4withuNCNvXNtB3w_4taskINtNtNtB2W_3ptr8non_null7NonNullNtB5s_4TaskENtB5s_7TaskExt6resume0E0E0E0EB3w_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), <core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::resume::{closure#0}>::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), <esp_rtos::scheduler::Scheduler>::with<(), <core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::resume",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB1G_5MutexNtB6_8RawMutexINtNtCs80p5DAyp3TR_4core4cell7RefCellNtNtCs762OGJxUvLv_8esp_rtos9scheduler14SchedulerStateEE4lockuNCINvMs1_B3u_NtB3u_9Scheduler11with_shareduNCNvNtB3w_5timer18timer_tick_handler0E0E0EB3w_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), esp_rtos::timer::timer_tick_handler::{closure#0}>::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::RefCell<esp_rtos::scheduler::SchedulerState>>>::lock<(), <esp_rtos::scheduler::Scheduler>::with_shared<(), esp_rtos::timer::timer_tick_handler",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs2_NtCs5cWWD6UHah9_24embassy_time_queue_utils16queue_integratedNtB5_5Queue15next_expiration",
+      "demangledName": "<embassy_time_queue_utils::queue_integrated::Queue>::next_expiration",
+      "canonicalName": "<embassy_time_queue_utils::queue_integrated::Queue>::next_expiration",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtNtCs8SpYKmHYVaQ_13ws2812_driver10grid_based12grid_esp32c3NtNtNtNtB9_11strip_based3rgb5color3RgbNtB5_10Visibility10is_visible",
+      "demangledName": "<ws2812_driver::strip_based::rgb::color::Rgb as ws2812_driver::grid_based::grid_esp32c3::Visibility>::is_visible",
+      "canonicalName": "<ws2812_driver::strip_based::rgb::color::Rgb as ws2812_driver::grid_based::grid_esp32c3::Visibility>::is_visible",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/grid_based/grid_esp32c3.rs",
+      "line": 365
+    },
+    {
+      "mangledName": "_RNvXs3_NtNtCs8SpYKmHYVaQ_13ws2812_driver10grid_based12grid_esp32c3NtNtNtNtB9_11strip_based3rgb5color3RgbNtB5_10Visibility9invisible",
+      "demangledName": "<ws2812_driver::strip_based::rgb::color::Rgb as ws2812_driver::grid_based::grid_esp32c3::Visibility>::invisible",
+      "canonicalName": "<ws2812_driver::strip_based::rgb::color::Rgb as ws2812_driver::grid_based::grid_esp32c3::Visibility>::invisible",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/grid_based/grid_esp32c3.rs",
+      "line": 369
+    },
+    {
+      "mangledName": "_RNvMNtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based11strip_traitNtB2_12SignalPeriod3low",
+      "demangledName": "<ws2812_driver::strip_based::strip_trait::SignalPeriod>::low",
+      "canonicalName": "<ws2812_driver::strip_based::strip_trait::SignalPeriod>::low",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based11strip_traitNtB2_12SignalPeriod4high",
+      "demangledName": "<ws2812_driver::strip_based::strip_trait::SignalPeriod>::high",
+      "canonicalName": "<ws2812_driver::strip_based::strip_trait::SignalPeriod>::high",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based13strip_esp32c317duration_to_ticks",
+      "demangledName": "ws2812_driver::strip_based::strip_esp32c3::duration_to_ticks",
+      "canonicalName": "ws2812_driver::strip_based::strip_esp32c3::duration_to_ticks",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/strip_based/strip_esp32c3.rs",
+      "line": 65
+    },
+    {
+      "mangledName": "_RNvXNtNtCs8SpYKmHYVaQ_13ws2812_driver11strip_based13strip_esp32c3NtB2_17Esp32c3StripErrorINtNtCs80p5DAyp3TR_4core7convert4FromNtNtB4_11strip_trait18LedStripTraitErrorE4from",
+      "demangledName": "<ws2812_driver::strip_based::strip_esp32c3::Esp32c3StripError as core::convert::From<ws2812_driver::strip_based::strip_trait::LedStripTraitError>>::from",
+      "canonicalName": "<ws2812_driver::strip_based::strip_esp32c3::Esp32c3StripError as core::convert::From<ws2812_driver::strip_based::strip_trait::LedStripTraitError>>::from",
+      "size": 16,
+      "file": "/mnt/caden/projects/esprs/ws2812-driver/src/strip_based/strip_esp32c3.rs",
+      "line": 53
+    },
+    {
+      "mangledName": "_RINvMsn_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB6_6AnyPin14with_gpio_lockNCNvB2_19apply_output_configs_0uEB8_",
+      "demangledName": "<esp_hal::gpio::AnyPin>::with_gpio_lock::<<esp_hal::gpio::AnyPin>::apply_output_config::{closure#1}, ()>",
+      "canonicalName": "<esp_hal::gpio::AnyPin>::with_gpio_lock::<<esp_hal::gpio::AnyPin>::apply_output_config",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCsjsYHBdtEVy3_7esp_hal10work_queueINtB5_5InnerNtNtB7_3rsa11RsaWorkItemE16dequeue_and_postB7_",
+      "demangledName": "<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>::dequeue_and_post",
+      "canonicalName": "<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>::dequeue_and_post",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtCsjsYHBdtEVy3_7esp_hal10work_queueINtB5_5InnerNtNtB7_3rsa11RsaWorkItemE7processB7_",
+      "demangledName": "<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>::process",
+      "canonicalName": "<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>::process",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsb_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_8GpioBank12write_out_en",
+      "demangledName": "<esp_hal::gpio::GpioBank>::write_out_en",
+      "canonicalName": "<esp_hal::gpio::GpioBank>::write_out_en",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsr_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_6AnyPin5steal",
+      "demangledName": "<esp_hal::gpio::AnyPin>::steal",
+      "canonicalName": "<esp_hal::gpio::AnyPin>::steal",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsr_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_6AnyPin9is_output",
+      "demangledName": "<esp_hal::gpio::AnyPin>::is_output",
+      "canonicalName": "<esp_hal::gpio::AnyPin>::is_output",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsjsYHBdtEVy3_7esp_hal4gpio10io_mux_reg",
+      "demangledName": "esp_hal::gpio::io_mux_reg",
+      "canonicalName": "esp_hal::gpio::io_mux_reg",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal5clock9clocks_ll27esp32c3_rtc_bbpll_configure",
+      "demangledName": "esp_hal::clock::clocks_ll::esp32c3_rtc_bbpll_configure",
+      "canonicalName": "esp_hal::clock::clocks_ll::esp32c3_rtc_bbpll_configure",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/clock/clocks_ll/esp32c3.rs",
+      "line": 7
+    },
+    {
+      "mangledName": "_RNvXso_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_6AnyPinNtB5_3Pin14output_signals",
+      "demangledName": "<esp_hal::gpio::AnyPin as esp_hal::gpio::Pin>::output_signals",
+      "canonicalName": "<esp_hal::gpio::AnyPin as esp_hal::gpio::Pin>::output_signals",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/mod.rs",
+      "line": 1996
+    },
+    {
+      "mangledName": "_RNvXsp_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_6AnyPinNtB5_8InputPin5waker",
+      "demangledName": "<esp_hal::gpio::AnyPin as esp_hal::gpio::InputPin>::waker",
+      "canonicalName": "<esp_hal::gpio::AnyPin as esp_hal::gpio::InputPin>::waker",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/mod.rs",
+      "line": 1996
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantbNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withbNCNvMs5_B2p_NtB2p_22PeripheralClockControl6enable0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<bool, <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<bool, <esp_hal::system::PeripheralClockControl>::enable::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<bool, <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<bool, <esp_hal::system::PeripheralClockControl>::enable",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantbNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withbNCNvMs5_B2p_NtB2p_22PeripheralClockControl7disable0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<bool, <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<bool, <esp_hal::system::PeripheralClockControl>::disable::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<bool, <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<bool, <esp_hal::system::PeripheralClockControl>::disable",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvB2p_19disable_peripherals0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), esp_hal::system::disable_peripherals::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), esp_hal::system::disable_peripherals",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh0_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<0>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<0>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh13_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<19>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<19>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh1_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<1>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<1>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh2_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<2>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<2>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh4_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<4>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<4>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh8_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<8>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<8>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh9_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<9>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<9>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKha_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<10>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<10>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsjsYHBdtEVy3_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKhf_E8new_with0E0EB2r_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<15>>::new_with::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<15>>::new_with",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockNtNtCsjsYHBdtEVy3_7esp_hal11peripherals11PeripheralsNCNvMs3L_B1y_B1w_4take0EB1A_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<esp_hal::peripherals::Peripherals, <esp_hal::peripherals::Peripherals>::take::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<esp_hal::peripherals::Peripherals, <esp_hal::peripherals::Peripherals>::take",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvMs0_NtCs9KaHtKtAgu7_12embassy_sync14blocking_mutexINtB1G_5MutexNtB6_8RawMutexINtNtCs80p5DAyp3TR_4core4cell4CellINtNtB2W_6option6OptionNtNtNtB2W_4task4wake5WakerEEE4lockuNCNvMNtNtB1I_9waitqueue12atomic_wakerINtB4q_18GenericAtomicWakerB2D_E4wake0E0ECsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::Cell<core::option::Option<core::task::wake::Waker>>>>::lock<(), <embassy_sync::waitqueue::atomic_waker::GenericAtomicWaker<esp_sync::RawMutex>>::wake::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <embassy_sync::blocking_mutex::Mutex<esp_sync::RawMutex, core::cell::Cell<core::option::Option<core::task::wake::Waker>>>>::lock<(), <embassy_sync::waitqueue::atomic_waker::GenericAtomicWaker<esp_sync::RawMutex>>::wake",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvMs0_NtNtCsjsYHBdtEVy3_7esp_hal5timer8systimerNtB1F_5Alarm10set_enable0EB1J_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::timer::systimer::Alarm>::set_enable::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::timer::systimer::Alarm>::set_enable",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvMs5_NtCsjsYHBdtEVy3_7esp_hal5clockNtB1F_6Clocks4init0EB1H_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::clock::Clocks>::init::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::clock::Clocks>::init",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvMsn_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB1F_6AnyPin19apply_output_configs_0EB1H_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::gpio::AnyPin>::apply_output_config::{closure#1}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::gpio::AnyPin>::apply_output_config",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvNtCsjsYHBdtEVy3_7esp_hal8debugger14set_watchpoint0EB1D_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::debugger::set_watchpoint::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::debugger::set_watchpoint",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt27user_gpio_interrupt_handler0EB1F_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::gpio::interrupt::user_gpio_interrupt_handler::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::gpio::interrupt::user_gpio_interrupt_handler",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt30default_gpio_interrupt_handler0EB1F_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::gpio::interrupt::default_gpio_interrupt_handler::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::gpio::interrupt::default_gpio_interrupt_handler",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvNtNtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscv8vectored14bind_interrupt0EB1H_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::interrupt::riscv::vectored::bind_interrupt::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_hal::interrupt::riscv::vectored::bind_interrupt",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs5_Cs50b7kpjjkp9_8esp_syncINtB6_17NonReentrantMutexINtNtCsjsYHBdtEVy3_7esp_hal10work_queue5InnerNtNtBX_3rsa11RsaWorkItemEE4withbNCNvMs2_BV_INtBV_9WorkQueueB1B_E7process0EBX_",
+      "demangledName": "<esp_sync::NonReentrantMutex<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>>::with::<bool, <esp_hal::work_queue::WorkQueue<esp_hal::rsa::RsaWorkItem>>::process::{closure#0}>",
+      "canonicalName": "<esp_sync::NonReentrantMutex<esp_hal::work_queue::Inner<esp_hal::rsa::RsaWorkItem>>>::with::<bool, <esp_hal::work_queue::WorkQueue<esp_hal::rsa::RsaWorkItem>>::process",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5Timer13reset_counter.llvm.12969152897025878002",
+      "demangledName": "<esp_hal::timer::timg::Timer>::reset_counter",
+      "canonicalName": "<esp_hal::timer::timg::Timer>::reset_counter",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5Timer16set_alarm_active.llvm.12969152897025878002",
+      "demangledName": "<esp_hal::timer::timg::Timer>::set_alarm_active",
+      "canonicalName": "<esp_hal::timer::timg::Timer>::set_alarm_active",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5Timer21set_interrupt_enabled",
+      "demangledName": "<esp_hal::timer::timg::Timer>::set_interrupt_enabled",
+      "canonicalName": "<esp_hal::timer::timg::Timer>::set_interrupt_enabled",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5Timer21set_interrupt_handler",
+      "demangledName": "<esp_hal::timer::timg::Timer>::set_interrupt_handler",
+      "canonicalName": "<esp_hal::timer::timg::Timer>::set_interrupt_handler",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5Timer7divider.llvm.12969152897025878002",
+      "demangledName": "<esp_hal::timer::timg::Timer>::divider",
+      "canonicalName": "<esp_hal::timer::timg::Timer>::divider",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs5_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgINtB5_3WdtNtNtB9_11peripherals5TIMG0E3newB9_",
+      "demangledName": "<esp_hal::timer::timg::Wdt<esp_hal::peripherals::TIMG0>>::new",
+      "canonicalName": "<esp_hal::timer::timg::Wdt<esp_hal::peripherals::TIMG0>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_Cs50b7kpjjkp9_8esp_syncINtB5_9LockGuardNtNtB5_3raw23SingleCoreInterruptLockE13new_reentrantCsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock>>::new_reentrant",
+      "canonicalName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock>>::new_reentrant",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_Cs50b7kpjjkp9_8esp_syncINtB5_9LockGuardNtNtB5_3raw23SingleCoreInterruptLockE17new_non_reentrantCsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock>>::new_non_reentrant",
+      "canonicalName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock>>::new_non_reentrant",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5TimerNtB7_5Timer10load_value",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::load_value",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::load_value",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 322
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5TimerNtB7_5Timer15clear_interrupt",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::clear_interrupt",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::clear_interrupt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 334
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5TimerNtB7_5Timer16enable_interrupt",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::enable_interrupt",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::enable_interrupt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 330
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5TimerNtB7_5Timer4stop",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::stop",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::stop",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 447
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtB5_5TimerNtB7_5Timer5start",
+      "demangledName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::start",
+      "canonicalName": "<esp_hal::timer::timg::Timer as esp_hal::timer::Timer>::start",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 295
+    },
+    {
+      "mangledName": "_RNvXs9_Cs50b7kpjjkp9_8esp_syncINtB5_9LockGuardNtNtB5_3raw23SingleCoreInterruptLockENtNtNtCs80p5DAyp3TR_4core3ops4drop4Drop4dropCsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock> as core::ops::drop::Drop>::drop",
+      "canonicalName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock> as core::ops::drop::Drop>::drop",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "EspDefaultHandler",
+      "demangledName": "EspDefaultHandler",
+      "canonicalName": "EspDefaultHandler",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "WIFI_MAC",
+      "demangledName": "WIFI_MAC",
+      "canonicalName": "WIFI_MAC",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "WIFI_MAC_NMI",
+      "demangledName": "WIFI_MAC_NMI",
+      "canonicalName": "WIFI_MAC_NMI",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "WIFI_PWR",
+      "demangledName": "WIFI_PWR",
+      "canonicalName": "WIFI_PWR",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "WIFI_BB",
+      "demangledName": "WIFI_BB",
+      "canonicalName": "WIFI_BB",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "BT_MAC",
+      "demangledName": "BT_MAC",
+      "canonicalName": "BT_MAC",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "BT_BB",
+      "demangledName": "BT_BB",
+      "canonicalName": "BT_BB",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "BT_BB_NMI",
+      "demangledName": "BT_BB_NMI",
+      "canonicalName": "BT_BB_NMI",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RWBT",
+      "demangledName": "RWBT",
+      "canonicalName": "RWBT",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RWBLE",
+      "demangledName": "RWBLE",
+      "canonicalName": "RWBLE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RWBT_NMI",
+      "demangledName": "RWBT_NMI",
+      "canonicalName": "RWBT_NMI",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RWBLE_NMI",
+      "demangledName": "RWBLE_NMI",
+      "canonicalName": "RWBLE_NMI",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "I2C_MASTER",
+      "demangledName": "I2C_MASTER",
+      "canonicalName": "I2C_MASTER",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SLC0",
+      "demangledName": "SLC0",
+      "canonicalName": "SLC0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SLC1",
+      "demangledName": "SLC1",
+      "canonicalName": "SLC1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "APB_CTRL",
+      "demangledName": "APB_CTRL",
+      "canonicalName": "APB_CTRL",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "UHCI0",
+      "demangledName": "UHCI0",
+      "canonicalName": "UHCI0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "GPIO",
+      "demangledName": "GPIO",
+      "canonicalName": "GPIO",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "GPIO_NMI",
+      "demangledName": "GPIO_NMI",
+      "canonicalName": "GPIO_NMI",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SPI1",
+      "demangledName": "SPI1",
+      "canonicalName": "SPI1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SPI2",
+      "demangledName": "SPI2",
+      "canonicalName": "SPI2",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "I2S0",
+      "demangledName": "I2S0",
+      "canonicalName": "I2S0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "UART0",
+      "demangledName": "UART0",
+      "canonicalName": "UART0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "UART1",
+      "demangledName": "UART1",
+      "canonicalName": "UART1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "LEDC",
+      "demangledName": "LEDC",
+      "canonicalName": "LEDC",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "EFUSE",
+      "demangledName": "EFUSE",
+      "canonicalName": "EFUSE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TWAI0",
+      "demangledName": "TWAI0",
+      "canonicalName": "TWAI0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "USB_DEVICE",
+      "demangledName": "USB_DEVICE",
+      "canonicalName": "USB_DEVICE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RTC_CORE",
+      "demangledName": "RTC_CORE",
+      "canonicalName": "RTC_CORE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RMT",
+      "demangledName": "RMT",
+      "canonicalName": "RMT",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "I2C_EXT0",
+      "demangledName": "I2C_EXT0",
+      "canonicalName": "I2C_EXT0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TIMER1",
+      "demangledName": "TIMER1",
+      "canonicalName": "TIMER1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TIMER2",
+      "demangledName": "TIMER2",
+      "canonicalName": "TIMER2",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TG0_T0_LEVEL",
+      "demangledName": "TG0_T0_LEVEL",
+      "canonicalName": "TG0_T0_LEVEL",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TG0_WDT_LEVEL",
+      "demangledName": "TG0_WDT_LEVEL",
+      "canonicalName": "TG0_WDT_LEVEL",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TG1_T0_LEVEL",
+      "demangledName": "TG1_T0_LEVEL",
+      "canonicalName": "TG1_T0_LEVEL",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "TG1_WDT_LEVEL",
+      "demangledName": "TG1_WDT_LEVEL",
+      "canonicalName": "TG1_WDT_LEVEL",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CACHE_IA",
+      "demangledName": "CACHE_IA",
+      "canonicalName": "CACHE_IA",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SYSTIMER_TARGET0",
+      "demangledName": "SYSTIMER_TARGET0",
+      "canonicalName": "SYSTIMER_TARGET0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SYSTIMER_TARGET1",
+      "demangledName": "SYSTIMER_TARGET1",
+      "canonicalName": "SYSTIMER_TARGET1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SYSTIMER_TARGET2",
+      "demangledName": "SYSTIMER_TARGET2",
+      "canonicalName": "SYSTIMER_TARGET2",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SPI_MEM_REJECT_CACHE",
+      "demangledName": "SPI_MEM_REJECT_CACHE",
+      "canonicalName": "SPI_MEM_REJECT_CACHE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "ICACHE_PRELOAD0",
+      "demangledName": "ICACHE_PRELOAD0",
+      "canonicalName": "ICACHE_PRELOAD0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "ICACHE_SYNC0",
+      "demangledName": "ICACHE_SYNC0",
+      "canonicalName": "ICACHE_SYNC0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "APB_ADC",
+      "demangledName": "APB_ADC",
+      "canonicalName": "APB_ADC",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "DMA_CH0",
+      "demangledName": "DMA_CH0",
+      "canonicalName": "DMA_CH0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "DMA_CH1",
+      "demangledName": "DMA_CH1",
+      "canonicalName": "DMA_CH1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "DMA_CH2",
+      "demangledName": "DMA_CH2",
+      "canonicalName": "DMA_CH2",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "RSA",
+      "demangledName": "RSA",
+      "canonicalName": "RSA",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "AES",
+      "demangledName": "AES",
+      "canonicalName": "AES",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "SHA",
+      "demangledName": "SHA",
+      "canonicalName": "SHA",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "FROM_CPU_INTR0",
+      "demangledName": "FROM_CPU_INTR0",
+      "canonicalName": "FROM_CPU_INTR0",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "FROM_CPU_INTR1",
+      "demangledName": "FROM_CPU_INTR1",
+      "canonicalName": "FROM_CPU_INTR1",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "FROM_CPU_INTR2",
+      "demangledName": "FROM_CPU_INTR2",
+      "canonicalName": "FROM_CPU_INTR2",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "FROM_CPU_INTR3",
+      "demangledName": "FROM_CPU_INTR3",
+      "canonicalName": "FROM_CPU_INTR3",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "ASSIST_DEBUG",
+      "demangledName": "ASSIST_DEBUG",
+      "canonicalName": "ASSIST_DEBUG",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "DMA_APBPERI_PMS",
+      "demangledName": "DMA_APBPERI_PMS",
+      "canonicalName": "DMA_APBPERI_PMS",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CORE0_IRAM0_PMS",
+      "demangledName": "CORE0_IRAM0_PMS",
+      "canonicalName": "CORE0_IRAM0_PMS",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CORE0_DRAM0_PMS",
+      "demangledName": "CORE0_DRAM0_PMS",
+      "canonicalName": "CORE0_DRAM0_PMS",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CORE0_PIF_PMS",
+      "demangledName": "CORE0_PIF_PMS",
+      "canonicalName": "CORE0_PIF_PMS",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CORE0_PIF_PMS_SIZE",
+      "demangledName": "CORE0_PIF_PMS_SIZE",
+      "canonicalName": "CORE0_PIF_PMS_SIZE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "BAK_PMS_VIOLATE",
+      "demangledName": "BAK_PMS_VIOLATE",
+      "canonicalName": "BAK_PMS_VIOLATE",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "CACHE_CORE0_ACS",
+      "demangledName": "CACHE_CORE0_ACS",
+      "canonicalName": "CACHE_CORE0_ACS",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "DefaultHandler",
+      "demangledName": "DefaultHandler",
+      "canonicalName": "DefaultHandler",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtCsjsYHBdtEVy3_7esp_hal9interruptNtB2_11IsrCallback15new_with_nested",
+      "demangledName": "<esp_hal::interrupt::IsrCallback>::new_with_nested",
+      "canonicalName": "<esp_hal::interrupt::IsrCallback>::new_with_nested",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtNtCsjsYHBdtEVy3_7esp_hal8rtc_cntl5sleep10sleep_implNtB5_14RtcSleepConfig13base_settings",
+      "demangledName": "<esp_hal::rtc_cntl::sleep::sleep_impl::RtcSleepConfig>::base_settings",
+      "canonicalName": "<esp_hal::rtc_cntl::sleep::sleep_impl::RtcSleepConfig>::base_settings",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtCsjsYHBdtEVy3_7esp_hal9interruptNtB5_23InterruptStatusIteratorNtNtNtNtCs80p5DAyp3TR_4core4iter6traits8iterator8Iterator4next",
+      "demangledName": "<esp_hal::interrupt::InterruptStatusIterator as core::iter::traits::iterator::Iterator>::next",
+      "canonicalName": "<esp_hal::interrupt::InterruptStatusIterator as core::iter::traits::iterator::Iterator>::next",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+      "line": 339
+    },
+    {
+      "mangledName": "_RNvXsk_NtCsjsYHBdtEVy3_7esp_hal6systemNtB5_3CpuNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<esp_hal::system::Cpu as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::system::Cpu as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/system.rs",
+      "line": 218
+    },
+    {
+      "mangledName": "_RINvNtCsY2VCYhJxIU_3log13___private_api3loguNtB2_12GlobalLoggerECsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "log::__private_api::log::<(), log::__private_api::GlobalLogger>",
+      "canonicalName": "log::__private_api::log::<(), log::__private_api::GlobalLogger>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCsY2VCYhJxIU_3log13___private_api8log_implNtB2_12GlobalLoggerECsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "log::__private_api::log_impl::<log::__private_api::GlobalLogger>",
+      "canonicalName": "log::__private_api::log_impl::<log::__private_api::GlobalLogger>",
+      "size": 96,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/__private_api.rs",
+      "line": 56
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_8RtcClock20update_xtal_freq_mhz",
+      "demangledName": "<esp_hal::clock::RtcClock>::update_xtal_freq_mhz",
+      "canonicalName": "<esp_hal::clock::RtcClock>::update_xtal_freq_mhz",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_8RtcClock9calibrate",
+      "demangledName": "<esp_hal::clock::RtcClock>::calibrate",
+      "canonicalName": "<esp_hal::clock::RtcClock>::calibrate",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_8RtcClock9xtal_freq",
+      "demangledName": "<esp_hal::clock::RtcClock>::xtal_freq",
+      "canonicalName": "<esp_hal::clock::RtcClock>::xtal_freq",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs5_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_6Clocks7try_get",
+      "demangledName": "<esp_hal::clock::Clocks>::try_get",
+      "canonicalName": "<esp_hal::clock::Clocks>::try_get",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs5_NtCsjsYHBdtEVy3_7esp_hal6systemNtB5_22PeripheralClockControl11reset_racey",
+      "demangledName": "<esp_hal::system::PeripheralClockControl>::reset_racey",
+      "canonicalName": "<esp_hal::system::PeripheralClockControl>::reset_racey",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs5_NtCsjsYHBdtEVy3_7esp_hal6systemNtB5_22PeripheralClockControl25enable_forced_with_counts",
+      "demangledName": "<esp_hal::system::PeripheralClockControl>::enable_forced_with_counts",
+      "canonicalName": "<esp_hal::system::PeripheralClockControl>::enable_forced_with_counts",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs6_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_6Clocks9configure",
+      "demangledName": "<esp_hal::clock::Clocks>::configure",
+      "canonicalName": "<esp_hal::clock::Clocks>::configure",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsjsYHBdtEVy3_7esp_hal6system23assert_peri_reset_racey.llvm.6497184886336349370",
+      "demangledName": "esp_hal::system::assert_peri_reset_racey",
+      "canonicalName": "esp_hal::system::assert_peri_reset_racey",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs4_NtCsjsYHBdtEVy3_7esp_hal6systemINtB5_22GenericPeripheralGuardKh8_ENtNtNtCs80p5DAyp3TR_4core3ops4drop4Drop4dropB7_",
+      "demangledName": "<esp_hal::system::GenericPeripheralGuard<8> as core::ops::drop::Drop>::drop",
+      "canonicalName": "<esp_hal::system::GenericPeripheralGuard<8> as core::ops::drop::Drop>::drop",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/system.rs",
+      "line": 114
+    },
+    {
+      "mangledName": "_RNvXs8_NtCsjsYHBdtEVy3_7esp_hal6systemNtB5_10PeripheralNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt.llvm.6497184886336349370",
+      "demangledName": "<esp_hal::system::Peripheral as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::system::Peripheral as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsk_NtCsjsYHBdtEVy3_7esp_hal5clockNtB5_9XtalClockNtB5_5Clock9frequency",
+      "demangledName": "<esp_hal::clock::XtalClock as esp_hal::clock::Clock>::frequency",
+      "canonicalName": "<esp_hal::clock::XtalClock as esp_hal::clock::Clock>::frequency",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/clock/mod.rs",
+      "line": 209
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh1_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<1>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<1>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKhf_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<15>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<15>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh0_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<0>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<0>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh13_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<19>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<19>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh4_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<4>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<4>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh8_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<8>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<8>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKh9_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<9>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<9>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNCNvMs2_NtCsjsYHBdtEVy3_7esp_hal6systemINtBa_22GenericPeripheralGuardKha_E3new0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceuE9call_onceBc_.llvm.6497184886336349370",
+      "demangledName": "<<esp_hal::system::GenericPeripheralGuard<10>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+      "canonicalName": "<<esp_hal::system::GenericPeripheralGuard<10>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtNtB6_11peripherals5TIMG0NtB2_18TimerGroupInstance17configure_src_clk",
+      "demangledName": "<esp_hal::peripherals::TIMG0 as esp_hal::timer::timg::TimerGroupInstance>::configure_src_clk",
+      "canonicalName": "<esp_hal::peripherals::TIMG0 as esp_hal::timer::timg::TimerGroupInstance>::configure_src_clk",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 146
+    },
+    {
+      "mangledName": "_RNvXNtNtCsjsYHBdtEVy3_7esp_hal5timer4timgNtNtB6_11peripherals5TIMG0NtB2_18TimerGroupInstance17enable_peripheral",
+      "demangledName": "<esp_hal::peripherals::TIMG0 as esp_hal::timer::timg::TimerGroupInstance>::enable_peripheral",
+      "canonicalName": "<esp_hal::peripherals::TIMG0 as esp_hal::timer::timg::TimerGroupInstance>::enable_peripheral",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/timg.rs",
+      "line": 165
+    },
+    {
+      "mangledName": "_RNvYNtNtCsjsYHBdtEVy3_7esp_hal11peripherals5GPIO6NtNtB6_4gpio3Pin7degradeB6_",
+      "demangledName": "<esp_hal::peripherals::GPIO6 as esp_hal::gpio::Pin>::degrade",
+      "canonicalName": "<esp_hal::peripherals::GPIO6 as esp_hal::gpio::Pin>::degrade",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsjsYHBdtEVy3_7esp_hal8debugger20set_stack_watchpoint",
+      "demangledName": "esp_hal::debugger::set_stack_watchpoint",
+      "canonicalName": "esp_hal::debugger::set_stack_watchpoint",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/debugger.rs",
+      "line": 34
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt17handle_async_pins",
+      "demangledName": "esp_hal::gpio::interrupt::handle_async_pins",
+      "canonicalName": "esp_hal::gpio::interrupt::handle_async_pins",
+      "size": 64,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+      "line": 258
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt22set_interrupt_priority",
+      "demangledName": "esp_hal::gpio::interrupt::set_interrupt_priority",
+      "canonicalName": "esp_hal::gpio::interrupt::set_interrupt_priority",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+      "line": 136
+    },
+    {
+      "mangledName": "_RNvNtNtCsjsYHBdtEVy3_7esp_hal4gpio9interrupt30bind_default_interrupt_handler",
+      "demangledName": "esp_hal::gpio::interrupt::bind_default_interrupt_handler",
+      "canonicalName": "esp_hal::gpio::interrupt::bind_default_interrupt_handler",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+      "line": 91
+    },
+    {
+      "mangledName": "_critical_section_1_0_acquire",
+      "demangledName": "_critical_section_1_0_acquire",
+      "canonicalName": "_critical_section_1_0_acquire",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtCsjsYHBdtEVy3_7esp_hal4sync16critical_sectionNtB2_15CriticalSectionNtCs8v80QNCRCbk_16critical_section4Impl7acquire",
+      "demangledName": "<esp_hal::sync::critical_section::CriticalSection as critical_section::Impl>::acquire",
+      "canonicalName": "<esp_hal::sync::critical_section::CriticalSection as critical_section::Impl>::acquire",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/sync.rs",
+      "line": 102
+    },
+    {
+      "mangledName": "_critical_section_1_0_release",
+      "demangledName": "_critical_section_1_0_release",
+      "canonicalName": "_critical_section_1_0_release",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtCsjsYHBdtEVy3_7esp_hal4sync16critical_sectionNtB2_15CriticalSectionNtCs8v80QNCRCbk_16critical_section4Impl7release",
+      "demangledName": "<esp_hal::sync::critical_section::CriticalSection as critical_section::Impl>::release",
+      "canonicalName": "<esp_hal::sync::critical_section::CriticalSection as critical_section::Impl>::release",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/sync.rs",
+      "line": 106
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRNtCsgV3Osc7luVN_8riscv_rt9TrapFrameNtB6_5Debug3fmtCsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<&riscv_rt::TrapFrame as core::fmt::Debug>::fmt",
+      "canonicalName": "<&riscv_rt::TrapFrame as core::fmt::Debug>::fmt",
+      "size": 160,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "hal_main",
+      "demangledName": "hal_main",
+      "canonicalName": "hal_main",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsq_NtNtCsjsYHBdtEVy3_7esp_hal4gpio12interconnectNtB5_12OutputSignal3new",
+      "demangledName": "<esp_hal::gpio::interconnect::OutputSignal>::new",
+      "canonicalName": "<esp_hal::gpio::interconnect::OutputSignal>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsk_NtNtCsjsYHBdtEVy3_7esp_hal4gpio12interconnectNtB5_11InputSignal3new",
+      "demangledName": "<esp_hal::gpio::interconnect::InputSignal>::new",
+      "canonicalName": "<esp_hal::gpio::interconnect::InputSignal>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscv7classic16current_runlevel",
+      "demangledName": "esp_hal::interrupt::riscv::classic::current_runlevel",
+      "canonicalName": "esp_hal::interrupt::riscv::classic::current_runlevel",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 593
+    },
+    {
+      "mangledName": "_RNvNtNtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscv8vectored14bind_interrupt",
+      "demangledName": "esp_hal::interrupt::riscv::vectored::bind_interrupt",
+      "canonicalName": "esp_hal::interrupt::riscv::vectored::bind_interrupt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 455
+    },
+    {
+      "mangledName": "_RNvNtNtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscv8vectored14init_vectoring",
+      "demangledName": "esp_hal::interrupt::riscv::vectored::init_vectoring",
+      "canonicalName": "esp_hal::interrupt::riscv::vectored::init_vectoring",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 383
+    },
+    {
+      "mangledName": "_RNvNtNtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscv8vectored6enable",
+      "demangledName": "esp_hal::interrupt::riscv::vectored::enable",
+      "canonicalName": "esp_hal::interrupt::riscv::vectored::enable",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsA_NtCsjsYHBdtEVy3_7esp_hal4gpioNtB5_12OutputSignalNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt.llvm.1339303402069686213",
+      "demangledName": "<esp_hal::gpio::OutputSignal as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::gpio::OutputSignal as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsa_NtNtCsjsYHBdtEVy3_7esp_hal4gpio12interconnectNtB5_12OutputSignalNtB5_16PeripheralOutput28connect_peripheral_to_output",
+      "demangledName": "<esp_hal::gpio::interconnect::OutputSignal as esp_hal::gpio::interconnect::PeripheralOutput>::connect_peripheral_to_output",
+      "canonicalName": "<esp_hal::gpio::interconnect::OutputSignal as esp_hal::gpio::interconnect::PeripheralOutput>::connect_peripheral_to_output",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interconnect.rs",
+      "line": 300
+    },
+    {
+      "mangledName": "_RINvNtCs80p5DAyp3TR_4core3ptr13drop_in_placeINtNtCsjsYHBdtEVy3_7esp_hal3rmt3RmtNtBL_8BlockingEEBL_",
+      "demangledName": "core::ptr::drop_in_place::<esp_hal::rmt::Rmt<esp_hal::Blocking>>",
+      "canonicalName": "core::ptr::drop_in_place::<esp_hal::rmt::Rmt<esp_hal::Blocking>>",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCsjsYHBdtEVy3_7esp_hal3fmt15___unwrap_failedNtB2_9NoneErrorEB4_",
+      "demangledName": "esp_hal::fmt::__unwrap_failed::<esp_hal::fmt::NoneError>",
+      "canonicalName": "esp_hal::fmt::__unwrap_failed::<esp_hal::fmt::NoneError>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/fmt.rs",
+      "line": 237
+    },
+    {
+      "mangledName": "_RINvNtCsjsYHBdtEVy3_7esp_hal3fmt15___unwrap_failedNtNtNtB4_9interrupt5riscv5ErrorEB4_",
+      "demangledName": "esp_hal::fmt::__unwrap_failed::<esp_hal::interrupt::riscv::Error>",
+      "canonicalName": "esp_hal::fmt::__unwrap_failed::<esp_hal::interrupt::riscv::Error>",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/fmt.rs",
+      "line": 237
+    },
+    {
+      "mangledName": "_RNvCsjsYHBdtEVy3_7esp_hal4init",
+      "demangledName": "esp_hal::init",
+      "canonicalName": "esp_hal::init",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/lib.rs",
+      "line": 680
+    },
+    {
+      "mangledName": "_RNvMs_NtNtCsjsYHBdtEVy3_7esp_hal3rmt13chip_specificINtB6_16DynChannelAccessNtB6_2TxE14set_tx_carrier",
+      "demangledName": "<esp_hal::rmt::DynChannelAccess<esp_hal::rmt::Tx>>::set_tx_carrier",
+      "canonicalName": "<esp_hal::rmt::DynChannelAccess<esp_hal::rmt::Tx>>::set_tx_carrier",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtNtCsjsYHBdtEVy3_7esp_hal3rmt13chip_specificINtB6_16DynChannelAccessNtB6_2TxE18set_tx_idle_output",
+      "demangledName": "<esp_hal::rmt::DynChannelAccess<esp_hal::rmt::Tx>>::set_tx_idle_output",
+      "canonicalName": "<esp_hal::rmt::DynChannelAccess<esp_hal::rmt::Tx>>::set_tx_idle_output",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMse_NtCsjsYHBdtEVy3_7esp_hal3rmtINtB5_3RmtNtB7_8BlockingE3new",
+      "demangledName": "<esp_hal::rmt::Rmt<esp_hal::Blocking>>::new",
+      "canonicalName": "<esp_hal::rmt::Rmt<esp_hal::Blocking>>::new",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsjsYHBdtEVy3_7esp_hal3rmt15reserve_channel",
+      "demangledName": "esp_hal::rmt::reserve_channel",
+      "canonicalName": "esp_hal::rmt::reserve_channel",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rmt.rs",
+      "line": 902
+    },
+    {
+      "mangledName": "_RNvXs3_NtCsjsYHBdtEVy3_7esp_hal3fmtNtB5_9NoneErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<esp_hal::fmt::NoneError as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::fmt::NoneError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/fmt.rs",
+      "line": 275
+    },
+    {
+      "mangledName": "_RNvXs4_NtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscvNtB5_5ErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<esp_hal::interrupt::riscv::Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<esp_hal::interrupt::riscv::Error as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 33
+    },
+    {
+      "mangledName": "_RNvXsa_NtCsjsYHBdtEVy3_7esp_hal3rmtNtB5_15TxChannelConfigNtNtCs80p5DAyp3TR_4core7default7Default7default",
+      "demangledName": "<esp_hal::rmt::TxChannelConfig as core::default::Default>::default",
+      "canonicalName": "<esp_hal::rmt::TxChannelConfig as core::default::Default>::default",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rmt.rs",
+      "line": 652
+    },
+    {
+      "mangledName": "ExceptionHandler",
+      "demangledName": "ExceptionHandler",
+      "canonicalName": "ExceptionHandler",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs0_NtNtCsjsYHBdtEVy3_7esp_hal9interrupt5riscvNtB5_8PriorityINtNtCs80p5DAyp3TR_4core7convert7TryFromhE8try_from",
+      "demangledName": "<esp_hal::interrupt::riscv::Priority as core::convert::TryFrom<u8>>::try_from",
+      "canonicalName": "<esp_hal::interrupt::riscv::Priority as core::convert::TryFrom<u8>>::try_from",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+      "line": 202
+    },
+    {
+      "mangledName": "_RNvXs2_NtCskHe06Gln1Qd_9riscv_pac6resultNtB5_5ErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<riscv_pac::result::Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<riscv_pac::result::Error as core::fmt::Debug>::fmt",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-pac-0.2.0/src/result.rs",
+      "line": 7
+    },
+    {
+      "mangledName": "_RNvYNCNvMNtCsjsYHBdtEVy3_7esp_hal10work_queueINtB7_6VTableNtNtB9_3aes12AesOperationE4noop0INtNtNtCs80p5DAyp3TR_4core3ops8function6FnOnceTINtNtNtB1x_3ptr8non_null7NonNulluEQBU_EE9call_onceB9_",
+      "demangledName": "<<esp_hal::work_queue::VTable<esp_hal::aes::AesOperation>>::noop::{closure#0} as core::ops::function::FnOnce<(core::ptr::non_null::NonNull<()>, &mut esp_hal::aes::AesOperation)>>::call_once",
+      "canonicalName": "<<esp_hal::work_queue::VTable<esp_hal::aes::AesOperation>>::noop",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_setup_interrupts",
+      "demangledName": "_setup_interrupts",
+      "canonicalName": "_setup_interrupts",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMsg_NtCs7SdWmAJnRiQ_5fugit7instantINtB6_7InstantyKm1_Kmf4240_E20checked_add_durationKBQ_KBU_ECsjsYHBdtEVy3_7esp_hal",
+      "demangledName": "<fugit::instant::Instant<u64, 1, 1000000>>::checked_add_duration::<1, 1000000>",
+      "canonicalName": "<fugit::instant::Instant<u64, 1, 1000000>>::checked_add_duration::<1, 1000000>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5timerINtB5_12OneShotTimerNtB7_8BlockingE15clear_interruptB7_",
+      "demangledName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::clear_interrupt",
+      "canonicalName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::clear_interrupt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtCsjsYHBdtEVy3_7esp_hal5timerINtB5_12OneShotTimerNtB7_8BlockingE8scheduleB7_",
+      "demangledName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::schedule",
+      "canonicalName": "<esp_hal::timer::OneShotTimer<esp_hal::Blocking>>::schedule",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer8systimerNtB5_5AlarmNtB7_5Timer10load_value",
+      "demangledName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::load_value",
+      "canonicalName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::load_value",
+      "size": 48,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/systimer.rs",
+      "line": 527
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer8systimerNtB5_5AlarmNtB7_5Timer16enable_interrupt",
+      "demangledName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::enable_interrupt",
+      "canonicalName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::enable_interrupt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1_NtNtCsjsYHBdtEVy3_7esp_hal5timer8systimerNtB5_5AlarmNtB7_5Timer21set_interrupt_handler",
+      "demangledName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::set_interrupt_handler",
+      "canonicalName": "<esp_hal::timer::systimer::Alarm as esp_hal::timer::Timer>::set_interrupt_handler",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/systimer.rs",
+      "line": 619
+    },
+    {
+      "mangledName": "_RNvMs0_NtNtCsjsYHBdtEVy3_7esp_hal3rom6regi2cNtB5_14RawRegI2cField11write_field",
+      "demangledName": "<esp_hal::rom::regi2c::RawRegI2cField>::write_field",
+      "canonicalName": "<esp_hal::rom::regi2c::RawRegI2cField>::write_field",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_dispatch_exception",
+      "demangledName": "_dispatch_exception",
+      "canonicalName": "_dispatch_exception",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_default_setup_interrupts",
+      "demangledName": "_default_setup_interrupts",
+      "canonicalName": "_default_setup_interrupts",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-rt-0.16.0/src/lib.rs",
+      "line": 722
+    },
+    {
+      "mangledName": "_RNvNtCsjiOF8l79x0P_11esp_rom_sys7syscall13abort_wrapper",
+      "demangledName": "esp_rom_sys::syscall::abort_wrapper",
+      "canonicalName": "esp_rom_sys::syscall::abort_wrapper",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/syscall/mod.rs",
+      "line": 65
+    },
+    {
+      "mangledName": "_RNvNtCsjiOF8l79x0P_11esp_rom_sys7syscall15not_implemented",
+      "demangledName": "esp_rom_sys::syscall::not_implemented",
+      "canonicalName": "esp_rom_sys::syscall::not_implemented",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/syscall/mod.rs",
+      "line": 61
+    },
+    {
+      "mangledName": "_RNvNtCsjiOF8l79x0P_11esp_rom_sys7syscall18init_syscall_table",
+      "demangledName": "esp_rom_sys::syscall::init_syscall_table",
+      "canonicalName": "esp_rom_sys::syscall::init_syscall_table",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/syscall/mod.rs",
+      "line": 74
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRINtNtB8_6option6OptionhENtB6_5Debug3fmtCsjiOF8l79x0P_11esp_rom_sys",
+      "demangledName": "<&core::option::Option<u8> as core::fmt::Debug>::fmt",
+      "canonicalName": "<&core::option::Option<u8> as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRhNtB6_5Debug3fmtCsjiOF8l79x0P_11esp_rom_sys",
+      "demangledName": "<&u8 as core::fmt::Debug>::fmt",
+      "canonicalName": "<&u8 as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs9_NtNtCs80p5DAyp3TR_4core3str5errorNtB5_9Utf8ErrorNtNtB9_3fmt5Debug3fmt",
+      "demangledName": "<core::str::error::Utf8Error as core::fmt::Debug>::fmt",
+      "canonicalName": "<core::str::error::Utf8Error as core::fmt::Debug>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "__assert_func",
+      "demangledName": "__assert_func",
+      "canonicalName": "__assert_func",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "__atoi",
+      "demangledName": "__atoi",
+      "canonicalName": "__atoi",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "__mktime",
+      "demangledName": "__mktime",
+      "canonicalName": "__mktime",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "__strnlen",
+      "demangledName": "__strnlen",
+      "canonicalName": "__strnlen",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockINtNtCs80p5DAyp3TR_4core6result6ResultuNtNtB1B_3fmt5ErrorENCINvCs71F1xfqOZID_11esp_println4withB1w_NCNvNvCsegBpzSvPeqd_13esp_backtrace13panic_handler9__do_print0E0EB3d_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::panic_handler::_do_print::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::panic_handler::_do_print",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockINtNtCs80p5DAyp3TR_4core6result6ResultuNtNtB1B_3fmt5ErrorENCINvCs71F1xfqOZID_11esp_println4withB1w_NCNvNvCsegBpzSvPeqd_13esp_backtrace14set_color_code9__do_print0E0EB3d_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::set_color_code::_do_print::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::set_color_code::_do_print",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockINtNtCs80p5DAyp3TR_4core6result6ResultuNtNtB1B_3fmt5ErrorENCINvCs71F1xfqOZID_11esp_println4withB1w_NCNvNvCsegBpzSvPeqd_13esp_backtrace5abort9__do_print0E0EB3d_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::abort::_do_print::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<core::result::Result<(), core::fmt::Error>, esp_println::with<core::result::Result<(), core::fmt::Error>, esp_backtrace::abort::_do_print",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvCsbnJxd6xkqTY_7___rustc17rust_begin_unwind",
+      "demangledName": "__rustc::rust_begin_unwind",
+      "canonicalName": "__rustc::rust_begin_unwind",
+      "size": 112,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/lib.rs",
+      "line": 106
+    },
+    {
+      "mangledName": "_RNvCsegBpzSvPeqd_13esp_backtrace5abort",
+      "demangledName": "esp_backtrace::abort",
+      "canonicalName": "esp_backtrace::abort",
+      "size": 32,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/lib.rs",
+      "line": 197
+    },
+    {
+      "mangledName": "_RNvMs_NtCs8WBuTbND90m_8heapless3vecINtB4_8VecInnerNtCsegBpzSvPeqd_13esp_backtrace14BacktraceFramejINtNtB4_7storage15VecStorageInnerAINtNtNtCs80p5DAyp3TR_4core3mem12maybe_uninit11MaybeUninitBM_Eja_EE14push_uncheckedBO_",
+      "demangledName": "<heapless::vec::VecInner<esp_backtrace::BacktraceFrame, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_backtrace::BacktraceFrame>; 10]>>>::push_unchecked",
+      "canonicalName": "<heapless::vec::VecInner<esp_backtrace::BacktraceFrame, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_backtrace::BacktraceFrame>; 10]>>>::push_unchecked",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_NtCs8WBuTbND90m_8heapless3vecINtB4_8VecInnerNtCsegBpzSvPeqd_13esp_backtrace14BacktraceFramejINtNtB4_7storage15VecStorageInnerAINtNtNtCs80p5DAyp3TR_4core3mem12maybe_uninit11MaybeUninitBM_Eja_EE4pushBO_",
+      "demangledName": "<heapless::vec::VecInner<esp_backtrace::BacktraceFrame, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_backtrace::BacktraceFrame>; 10]>>>::push",
+      "canonicalName": "<heapless::vec::VecInner<esp_backtrace::BacktraceFrame, usize, heapless::vec::storage::VecStorageInner<[core::mem::maybe_uninit::MaybeUninit<esp_backtrace::BacktraceFrame>; 10]>>>::push",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsegBpzSvPeqd_13esp_backtrace4arch9backtrace",
+      "demangledName": "esp_backtrace::arch::backtrace",
+      "canonicalName": "esp_backtrace::arch::backtrace",
+      "size": 80,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/riscv.rs",
+      "line": 20
+    },
+    {
+      "mangledName": "_RNvXs1i_NtCs80p5DAyp3TR_4core3fmtRNtNtNtB8_5panic10panic_info9PanicInfoNtB6_7Display3fmtCsegBpzSvPeqd_13esp_backtrace",
+      "demangledName": "<&core::panic::panic_info::PanicInfo as core::fmt::Display>::fmt",
+      "canonicalName": "<&core::panic::panic_info::PanicInfo as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs0_Cs50b7kpjjkp9_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvCs71F1xfqOZID_11esp_println4withuNCNvMs_B1C_NtB1C_7Printer11write_bytes0E0EB1C_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_println::with<(), <esp_println::Printer>::write_bytes::{closure#0}>::{closure#0}>",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_println::with<(), <esp_println::Printer>::write_bytes",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs_Cs71F1xfqOZID_11esp_printlnNtB4_7Printer11write_bytes",
+      "demangledName": "<esp_println::Printer>::write_bytes",
+      "canonicalName": "<esp_println::Printer>::write_bytes",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXCs71F1xfqOZID_11esp_printlnNtB2_7PrinterNtNtCs80p5DAyp3TR_4core3fmt5Write9write_str",
+      "demangledName": "<esp_println::Printer as core::fmt::Write>::write_str",
+      "canonicalName": "<esp_println::Printer as core::fmt::Write>::write_str",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1i_NtCs80p5DAyp3TR_4core3fmtRNtB6_9ArgumentsNtB6_7Display3fmtCs71F1xfqOZID_11esp_println",
+      "demangledName": "<&core::fmt::Arguments as core::fmt::Display>::fmt",
+      "canonicalName": "<&core::fmt::Arguments as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNtCs71F1xfqOZID_11esp_println7PrinterNtNtCs80p5DAyp3TR_4core3fmt5Write10write_charB4_",
+      "demangledName": "<esp_println::Printer as core::fmt::Write>::write_char",
+      "canonicalName": "<esp_println::Printer as core::fmt::Write>::write_char",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNtCs71F1xfqOZID_11esp_println7PrinterNtNtCs80p5DAyp3TR_4core3fmt5Write9write_fmtB4_",
+      "demangledName": "<esp_println::Printer as core::fmt::Write>::write_fmt",
+      "canonicalName": "<esp_println::Printer as core::fmt::Write>::write_fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvCs50b7kpjjkp9_8esp_sync24panic_lock_not_reentrant",
+      "demangledName": "esp_sync::panic_lock_not_reentrant",
+      "canonicalName": "esp_sync::panic_lock_not_reentrant",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+      "line": 426
+    },
+    {
+      "mangledName": "_RNvMs2_Cs50b7kpjjkp9_8esp_syncNtB5_8RawMutex3new",
+      "demangledName": "<esp_sync::RawMutex>::new",
+      "canonicalName": "<esp_sync::RawMutex>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtCs50b7kpjjkp9_8esp_sync11single_coreNtB2_11LockedState3new",
+      "demangledName": "<esp_sync::single_core::LockedState>::new",
+      "canonicalName": "<esp_sync::single_core::LockedState>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_Cs50b7kpjjkp9_8esp_syncINtB5_15GenericRawMutexNtNtB5_3raw23SingleCoreInterruptLockE3newB5_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::new",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1_Cs50b7kpjjkp9_8esp_syncNtB5_8RawMutexNtNtCs80p5DAyp3TR_4core7default7Default7default",
+      "demangledName": "<esp_sync::RawMutex as core::default::Default>::default",
+      "canonicalName": "<esp_sync::RawMutex as core::default::Default>::default",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_Cs50b7kpjjkp9_8esp_syncINtB5_15GenericRawMutexNtNtB5_3raw23SingleCoreInterruptLockE7acquireB5_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::acquire",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::acquire",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs2_Cs50b7kpjjkp9_8esp_syncNtB5_8RawMutex7acquire",
+      "demangledName": "<esp_sync::RawMutex>::acquire",
+      "canonicalName": "<esp_sync::RawMutex>::acquire",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_Cs50b7kpjjkp9_8esp_syncINtB5_15GenericRawMutexNtNtB5_3raw23SingleCoreInterruptLockE7releaseB5_",
+      "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::release",
+      "canonicalName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::release",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs2_Cs50b7kpjjkp9_8esp_syncNtB5_8RawMutex7release",
+      "demangledName": "<esp_sync::RawMutex>::release",
+      "canonicalName": "<esp_sync::RawMutex>::release",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCs9KaHtKtAgu7_12embassy_sync9waitqueue18waker_registrationNtB2_17WakerRegistration4wake",
+      "demangledName": "<embassy_sync::waitqueue::waker_registration::WakerRegistration>::wake",
+      "canonicalName": "<embassy_sync::waitqueue::waker_registration::WakerRegistration>::wake",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs9_NtNtCsfg7bqNuWJNX_5riscv8register5mtvecjINtNtCs80p5DAyp3TR_4core7convert4FromNtB5_8TrapModeE4from",
+      "demangledName": "<usize as core::convert::From<riscv::register::mtvec::TrapMode>>::from",
+      "canonicalName": "<usize as core::convert::From<riscv::register::mtvec::TrapMode>>::from",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs13_NtNtCsfg7bqNuWJNX_5riscv8register7mstatusjINtNtCs80p5DAyp3TR_4core7convert4FromNtB6_10EndiannessE4from",
+      "demangledName": "<usize as core::convert::From<riscv::register::mstatus::Endianness>>::from",
+      "canonicalName": "<usize as core::convert::From<riscv::register::mstatus::Endianness>>::from",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-0.15.0/src/register/macros.rs",
+      "line": 651
+    },
+    {
+      "mangledName": "_RNvXs8_NtNtCsfg7bqNuWJNX_5riscv8register4satpjINtNtCs80p5DAyp3TR_4core7convert4FromNtB5_4ModeE4from",
+      "demangledName": "<usize as core::convert::From<riscv::register::satp::Mode>>::from",
+      "canonicalName": "<usize as core::convert::From<riscv::register::satp::Mode>>::from",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs9_NtNtCsfg7bqNuWJNX_5riscv8register7sstatusjINtNtCs80p5DAyp3TR_4core7convert4FromNtB5_3SPPE4from",
+      "demangledName": "<usize as core::convert::From<riscv::register::sstatus::SPP>>::from",
+      "canonicalName": "<usize as core::convert::From<riscv::register::sstatus::SPP>>::from",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsS_NtNtCsfg7bqNuWJNX_5riscv8register7mstatusjINtNtCs80p5DAyp3TR_4core7convert4FromNtB5_3SPPE4from",
+      "demangledName": "<usize as core::convert::From<riscv::register::mstatus::SPP>>::from",
+      "canonicalName": "<usize as core::convert::From<riscv::register::mstatus::SPP>>::from",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvCsY2VCYhJxIU_3log15set_logger_racy",
+      "demangledName": "log::set_logger_racy",
+      "canonicalName": "log::set_logger_racy",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+      "line": 1529
+    },
+    {
+      "mangledName": "_RNvMCsY2VCYhJxIU_3logNtB2_11AtomicUsize4load",
+      "demangledName": "<log::AtomicUsize>::load",
+      "canonicalName": "<log::AtomicUsize>::load",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMCsY2VCYhJxIU_3logNtB2_11AtomicUsize5store",
+      "demangledName": "<log::AtomicUsize>::store",
+      "canonicalName": "<log::AtomicUsize>::store",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCsY2VCYhJxIU_3log13___private_api3loc",
+      "demangledName": "log::__private_api::loc",
+      "canonicalName": "log::__private_api::loc",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/__private_api.rs",
+      "line": 108
+    },
+    {
+      "mangledName": "_RNvXs0_NtCsY2VCYhJxIU_3log13___private_apiNtB5_12GlobalLoggerNtB7_3Log3log",
+      "demangledName": "<log::__private_api::GlobalLogger as log::Log>::log",
+      "canonicalName": "<log::__private_api::GlobalLogger as log::Log>::log",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/__private_api.rs",
+      "line": 46
+    },
+    {
+      "mangledName": "_RNvXs3_CsY2VCYhJxIU_3logNtB5_5LevelNtNtCs80p5DAyp3TR_4core3fmt7Display3fmt",
+      "demangledName": "<log::Level as core::fmt::Display>::fmt",
+      "canonicalName": "<log::Level as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+      "line": 529
+    },
+    {
+      "mangledName": "_RNvXsh_CsY2VCYhJxIU_3logNtB5_9NopLoggerNtB5_3Log3log",
+      "demangledName": "<log::NopLogger as log::Log>::log",
+      "canonicalName": "<log::NopLogger as log::Log>::log",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+      "line": 1290
+    },
+    {
+      "mangledName": "_RNvXsh_CsY2VCYhJxIU_3logNtB5_9NopLoggerNtB5_3Log5flush",
+      "demangledName": "<log::NopLogger as log::Log>::flush",
+      "canonicalName": "<log::NopLogger as log::Log>::flush",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+      "line": 1291
+    },
+    {
+      "mangledName": "_RNvXsh_CsY2VCYhJxIU_3logNtB5_9NopLoggerNtB5_3Log7enabled",
+      "demangledName": "<log::NopLogger as log::Log>::enabled",
+      "canonicalName": "<log::NopLogger as log::Log>::enabled",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+      "line": 1286
+    },
+    {
+      "mangledName": "_RNvMNtCs3xQ2veIgDb2_12embassy_time7instantNtB2_7Instant7elapsed",
+      "demangledName": "<embassy_time::instant::Instant>::elapsed",
+      "canonicalName": "<embassy_time::instant::Instant>::elapsed",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtCs3xQ2veIgDb2_12embassy_time3fmtNtB5_9NoneErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<embassy_time::fmt::NoneError as core::fmt::Debug>::fmt",
+      "canonicalName": "<embassy_time::fmt::NoneError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-time-0.5.1/src/fmt.rs",
+      "line": 216
+    },
+    {
+      "mangledName": "_RNvMs0_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_7TaskRef6as_ptr",
+      "demangledName": "<embassy_executor::raw::TaskRef>::as_ptr",
+      "canonicalName": "<embassy_executor::raw::TaskRef>::as_ptr",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs7_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_12SyncExecutor5spawn",
+      "demangledName": "<embassy_executor::raw::SyncExecutor>::spawn",
+      "canonicalName": "<embassy_executor::raw::SyncExecutor>::spawn",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_8Executor3new",
+      "demangledName": "<embassy_executor::raw::Executor>::new",
+      "canonicalName": "<embassy_executor::raw::Executor>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_8Executor4poll",
+      "demangledName": "<embassy_executor::raw::Executor>::poll",
+      "canonicalName": "<embassy_executor::raw::Executor>::poll",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_8Executor5spawn",
+      "demangledName": "<embassy_executor::raw::Executor>::spawn",
+      "canonicalName": "<embassy_executor::raw::Executor>::spawn",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs8_NtCscoqPtFXXy8i_16embassy_executor3rawNtB5_8Executor7spawner",
+      "demangledName": "<embassy_executor::raw::Executor>::spawner",
+      "canonicalName": "<embassy_executor::raw::Executor>::spawner",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core4hint21unreachable_unchecked",
+      "demangledName": "core::hint::unreachable_unchecked",
+      "canonicalName": "core::hint::unreachable_unchecked",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCscoqPtFXXy8i_16embassy_executor3raw9wake_task",
+      "demangledName": "embassy_executor::raw::wake_task",
+      "canonicalName": "embassy_executor::raw::wake_task",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/raw/mod.rs",
+      "line": 584
+    },
+    {
+      "mangledName": "_RNvNtNtCscoqPtFXXy8i_16embassy_executor3raw5waker4drop",
+      "demangledName": "embassy_executor::raw::waker::drop",
+      "canonicalName": "embassy_executor::raw::waker::drop",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/raw/waker.rs",
+      "line": 15
+    },
+    {
+      "mangledName": "_RNvNtNtCscoqPtFXXy8i_16embassy_executor3raw5waker4wake",
+      "demangledName": "embassy_executor::raw::waker::wake",
+      "canonicalName": "embassy_executor::raw::waker::wake",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCscoqPtFXXy8i_16embassy_executor3raw5waker5clone",
+      "demangledName": "embassy_executor::raw::waker::clone",
+      "canonicalName": "embassy_executor::raw::waker::clone",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/raw/waker.rs",
+      "line": 7
+    },
+    {
+      "mangledName": "_RNvNtNtCscoqPtFXXy8i_16embassy_executor3raw5waker9from_task",
+      "demangledName": "embassy_executor::raw::waker::from_task",
+      "canonicalName": "embassy_executor::raw::waker::from_task",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/raw/waker.rs",
+      "line": 19
+    },
+    {
+      "mangledName": "_RNvNvNtCs80p5DAyp3TR_4core4hint21unreachable_unchecked18precondition_check",
+      "demangledName": "core::hint::unreachable_unchecked::precondition_check",
+      "canonicalName": "core::hint::unreachable_unchecked::precondition_check",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs0_NtCscoqPtFXXy8i_16embassy_executor7spawnerNtB5_10SpawnErrorNtNtCs80p5DAyp3TR_4core3fmt5Debug3fmt",
+      "demangledName": "<embassy_executor::spawner::SpawnError as core::fmt::Debug>::fmt",
+      "canonicalName": "<embassy_executor::spawner::SpawnError as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/spawner.rs",
+      "line": 76
+    },
+    {
+      "mangledName": "_RNvXs6_NtNtCs80p5DAyp3TR_4core3fmt3numjNtB7_8LowerHex3fmt",
+      "demangledName": "<usize as core::fmt::LowerHex>::fmt",
+      "canonicalName": "<usize as core::fmt::LowerHex>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs8_NtNtCs80p5DAyp3TR_4core3fmt3numjNtB7_8UpperHex3fmt",
+      "demangledName": "<usize as core::fmt::UpperHex>::fmt",
+      "canonicalName": "<usize as core::fmt::UpperHex>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXse_NtNtCs80p5DAyp3TR_4core3fmt3numhNtB7_8LowerHex3fmt",
+      "demangledName": "<u8 as core::fmt::LowerHex>::fmt",
+      "canonicalName": "<u8 as core::fmt::LowerHex>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsg_NtNtCs80p5DAyp3TR_4core3fmt3numhNtB7_8UpperHex3fmt",
+      "demangledName": "<u8 as core::fmt::UpperHex>::fmt",
+      "canonicalName": "<u8 as core::fmt::UpperHex>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core7unicode9printable12is_printable",
+      "demangledName": "core::unicode::printable::is_printable",
+      "canonicalName": "core::unicode::printable::is_printable",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core7unicode9printable5check.llvm.12377386714134090607",
+      "demangledName": "core::unicode::printable::check",
+      "canonicalName": "core::unicode::printable::check",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core9panicking11panic_const23panic_const_div_by_zero",
+      "demangledName": "core::panicking::panic_const::panic_const_div_by_zero",
+      "canonicalName": "core::panicking::panic_const::panic_const_div_by_zero",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core9panicking11panic_const24panic_const_add_overflow",
+      "demangledName": "core::panicking::panic_const::panic_const_add_overflow",
+      "canonicalName": "core::panicking::panic_const::panic_const_add_overflow",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core9panicking11panic_const24panic_const_mul_overflow",
+      "demangledName": "core::panicking::panic_const::panic_const_mul_overflow",
+      "canonicalName": "core::panicking::panic_const::panic_const_mul_overflow",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core9panicking11panic_const24panic_const_shl_overflow",
+      "demangledName": "core::panicking::panic_const::panic_const_shl_overflow",
+      "canonicalName": "core::panicking::panic_const::panic_const_shl_overflow",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core9panicking11panic_const24panic_const_sub_overflow",
+      "demangledName": "core::panicking::panic_const::panic_const_sub_overflow",
+      "canonicalName": "core::panicking::panic_const::panic_const_sub_overflow",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs_NtNtCs80p5DAyp3TR_4core5slice4iterRShNtNtNtNtB8_4iter6traits7collect12IntoIterator9into_iterB8_",
+      "demangledName": "<&[u8] as core::iter::traits::collect::IntoIterator>::into_iter",
+      "canonicalName": "<&[u8] as core::iter::traits::collect::IntoIterator>::into_iter",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCs80p5DAyp3TR_4core4char7methodsc16escape_debug_ext.llvm.6990754249654347798",
+      "demangledName": "<char>::escape_debug_ext",
+      "canonicalName": "<char>::escape_debug_ext",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter12pad_integral",
+      "demangledName": "<core::fmt::Formatter>::pad_integral",
+      "canonicalName": "<core::fmt::Formatter>::pad_integral",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter25debug_tuple_field1_finish",
+      "demangledName": "<core::fmt::Formatter>::debug_tuple_field1_finish",
+      "canonicalName": "<core::fmt::Formatter>::debug_tuple_field1_finish",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter26debug_struct_field2_finish",
+      "demangledName": "<core::fmt::Formatter>::debug_struct_field2_finish",
+      "canonicalName": "<core::fmt::Formatter>::debug_struct_field2_finish",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter26debug_struct_field3_finish",
+      "demangledName": "<core::fmt::Formatter>::debug_struct_field3_finish",
+      "canonicalName": "<core::fmt::Formatter>::debug_struct_field3_finish",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter26debug_struct_fields_finish",
+      "demangledName": "<core::fmt::Formatter>::debug_struct_fields_finish",
+      "canonicalName": "<core::fmt::Formatter>::debug_struct_fields_finish",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter3pad",
+      "demangledName": "<core::fmt::Formatter>::pad",
+      "canonicalName": "<core::fmt::Formatter>::pad",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter7padding",
+      "demangledName": "<core::fmt::Formatter>::padding",
+      "canonicalName": "<core::fmt::Formatter>::padding",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB5_9Formatter9write_str",
+      "demangledName": "<core::fmt::Formatter>::write_str",
+      "canonicalName": "<core::fmt::Formatter>::write_str",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsb_NtCs80p5DAyp3TR_4core3fmtNtB5_9FormatterNtB5_5Write9write_str",
+      "demangledName": "<core::fmt::Formatter as core::fmt::Write>::write_str",
+      "canonicalName": "<core::fmt::Formatter as core::fmt::Write>::write_str",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core3fmt17pointer_fmt_inner",
+      "demangledName": "core::fmt::pointer_fmt_inner",
+      "canonicalName": "core::fmt::pointer_fmt_inner",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core3fmt5write",
+      "demangledName": "core::fmt::write",
+      "canonicalName": "core::fmt::write",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNvMsa_NtCs80p5DAyp3TR_4core3fmtNtB7_9Formatter12pad_integral12write_prefix",
+      "demangledName": "<core::fmt::Formatter>::pad_integral::write_prefix",
+      "canonicalName": "<core::fmt::Formatter>::pad_integral::write_prefix",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRDNtB6_5DebugEL_Bx_3fmtB8_",
+      "demangledName": "<&dyn core::fmt::Debug as core::fmt::Debug>::fmt",
+      "canonicalName": "<&dyn core::fmt::Debug as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtReNtB6_5Debug3fmtB8_",
+      "demangledName": "<&str as core::fmt::Debug>::fmt",
+      "canonicalName": "<&str as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRjNtB6_5Debug3fmtB8_",
+      "demangledName": "<&usize as core::fmt::Debug>::fmt",
+      "canonicalName": "<&usize as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1g_NtCs80p5DAyp3TR_4core3fmtRuNtB6_5Debug3fmtB8_",
+      "demangledName": "<&() as core::fmt::Debug>::fmt",
+      "canonicalName": "<&() as core::fmt::Debug>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs1i_NtCs80p5DAyp3TR_4core3fmtReNtB6_7Display3fmtB8_",
+      "demangledName": "<&str as core::fmt::Display>::fmt",
+      "canonicalName": "<&str as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs8_NtCs80p5DAyp3TR_4core3fmtNtB5_9ArgumentsNtB5_7Display3fmt",
+      "demangledName": "<core::fmt::Arguments as core::fmt::Display>::fmt",
+      "canonicalName": "<core::fmt::Arguments as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsg_NtCs80p5DAyp3TR_4core3fmtbNtB5_7Display3fmt",
+      "demangledName": "<bool as core::fmt::Display>::fmt",
+      "canonicalName": "<bool as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsh_NtCs80p5DAyp3TR_4core3fmteNtB5_5Debug3fmt",
+      "demangledName": "<str as core::fmt::Debug>::fmt",
+      "canonicalName": "<str as core::fmt::Debug>::fmt",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsj_NtCs80p5DAyp3TR_4core3fmtcNtB5_5Debug3fmt",
+      "demangledName": "<char as core::fmt::Debug>::fmt",
+      "canonicalName": "<char as core::fmt::Debug>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtNtCs80p5DAyp3TR_4core7unicode12unicode_data15grapheme_extend11lookup_slow",
+      "demangledName": "core::unicode::unicode_data::grapheme_extend::lookup_slow",
+      "canonicalName": "core::unicode::unicode_data::grapheme_extend::lookup_slow",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtNtNtCs80p5DAyp3TR_4core4iter8adapters3zip3zipRSReRSRDNtNtB8_3fmt5DebugEL_EB8_",
+      "demangledName": "core::iter::adapters::zip::zip::<&[&str], &[&dyn core::fmt::Debug]>",
+      "canonicalName": "core::iter::adapters::zip::zip::<&[&str], &[&dyn core::fmt::Debug]>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtNtNtCs80p5DAyp3TR_4core4iter8adapters3zipINtB5_3ZipINtNtNtBb_5slice4iter4IterReEIBX_RDNtNtBb_3fmt5DebugEL_EEINtB5_7ZipImplBW_B1p_E3newBb_",
+      "demangledName": "<core::iter::adapters::zip::Zip<core::slice::iter::Iter<&str>, core::slice::iter::Iter<&dyn core::fmt::Debug>> as core::iter::adapters::zip::ZipImpl<core::slice::iter::Iter<&str>, core::slice::iter::Iter<&dyn core::fmt::Debug>>>::new",
+      "canonicalName": "<core::iter::adapters::zip::Zip<core::slice::iter::Iter<&str>, core::slice::iter::Iter<&dyn core::fmt::Debug>> as core::iter::adapters::zip::ZipImpl<core::slice::iter::Iter<&str>, core::slice::iter::Iter<&dyn core::fmt::Debug>>>::new",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCs80p5DAyp3TR_4core6escape14escape_unicodeKja_EB4_",
+      "demangledName": "core::escape::escape_unicode::<10>",
+      "canonicalName": "core::escape::escape_unicode::<10>",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtCs80p5DAyp3TR_4core6escapeINtB2_15EscapeIterInnerKja_NtB2_12MaybeEscapedE7unicodeB4_",
+      "demangledName": "<core::escape::EscapeIterInner<10, core::escape::MaybeEscaped>>::unicode",
+      "canonicalName": "<core::escape::EscapeIterInner<10, core::escape::MaybeEscaped>>::unicode",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtCs80p5DAyp3TR_4core6escapeINtB2_15EscapeIterInnerKja_NtB2_13AlwaysEscapedE7unicodeB4_",
+      "demangledName": "<core::escape::EscapeIterInner<10, core::escape::AlwaysEscaped>>::unicode",
+      "canonicalName": "<core::escape::EscapeIterInner<10, core::escape::AlwaysEscaped>>::unicode",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs2_NtCs80p5DAyp3TR_4core6escapeINtB5_15EscapeIterInnerKja_NtB5_12MaybeEscapedENtNtB7_3fmt7Display3fmtB7_",
+      "demangledName": "<core::escape::EscapeIterInner<10, core::escape::MaybeEscaped> as core::fmt::Display>::fmt",
+      "canonicalName": "<core::escape::EscapeIterInner<10, core::escape::MaybeEscaped> as core::fmt::Display>::fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core3str5count14do_count_chars",
+      "demangledName": "core::str::count::do_count_chars",
+      "canonicalName": "core::str::count::do_count_chars",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core3str5count23char_count_general_case",
+      "demangledName": "core::str::count::char_count_general_case",
+      "canonicalName": "core::str::count::char_count_general_case",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtNtCs80p5DAyp3TR_4core3str4iterNtB5_11CharIndicesNtNtNtNtB9_4iter6traits8iterator8Iterator4next.llvm.1489228851239529527",
+      "demangledName": "<core::str::iter::CharIndices as core::iter::traits::iterator::Iterator>::next",
+      "canonicalName": "<core::str::iter::CharIndices as core::iter::traits::iterator::Iterator>::next",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs_NtNtCs80p5DAyp3TR_4core3ops5rangeINtB4_5RangejENtNtB8_3fmt5Debug3fmtB8_",
+      "demangledName": "<core::ops::range::Range<usize> as core::fmt::Debug>::fmt",
+      "canonicalName": "<core::ops::range::Range<usize> as core::fmt::Debug>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs0_NtNtNtCs80p5DAyp3TR_4core3fmt3num3imph10__fmt_inner.llvm.12961562941311003782",
+      "demangledName": "<u8>::_fmt_inner",
+      "canonicalName": "<u8>::_fmt_inner",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs5_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impt10__fmt_inner.llvm.12961562941311003782",
+      "demangledName": "<u16>::_fmt_inner",
+      "canonicalName": "<u16>::_fmt_inner",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsa_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impm10__fmt_inner.llvm.12961562941311003782",
+      "demangledName": "<u32>::_fmt_inner",
+      "canonicalName": "<u32>::_fmt_inner",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsf_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impj10__fmt_inner.llvm.12961562941311003782",
+      "demangledName": "<usize>::_fmt_inner",
+      "canonicalName": "<usize>::_fmt_inner",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMsk_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impy10__fmt_inner.llvm.12961562941311003782",
+      "demangledName": "<u64>::_fmt_inner",
+      "canonicalName": "<u64>::_fmt_inner",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtNtCs80p5DAyp3TR_4core3fmt3num3imphNtB6_7Display3fmt",
+      "demangledName": "<u8 as core::fmt::Display>::fmt",
+      "canonicalName": "<u8 as core::fmt::Display>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs3_NtNtNtCs80p5DAyp3TR_4core3fmt3num3imptNtB9_7Display3fmt",
+      "demangledName": "<u16 as core::fmt::Display>::fmt",
+      "canonicalName": "<u16 as core::fmt::Display>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs8_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impmNtB9_7Display3fmt",
+      "demangledName": "<u32 as core::fmt::Display>::fmt",
+      "canonicalName": "<u32 as core::fmt::Display>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsd_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impjNtB9_7Display3fmt",
+      "demangledName": "<usize as core::fmt::Display>::fmt",
+      "canonicalName": "<usize as core::fmt::Display>::fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs9_NtNtNtCs80p5DAyp3TR_4core3fmt3num3implNtB9_7Display3fmt",
+      "demangledName": "<i32 as core::fmt::Display>::fmt",
+      "canonicalName": "<i32 as core::fmt::Display>::fmt",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXse_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impiNtB9_7Display3fmt",
+      "demangledName": "<isize as core::fmt::Display>::fmt",
+      "canonicalName": "<isize as core::fmt::Display>::fmt",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXsi_NtNtNtCs80p5DAyp3TR_4core3fmt3num3impyNtB9_7Display3fmt",
+      "demangledName": "<u64 as core::fmt::Display>::fmt",
+      "canonicalName": "<u64 as core::fmt::Display>::fmt",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs3_NtNtCs80p5DAyp3TR_4core3ffi5c_strNtB5_4CStr6to_str",
+      "demangledName": "<core::ffi::c_str::CStr>::to_str",
+      "canonicalName": "<core::ffi::c_str::CStr>::to_str",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtCs80p5DAyp3TR_4core5slice3cmpShNtNtB6_3cmp9PartialEq2eqB6_",
+      "demangledName": "<[u8] as core::cmp::PartialEq>::eq",
+      "canonicalName": "<[u8] as core::cmp::PartialEq>::eq",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMNtCs80p5DAyp3TR_4core3stre9ends_withcEB5_",
+      "demangledName": "<str>::ends_with::<char>",
+      "canonicalName": "<str>::ends_with::<char>",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvNtCs80p5DAyp3TR_4core9panicking13assert_failedjjEB4_",
+      "demangledName": "core::panicking::assert_failed::<usize, usize>",
+      "canonicalName": "core::panicking::assert_failed::<usize, usize>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMNtNtCs80p5DAyp3TR_4core4char7methodsc11encode_utf8.llvm.14172581451746860891",
+      "demangledName": "<char>::encode_utf8",
+      "canonicalName": "<char>::encode_utf8",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs4_NtNtCs80p5DAyp3TR_4core5panic8locationNtB5_8Location4file",
+      "demangledName": "<core::panic::location::Location>::file",
+      "canonicalName": "<core::panic::location::Location>::file",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core3str16slice_error_fail",
+      "demangledName": "core::str::slice_error_fail",
+      "canonicalName": "core::str::slice_error_fail",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core3str19slice_error_fail_rt",
+      "demangledName": "core::str::slice_error_fail_rt",
+      "canonicalName": "core::str::slice_error_fail_rt",
+      "size": 96,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core6option13unwrap_failed",
+      "demangledName": "core::option::unwrap_failed",
+      "canonicalName": "core::option::unwrap_failed",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core6result13unwrap_failed",
+      "demangledName": "core::result::unwrap_failed",
+      "canonicalName": "core::result::unwrap_failed",
+      "size": 48,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core9panicking18panic_bounds_check",
+      "demangledName": "core::panicking::panic_bounds_check",
+      "canonicalName": "core::panicking::panic_bounds_check",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core9panicking18panic_nounwind_fmt",
+      "demangledName": "core::panicking::panic_nounwind_fmt",
+      "canonicalName": "core::panicking::panic_nounwind_fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core9panicking19assert_failed_inner",
+      "demangledName": "core::panicking::assert_failed_inner",
+      "canonicalName": "core::panicking::assert_failed_inner",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core9panicking5panic",
+      "demangledName": "core::panicking::panic",
+      "canonicalName": "core::panicking::panic",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtCs80p5DAyp3TR_4core9panicking9panic_fmt",
+      "demangledName": "core::panicking::panic_fmt",
+      "canonicalName": "core::panicking::panic_fmt",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNvNtCs80p5DAyp3TR_4core9panicking18panic_nounwind_fmt7runtime",
+      "demangledName": "core::panicking::panic_nounwind_fmt::runtime",
+      "canonicalName": "core::panicking::panic_nounwind_fmt::runtime",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtCs80p5DAyp3TR_4core3str4iterNtB2_5CharsNtNtNtNtB6_4iter6traits8iterator8Iterator4next",
+      "demangledName": "<core::str::iter::Chars as core::iter::traits::iterator::Iterator>::next",
+      "canonicalName": "<core::str::iter::Chars as core::iter::traits::iterator::Iterator>::next",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs_NtNtCs80p5DAyp3TR_4core5panic10panic_infoNtB4_9PanicInfoNtNtB8_3fmt7Display3fmt",
+      "demangledName": "<core::panic::panic_info::PanicInfo as core::fmt::Display>::fmt",
+      "canonicalName": "<core::panic::panic_info::PanicInfo as core::fmt::Display>::fmt",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "OUTLINED_FUNCTION_0",
+      "demangledName": "OUTLINED_FUNCTION_0",
+      "canonicalName": "OUTLINED_FUNCTION_0",
+      "size": 0,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvXs0_NtNtNtCs80p5DAyp3TR_4core4iter8adapters3mapINtB6_3MapINtNtNtBc_5slice4iter4IterhENCINvNvXs1_NtB8_6filterINtB1A_6FilterppENtNtNtBa_6traits8iterator8Iterator5count8to_usizeRhNCNvNtNtBc_3str5count23char_count_general_case0E0EB23_4foldjNCINvXsK_NtB27_5accumjNtB3Z_3Sum3sumBN_E0EBc_",
+      "demangledName": "<core::iter::adapters::map::Map<core::slice::iter::Iter<u8>, <core::iter::adapters::filter::Filter<_, _> as core::iter::traits::iterator::Iterator>::count::to_usize<&u8, core::str::count::char_count_general_case::{closure#0}>::{closure#0}> as core::iter::traits::iterator::Iterator>::fold::<usize, <usize as core::iter::traits::accum::Sum>::sum<core::iter::adapters::map::Map<core::slice::iter::Iter<u8>, <core::iter::adapters::filter::Filter<_, _> as core::iter::traits::iterator::Iterator>::count::to_usize<&u8, core::str::count::char_count_general_case::{closure#0}>::{closure#0}>>::{closure#0}>",
+      "canonicalName": "<core::iter::adapters::map::Map<core::slice::iter::Iter<u8>, <core::iter::adapters::filter::Filter<_, _> as core::iter::traits::iterator::Iterator>::count::to_usize<&u8, core::str::count::char_count_general_case",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs1_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB6_11DebugStruct10field_withNCNvB2_5field0EBa_",
+      "demangledName": "<core::fmt::builders::DebugStruct>::field_with::<<core::fmt::builders::DebugStruct>::field::{closure#0}>",
+      "canonicalName": "<core::fmt::builders::DebugStruct>::field_with::<<core::fmt::builders::DebugStruct>::field",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMs2_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB6_10DebugTuple10field_withNCNvB2_5field0EBa_",
+      "demangledName": "<core::fmt::builders::DebugTuple>::field_with::<<core::fmt::builders::DebugTuple>::field::{closure#0}>",
+      "canonicalName": "<core::fmt::builders::DebugTuple>::field_with::<<core::fmt::builders::DebugTuple>::field",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs1_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB5_11DebugStruct6finish",
+      "demangledName": "<core::fmt::builders::DebugStruct>::finish",
+      "canonicalName": "<core::fmt::builders::DebugStruct>::finish",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvMs2_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB5_10DebugTuple6finish",
+      "demangledName": "<core::fmt::builders::DebugTuple>::finish",
+      "canonicalName": "<core::fmt::builders::DebugTuple>::finish",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNvMNtNtCs80p5DAyp3TR_4core3ptr9const_ptrPp20offset_from_unsigned14runtime_ptr_ge",
+      "demangledName": "<*const _>::offset_from_unsigned::runtime_ptr_ge",
+      "canonicalName": "<*const _>::offset_from_unsigned::runtime_ptr_ge",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs0_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write10write_char",
+      "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_char",
+      "canonicalName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_char",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXs0_NtNtCs80p5DAyp3TR_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str",
+      "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_str",
+      "canonicalName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_str",
+      "size": 80,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvYNtNtNtCs80p5DAyp3TR_4core3fmt8builders10PadAdapterNtB6_5Write9write_fmtB8_",
+      "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_fmt",
+      "canonicalName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_fmt",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RINvMNtCs80p5DAyp3TR_4core5sliceSh8align_tojEB5_",
+      "demangledName": "<[u8]>::align_to::<usize>",
+      "canonicalName": "<[u8]>::align_to::<usize>",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core3str8converts9from_utf8",
+      "demangledName": "core::str::converts::from_utf8",
+      "canonicalName": "core::str::converts::from_utf8",
+      "size": 64,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core5slice5index16slice_index_fail",
+      "demangledName": "core::slice::index::slice_index_fail",
+      "canonicalName": "core::slice::index::slice_index_fail",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNtNtCs80p5DAyp3TR_4core5slice6memchr14memchr_aligned",
+      "demangledName": "core::slice::memchr::memchr_aligned",
+      "canonicalName": "core::slice::memchr::memchr_aligned",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvNvNvNtNtCs80p5DAyp3TR_4core5slice5index16slice_index_fail8do_panic7runtime",
+      "demangledName": "core::slice::index::slice_index_fail::do_panic::runtime",
+      "canonicalName": "core::slice::index::slice_index_fail::do_panic::runtime",
+      "size": 32,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "_RNvXNtNtNtCs80p5DAyp3TR_4core4iter6traits10exact_sizeQNtNtNtB8_3ops11index_range10IndexRangeNtB2_17ExactSizeIterator3lenB8_",
+      "demangledName": "<&mut core::ops::index_range::IndexRange as core::iter::traits::exact_size::ExactSizeIterator>::len",
+      "canonicalName": "<&mut core::ops::index_range::IndexRange as core::iter::traits::exact_size::ExactSizeIterator>::len",
+      "size": 16,
+      "file": null,
+      "line": null
+    },
+    {
+      "mangledName": "strlen",
+      "demangledName": "strlen",
+      "canonicalName": "strlen",
+      "size": 16,
+      "file": null,
+      "line": null
+    }
+  ]
+}

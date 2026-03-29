@@ -33,10 +33,13 @@ ws2812-driver = { path = "../../" }
 myrtio-light-composer = "0.6.7"
 
 
+
+
 [profile.dev]
 # Rust debug is too slow.
 # For debug builds always builds with some optimization
 opt-level = "s"
+
 
 [profile.release]
 codegen-units = 1        # LLVM can perform better optimizations using a single thread

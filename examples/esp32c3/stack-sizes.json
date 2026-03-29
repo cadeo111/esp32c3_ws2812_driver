@@ -1,0 +1,1409 @@
+[
+  {
+    "mangledName": "_start_trap_rust_hal",
+    "demangledName": "_start_trap_rust_hal",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-0.15.0/src/register/macros.rs",
+    "line": 27
+  },
+  {
+    "mangledName": "_start_trap_rust",
+    "demangledName": "_start_trap_rust",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-0.15.0/src/register/macros.rs",
+    "line": 27
+  },
+  {
+    "mangledName": "_RNvNtNtCsj5sWx6Nmnqt_7esp_hal4gpio9interrupt30default_gpio_interrupt_handler",
+    "demangledName": "esp_hal::gpio::interrupt::default_gpio_interrupt_handler",
+    "size": 96,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/interrupt.rs",
+    "line": 149
+  },
+  {
+    "mangledName": "handle_interrupts",
+    "demangledName": "handle_interrupts",
+    "size": 96,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+    "line": 828
+  },
+  {
+    "mangledName": "_RNvMs0_NtCs1O1nqj1fvXX_8esp_rtos9schedulerNtB5_14SchedulerState11resume_task",
+    "demangledName": "<esp_rtos::scheduler::SchedulerState>::resume_task",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/scheduler.rs",
+    "line": 366
+  },
+  {
+    "mangledName": "_RNvMs1_NtCs1O1nqj1fvXX_8esp_rtos9run_queueNtB5_8RunQueue15mark_task_ready",
+    "demangledName": "<esp_rtos::run_queue::RunQueue>::mark_task_ready",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/run_queue.rs",
+    "line": 162
+  },
+  {
+    "mangledName": "_RNvMs1_NtCs1O1nqj1fvXX_8esp_rtos9run_queueNtB5_8RunQueue36select_scheduler_trigger_single_core",
+    "demangledName": "<esp_rtos::run_queue::RunQueue>::select_scheduler_trigger_single_core",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/run_queue.rs",
+    "line": 244
+  },
+  {
+    "mangledName": "_RNvXNtCs1O1nqj1fvXX_8esp_rtos4taskINtNtNtCscm5cui4NbCP_4core3ptr8non_null7NonNullNtB2_4TaskENtB2_7TaskExt6resume",
+    "demangledName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::resume",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+    "line": 131
+  },
+  {
+    "mangledName": "_RNvMs1_NtCs1O1nqj1fvXX_8esp_rtos9run_queueNtB5_8RunQueue3pop",
+    "demangledName": "<esp_rtos::run_queue::RunQueue>::pop",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/run_queue.rs",
+    "line": 41
+  },
+  {
+    "mangledName": "_RNvNtCs1O1nqj1fvXX_8esp_rtos5timer18timer_tick_handler",
+    "demangledName": "esp_rtos::timer::timer_tick_handler",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/timer/mod.rs",
+    "line": 225
+  },
+  {
+    "mangledName": "_RNvNtNtCs1O1nqj1fvXX_8esp_rtos4task13arch_specific13swint_handler",
+    "demangledName": "esp_rtos::task::arch_specific::swint_handler",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/riscv.rs",
+    "line": 312
+  },
+  {
+    "mangledName": "__pender",
+    "demangledName": "__pender",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/embassy/mod.rs",
+    "line": 108
+  },
+  {
+    "mangledName": "_start_rust",
+    "demangledName": "_start_rust",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-rt-0.16.0/src/lib.rs",
+    "line": 694
+  },
+  {
+    "mangledName": "_RINvMNtNtCsif8vnLdxFfa_16embassy_executor3raw4utilINtB3_10UninitCellNCNvNvNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6___main21_____embassy_main_task36_____embassy_main_task_inner_function0E14write_in_placeNCNvB1a_14___embassy_main0EB1c_",
+    "demangledName": "<embassy_executor::raw::util::UninitCell<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function::{closure#0}>>::write_in_place::<ws2812_driver_esp32_test::__main::__embassy_main::{closure#0}>",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ptr/mod.rs",
+    "line": 1908
+  },
+  {
+    "mangledName": "_RINvMs0_NtCs1O1nqj1fvXX_8esp_rtos7embassyNtB6_8Executor3runNCNvNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6___main17___risc_v_rt__main0EB11_",
+    "demangledName": "<esp_rtos::embassy::Executor>::run::<ws2812_driver_esp32_test::__main::__risc_v_rt__main::{closure#0}>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/embassy/mod.rs",
+    "line": 180
+  },
+  {
+    "mangledName": "_RINvMs0_NtCs1O1nqj1fvXX_8esp_rtos7embassyNtB6_8Executor9run_innerNCNvNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6___main17___risc_v_rt__main0NtNvB2_3run7NoHooksEB17_",
+    "demangledName": "<esp_rtos::embassy::Executor>::run_inner::<ws2812_driver_esp32_test::__main::__risc_v_rt__main::{closure#0}, <esp_rtos::embassy::Executor>::run::NoHooks>",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/embassy/mod.rs",
+    "line": 224
+  },
+  {
+    "mangledName": "_RNvMs1_NtCsif8vnLdxFfa_16embassy_executor3rawINtB5_11TaskStorageNCNvNvNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6___main21_____embassy_main_task36_____embassy_main_task_inner_function0E4pollB18_",
+    "demangledName": "<embassy_executor::raw::TaskStorage<ws2812_driver_esp32_test::__main::____embassy_main_task::____embassy_main_task_inner_function::{closure#0}>>::poll",
+    "size": 1952,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embassy-executor-0.9.1/src/raw/mod.rs",
+    "line": 230
+  },
+  {
+    "mangledName": "_RNvNtNtCs1O1nqj1fvXX_8esp_rtos4task13arch_specific9idle_hook",
+    "demangledName": "esp_rtos::task::arch_specific::idle_hook",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/riscv.rs",
+    "line": 114
+  },
+  {
+    "mangledName": "_RNvXNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCs9dg3DdyXDdo_3log3Log3log",
+    "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::log",
+    "size": 144,
+    "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+    "line": 301
+  },
+  {
+    "mangledName": "_RNvXNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCs9dg3DdyXDdo_3log3Log5flush",
+    "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::flush",
+    "size": 0,
+    "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+    "line": 314
+  },
+  {
+    "mangledName": "_RNvXNtCsdGY7mwwrg9W_24ws2812_driver_esp32_test6loggerNtB2_15CustomEspLoggerNtCs9dg3DdyXDdo_3log3Log7enabled",
+    "demangledName": "<ws2812_driver_esp32_test::logger::CustomEspLogger as log::Log>::enabled",
+    "size": 0,
+    "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+    "line": 299
+  },
+  {
+    "mangledName": "_RNvXs17_Cs9dg3DdyXDdo_3logNtB6_14SetLoggerErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<log::SetLoggerError as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+    "line": 1548
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRNtNtCsj5sWx6Nmnqt_7esp_hal3rmt5ErrorNtB6_5Debug3fmtCsdGY7mwwrg9W_24ws2812_driver_esp32_test",
+    "demangledName": "<&esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRNtNtNtB8_3num5error15TryFromIntErrorNtB6_5Debug3fmtCsdGY7mwwrg9W_24ws2812_driver_esp32_test",
+    "demangledName": "<&core::num::error::TryFromIntError as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvXs4_NtNtCs5HmNbCRyENT_13ws2812_driver11strip_based13strip_esp32c3NtB5_17Esp32c3StripErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<ws2812_driver::strip_based::strip_esp32c3::Esp32c3StripError as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/projects/esprs/ws2812-driver/src/strip_based/strip_esp32c3.rs",
+    "line": 34
+  },
+  {
+    "mangledName": "_RNvXsD_NtCsj5sWx6Nmnqt_7esp_hal3rmtNtB5_5ErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<esp_hal::rmt::Error as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rmt.rs",
+    "line": 239
+  },
+  {
+    "mangledName": "_RNvXsZ_NtNtCscm5cui4NbCP_4core3fmt3numjNtB7_5Debug3fmt",
+    "demangledName": "<usize as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2398
+  },
+  {
+    "mangledName": "main",
+    "demangledName": "main",
+    "size": 16,
+    "file": "/mnt/caden/projects/esprs/ws2812-driver/examples/esp32c3/src/main.rs",
+    "line": 76
+  },
+  {
+    "mangledName": "_RINvMs1_NtNtCscm5cui4NbCP_4core3fmt8buildersNtB6_11DebugStruct10field_withNCNvB2_5field0EBa_",
+    "demangledName": "<core::fmt::builders::DebugStruct>::field_with::<<core::fmt::builders::DebugStruct>::field::{closure#0}>",
+    "size": 80,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/builders.rs",
+    "line": 141
+  },
+  {
+    "mangledName": "_RNvXs0_NtNtCscm5cui4NbCP_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write9write_str",
+    "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_str",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/builders.rs",
+    "line": 31
+  },
+  {
+    "mangledName": "_RNvNtNtCscm5cui4NbCP_4core5slice6memchr14memchr_aligned",
+    "demangledName": "core::slice::memchr::memchr_aligned",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ptr/mod.rs",
+    "line": 2283
+  },
+  {
+    "mangledName": "_RNvXs0_NtNtCscm5cui4NbCP_4core3fmt8buildersNtB5_10PadAdapterNtB7_5Write10write_char",
+    "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_char",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/builders.rs",
+    "line": 44
+  },
+  {
+    "mangledName": "_RNvYNtNtNtCscm5cui4NbCP_4core3fmt8builders10PadAdapterNtB6_5Write9write_fmtB8_",
+    "demangledName": "<core::fmt::builders::PadAdapter as core::fmt::Write>::write_fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 212
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core3fmt5write",
+    "demangledName": "core::fmt::write",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 1630
+  },
+  {
+    "mangledName": "_RNvXs6_NtNtCscm5cui4NbCP_4core3fmt3numjNtB7_8LowerHex3fmt",
+    "demangledName": "<usize as core::fmt::LowerHex>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 14
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter12pad_integral",
+    "demangledName": "<core::fmt::Formatter>::pad_integral",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 1825
+  },
+  {
+    "mangledName": "_RNvNvMsa_NtCscm5cui4NbCP_4core3fmtNtB7_9Formatter12pad_integral12write_prefix",
+    "demangledName": "<core::fmt::Formatter>::pad_integral::write_prefix",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 1846
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter7padding",
+    "demangledName": "<core::fmt::Formatter>::padding",
+    "size": 48,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 1951
+  },
+  {
+    "mangledName": "_RNvXsj_NtCscm5cui4NbCP_4core3fmtcNtB5_5Debug3fmt",
+    "demangledName": "<char as core::fmt::Debug>::fmt",
+    "size": 48,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2966
+  },
+  {
+    "mangledName": "_RNvNtNtNtCscm5cui4NbCP_4core7unicode12unicode_data15grapheme_extend11lookup_slow",
+    "demangledName": "core::unicode::unicode_data::grapheme_extend::lookup_slow",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/unicode/unicode_data.rs",
+    "line": 452
+  },
+  {
+    "mangledName": "_RNvNtNtCscm5cui4NbCP_4core7unicode9printable12is_printable",
+    "demangledName": "core::unicode::printable::is_printable",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/unicode/printable.rs",
+    "line": 39
+  },
+  {
+    "mangledName": "_RINvNtCscm5cui4NbCP_4core6escape14escape_unicodeKja_EB4_",
+    "demangledName": "core::escape::escape_unicode::<10>",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/escape.rs",
+    "line": 137
+  },
+  {
+    "mangledName": "_RNvNtNtCscm5cui4NbCP_4core7unicode9printable5check",
+    "demangledName": "core::unicode::printable::check",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/unicode/printable.rs",
+    "line": 4
+  },
+  {
+    "mangledName": "_RNvNtNtCscm5cui4NbCP_4core5slice5index16slice_index_fail",
+    "demangledName": "core::slice::index::slice_index_fail",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/slice/index.rs",
+    "line": 39
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core6option13unwrap_failed",
+    "demangledName": "core::option::unwrap_failed",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/option.rs",
+    "line": 2198
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core9panicking5panic",
+    "demangledName": "core::panicking::panic",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 820
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core9panicking9panic_fmt",
+    "demangledName": "core::panicking::panic_fmt",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/panicking.rs",
+    "line": 60
+  },
+  {
+    "mangledName": "_RNvNvNvNtNtCscm5cui4NbCP_4core5slice5index16slice_index_fail8do_panic7runtime",
+    "demangledName": "core::slice::index::slice_index_fail::do_panic::runtime",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/intrinsics/mod.rs",
+    "line": 2418
+  },
+  {
+    "mangledName": "_RNvNvNvNtNtCscm5cui4NbCP_4core5slice5index16slice_index_fails_8do_panic7runtime",
+    "demangledName": "core::slice::index::slice_index_fail::do_panic::runtime",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/intrinsics/mod.rs",
+    "line": 2418
+  },
+  {
+    "mangledName": "_RNvNvNvNtNtCscm5cui4NbCP_4core5slice5index16slice_index_fails1_8do_panic7runtime",
+    "demangledName": "core::slice::index::slice_index_fail::do_panic::runtime",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/intrinsics/mod.rs",
+    "line": 2418
+  },
+  {
+    "mangledName": "_RNvNvNvNtNtCscm5cui4NbCP_4core5slice5index16slice_index_fails0_8do_panic7runtime",
+    "demangledName": "core::slice::index::slice_index_fail::do_panic::runtime",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/intrinsics/mod.rs",
+    "line": 2418
+  },
+  {
+    "mangledName": "_RNvXsd_NtNtNtCscm5cui4NbCP_4core3fmt3num3impjNtB9_7Display3fmt",
+    "demangledName": "<usize as core::fmt::Display>::fmt",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 135
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core9panicking18panic_bounds_check",
+    "demangledName": "core::panicking::panic_bounds_check",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/panicking.rs",
+    "line": 266
+  },
+  {
+    "mangledName": "_RNvXs1i_NtCscm5cui4NbCP_4core3fmtReNtB6_7Display3fmtB8_",
+    "demangledName": "<&str as core::fmt::Display>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRDNtB6_5DebugEL_Bx_3fmtB8_",
+    "demangledName": "<&dyn core::fmt::Debug as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter3pad",
+    "demangledName": "<core::fmt::Formatter>::pad",
+    "size": 48,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 1909
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter25debug_tuple_field1_finish",
+    "demangledName": "<core::fmt::Formatter>::debug_tuple_field1_finish",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2609
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRjNtB6_5Debug3fmtB8_",
+    "demangledName": "<&usize as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2398
+  },
+  {
+    "mangledName": "_RNvXs8_NtNtCscm5cui4NbCP_4core3fmt3numjNtB7_8UpperHex3fmt",
+    "demangledName": "<usize as core::fmt::UpperHex>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 14
+  },
+  {
+    "mangledName": "_RNvXsi_NtNtNtCscm5cui4NbCP_4core3fmt3num3impyNtB9_7Display3fmt",
+    "demangledName": "<u64 as core::fmt::Display>::fmt",
+    "size": 80,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 135
+  },
+  {
+    "mangledName": "_RNvNtNtCscm5cui4NbCP_4core9panicking11panic_const23panic_const_div_by_zero",
+    "demangledName": "core::panicking::panic_const::panic_const_div_by_zero",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/panicking.rs",
+    "line": 175
+  },
+  {
+    "mangledName": "_RNvMs1_NtNtCscm5cui4NbCP_4core3fmt8buildersNtB5_11DebugStruct6finish",
+    "demangledName": "<core::fmt::builders::DebugStruct>::finish",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/builders.rs",
+    "line": 244
+  },
+  {
+    "mangledName": "_RNvMs3_NtNtCscm5cui4NbCP_4core3ffi5c_strNtB5_4CStr6to_str",
+    "demangledName": "<core::ffi::c_str::CStr>::to_str",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ffi/c_str.rs",
+    "line": 620
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter26debug_struct_field2_finish",
+    "demangledName": "<core::fmt::Formatter>::debug_struct_field2_finish",
+    "size": 48,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2466
+  },
+  {
+    "mangledName": "_RNvMsa_NtCscm5cui4NbCP_4core3fmtNtB5_9Formatter26debug_struct_field3_finish",
+    "demangledName": "<core::fmt::Formatter>::debug_struct_field3_finish",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2485
+  },
+  {
+    "mangledName": "_RNvMsa_NtNtNtCscm5cui4NbCP_4core3fmt3num3impm10__fmt_inner",
+    "demangledName": "<u32>::_fmt_inner",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 190
+  },
+  {
+    "mangledName": "_RNvXs8_NtNtNtCscm5cui4NbCP_4core3fmt3num3impmNtB9_7Display3fmt",
+    "demangledName": "<u32 as core::fmt::Display>::fmt",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 135
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core3str16slice_error_fail",
+    "demangledName": "core::str::slice_error_fail",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/str/mod.rs",
+    "line": 69
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core3str19slice_error_fail_rt",
+    "demangledName": "core::str::slice_error_fail_rt",
+    "size": 80,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/str/mod.rs",
+    "line": 83
+  },
+  {
+    "mangledName": "_RNvXs_NtNtCscm5cui4NbCP_4core3ops5rangeINtB4_5RangejENtNtB8_3fmt5Debug3fmtB8_",
+    "demangledName": "<core::ops::range::Range<usize> as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/range.rs",
+    "line": 93
+  },
+  {
+    "mangledName": "_RNvNtCscm5cui4NbCP_4core6result13unwrap_failed",
+    "demangledName": "core::result::unwrap_failed",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/result.rs",
+    "line": 1866
+  },
+  {
+    "mangledName": "_RNvXNtNtNtCscm5cui4NbCP_4core3fmt3num3imphNtB6_7Display3fmt",
+    "demangledName": "<u8 as core::fmt::Display>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 135
+  },
+  {
+    "mangledName": "_RNvXs9_NtNtNtCscm5cui4NbCP_4core3fmt3num3implNtB9_7Display3fmt",
+    "demangledName": "<i32 as core::fmt::Display>::fmt",
+    "size": 32,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 156
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtReNtB6_5Debug3fmtB8_",
+    "demangledName": "<&str as core::fmt::Debug>::fmt",
+    "size": 128,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRuNtB6_5Debug3fmtB8_",
+    "demangledName": "<&() as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 3124
+  },
+  {
+    "mangledName": "_RNvXse_NtNtCscm5cui4NbCP_4core3fmt3numhNtB7_8LowerHex3fmt",
+    "demangledName": "<u8 as core::fmt::LowerHex>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/num.rs",
+    "line": 14
+  },
+  {
+    "mangledName": "_RNvXs0_NtCsif8vnLdxFfa_16embassy_executor7spawnerNtB5_10SpawnErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<embassy_executor::spawner::SpawnError as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2123
+  },
+  {
+    "mangledName": "_RNvCsbnJxd6xkqTY_7___rustc17rust_begin_unwind",
+    "demangledName": "__rustc::rust_begin_unwind",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/lib.rs",
+    "line": 106
+  },
+  {
+    "mangledName": "_RNvCs6eRvglJAZkD_13esp_backtrace14set_color_code",
+    "demangledName": "esp_backtrace::set_color_code",
+    "size": 48,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/lib.rs",
+    "line": 93
+  },
+  {
+    "mangledName": "_RNvNvCs6eRvglJAZkD_13esp_backtrace13panic_handler9__do_print",
+    "demangledName": "esp_backtrace::panic_handler::_do_print",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-println-0.16.1/src/lib.rs",
+    "line": 45
+  },
+  {
+    "mangledName": "_RNvNvCs6eRvglJAZkD_13esp_backtrace13panic_handlers_9__do_print",
+    "demangledName": "esp_backtrace::panic_handler::_do_print",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-println-0.16.1/src/lib.rs",
+    "line": 45
+  },
+  {
+    "mangledName": "_RNvXs1i_NtCscm5cui4NbCP_4core3fmtRNtNtNtB8_5panic10panic_info9PanicInfoNtB6_7Display3fmtCs6eRvglJAZkD_13esp_backtrace",
+    "demangledName": "<&core::panic::panic_info::PanicInfo as core::fmt::Display>::fmt",
+    "size": 64,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvNvCs6eRvglJAZkD_13esp_backtrace13panic_handlers0_9__do_print",
+    "demangledName": "esp_backtrace::panic_handler::_do_print",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-println-0.16.1/src/lib.rs",
+    "line": 45
+  },
+  {
+    "mangledName": "_RNvNtCs6eRvglJAZkD_13esp_backtrace4arch10dump_stack",
+    "demangledName": "esp_backtrace::arch::dump_stack",
+    "size": 80,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/riscv.rs",
+    "line": 67
+  },
+  {
+    "mangledName": "_RNvCs6eRvglJAZkD_13esp_backtrace5abort",
+    "demangledName": "esp_backtrace::abort",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-backtrace-0.18.1/src/lib.rs",
+    "line": 197
+  },
+  {
+    "mangledName": "DefaultHandler",
+    "demangledName": "DefaultHandler",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "EspDefaultHandler",
+    "demangledName": "EspDefaultHandler",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "GPIO",
+    "demangledName": "GPIO",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "WIFI_MAC",
+    "demangledName": "WIFI_MAC",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "WIFI_MAC_NMI",
+    "demangledName": "WIFI_MAC_NMI",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "WIFI_PWR",
+    "demangledName": "WIFI_PWR",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "WIFI_BB",
+    "demangledName": "WIFI_BB",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "BT_MAC",
+    "demangledName": "BT_MAC",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "BT_BB",
+    "demangledName": "BT_BB",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "BT_BB_NMI",
+    "demangledName": "BT_BB_NMI",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RWBT",
+    "demangledName": "RWBT",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RWBLE",
+    "demangledName": "RWBLE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RWBT_NMI",
+    "demangledName": "RWBT_NMI",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RWBLE_NMI",
+    "demangledName": "RWBLE_NMI",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "I2C_MASTER",
+    "demangledName": "I2C_MASTER",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SLC0",
+    "demangledName": "SLC0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SLC1",
+    "demangledName": "SLC1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "APB_CTRL",
+    "demangledName": "APB_CTRL",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "UHCI0",
+    "demangledName": "UHCI0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "GPIO_NMI",
+    "demangledName": "GPIO_NMI",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SPI1",
+    "demangledName": "SPI1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SPI2",
+    "demangledName": "SPI2",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "I2S0",
+    "demangledName": "I2S0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "UART0",
+    "demangledName": "UART0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "UART1",
+    "demangledName": "UART1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "LEDC",
+    "demangledName": "LEDC",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "EFUSE",
+    "demangledName": "EFUSE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TWAI0",
+    "demangledName": "TWAI0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "USB_DEVICE",
+    "demangledName": "USB_DEVICE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RTC_CORE",
+    "demangledName": "RTC_CORE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RMT",
+    "demangledName": "RMT",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "I2C_EXT0",
+    "demangledName": "I2C_EXT0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TIMER1",
+    "demangledName": "TIMER1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TIMER2",
+    "demangledName": "TIMER2",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TG0_T0_LEVEL",
+    "demangledName": "TG0_T0_LEVEL",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TG0_WDT_LEVEL",
+    "demangledName": "TG0_WDT_LEVEL",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TG1_T0_LEVEL",
+    "demangledName": "TG1_T0_LEVEL",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "TG1_WDT_LEVEL",
+    "demangledName": "TG1_WDT_LEVEL",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CACHE_IA",
+    "demangledName": "CACHE_IA",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SYSTIMER_TARGET0",
+    "demangledName": "SYSTIMER_TARGET0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SYSTIMER_TARGET1",
+    "demangledName": "SYSTIMER_TARGET1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SYSTIMER_TARGET2",
+    "demangledName": "SYSTIMER_TARGET2",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SPI_MEM_REJECT_CACHE",
+    "demangledName": "SPI_MEM_REJECT_CACHE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "ICACHE_PRELOAD0",
+    "demangledName": "ICACHE_PRELOAD0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "ICACHE_SYNC0",
+    "demangledName": "ICACHE_SYNC0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "APB_ADC",
+    "demangledName": "APB_ADC",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "DMA_CH0",
+    "demangledName": "DMA_CH0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "DMA_CH1",
+    "demangledName": "DMA_CH1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "DMA_CH2",
+    "demangledName": "DMA_CH2",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "RSA",
+    "demangledName": "RSA",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "AES",
+    "demangledName": "AES",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "SHA",
+    "demangledName": "SHA",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "FROM_CPU_INTR0",
+    "demangledName": "FROM_CPU_INTR0",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "FROM_CPU_INTR1",
+    "demangledName": "FROM_CPU_INTR1",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "FROM_CPU_INTR2",
+    "demangledName": "FROM_CPU_INTR2",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "FROM_CPU_INTR3",
+    "demangledName": "FROM_CPU_INTR3",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "ASSIST_DEBUG",
+    "demangledName": "ASSIST_DEBUG",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "DMA_APBPERI_PMS",
+    "demangledName": "DMA_APBPERI_PMS",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CORE0_IRAM0_PMS",
+    "demangledName": "CORE0_IRAM0_PMS",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CORE0_DRAM0_PMS",
+    "demangledName": "CORE0_DRAM0_PMS",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CORE0_PIF_PMS",
+    "demangledName": "CORE0_PIF_PMS",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CORE0_PIF_PMS_SIZE",
+    "demangledName": "CORE0_PIF_PMS_SIZE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "BAK_PMS_VIOLATE",
+    "demangledName": "BAK_PMS_VIOLATE",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "CACHE_CORE0_ACS",
+    "demangledName": "CACHE_CORE0_ACS",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 89
+  },
+  {
+    "mangledName": "_RNvXsk_NtCsj5sWx6Nmnqt_7esp_hal6systemNtB5_3CpuNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<esp_hal::system::Cpu as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/system.rs",
+    "line": 218
+  },
+  {
+    "mangledName": "ExceptionHandler",
+    "demangledName": "ExceptionHandler",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/exception_handler/mod.rs",
+    "line": 47
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRNtCs7WE5aSJslKY_8riscv_rt9TrapFrameNtB6_5Debug3fmtCsj5sWx6Nmnqt_7esp_hal",
+    "demangledName": "<&riscv_rt::TrapFrame as core::fmt::Debug>::fmt",
+    "size": 176,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvMs8_CsgAbNOV1M0bB_8esp_syncINtB5_9LockGuardNtNtB5_3raw23SingleCoreInterruptLockE17new_non_reentrantCsj5sWx6Nmnqt_7esp_hal",
+    "demangledName": "<esp_sync::LockGuard<esp_sync::raw::SingleCoreInterruptLock>>::new_non_reentrant",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 398
+  },
+  {
+    "mangledName": "_RNvMs5_NtCsj5sWx6Nmnqt_7esp_hal6systemNtB5_22PeripheralClockControl25enable_forced_with_counts",
+    "demangledName": "<esp_hal::system::PeripheralClockControl>::enable_forced_with_counts",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/system.rs",
+    "line": 158
+  },
+  {
+    "mangledName": "_RNvMs5_NtCsj5sWx6Nmnqt_7esp_hal6systemNtB5_22PeripheralClockControl11reset_racey",
+    "demangledName": "<esp_hal::system::PeripheralClockControl>::reset_racey",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/system.rs",
+    "line": 196
+  },
+  {
+    "mangledName": "_RNvNtCsj5sWx6Nmnqt_7esp_hal6system23assert_peri_reset_racey",
+    "demangledName": "esp_hal::system::assert_peri_reset_racey",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-metadata-generated-0.3.0/src/_generated_esp32c3.rs",
+    "line": 494
+  },
+  {
+    "mangledName": "_RINvNtCs9dg3DdyXDdo_3log13___private_api8log_implNtB2_12GlobalLoggerECsj5sWx6Nmnqt_7esp_hal",
+    "demangledName": "log::__private_api::log_impl::<log::__private_api::GlobalLogger>",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/__private_api.rs",
+    "line": 56
+  },
+  {
+    "mangledName": "_RINvNtCsj5sWx6Nmnqt_7esp_hal3fmt15___unwrap_failedNtB2_9NoneErrorEB4_",
+    "demangledName": "esp_hal::fmt::__unwrap_failed::<esp_hal::fmt::NoneError>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/fmt.rs",
+    "line": 237
+  },
+  {
+    "mangledName": "_RINvMs0_CsgAbNOV1M0bB_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantbNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsj5sWx6Nmnqt_7esp_hal6system9RefCountsE4withbNCNvMs5_B2p_NtB2p_22PeripheralClockControl7disable0E0EB2r_",
+    "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<bool, <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<bool, <esp_hal::system::PeripheralClockControl>::disable::{closure#0}>::{closure#0}>",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 268
+  },
+  {
+    "mangledName": "_RINvMs0_CsgAbNOV1M0bB_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE18lock_non_reentrantuNCINvMs5_B6_INtB6_17NonReentrantMutexNtNtCsj5sWx6Nmnqt_7esp_hal6system9RefCountsE4withuNCNvMs2_B2p_INtB2p_22GenericPeripheralGuardKh8_E8new_with0E0EB2r_",
+    "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock_non_reentrant::<(), <esp_sync::NonReentrantMutex<esp_hal::system::RefCounts>>::with<(), <esp_hal::system::GenericPeripheralGuard<8>>::new_with::{closure#0}>::{closure#0}>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 268
+  },
+  {
+    "mangledName": "_RINvMs0_CsgAbNOV1M0bB_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCNvMs0_NtNtCsj5sWx6Nmnqt_7esp_hal5timer8systimerNtB1F_5Alarm10set_enable0EB1J_",
+    "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), <esp_hal::timer::systimer::Alarm>::set_enable::{closure#0}>",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 274
+  },
+  {
+    "mangledName": "_RNvMs0_NtNtCsj5sWx6Nmnqt_7esp_hal3rom6regi2cNtB5_14RawRegI2cField11write_field",
+    "demangledName": "<esp_hal::rom::regi2c::RawRegI2cField>::write_field",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/rom/regi2c.rs",
+    "line": 71
+  },
+  {
+    "mangledName": "_RNvMsr_NtCsj5sWx6Nmnqt_7esp_hal4gpioNtB5_6AnyPin5steal",
+    "demangledName": "<esp_hal::gpio::AnyPin>::steal",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/gpio/mod.rs",
+    "line": 2131
+  },
+  {
+    "mangledName": "_RINvNtCsj5sWx6Nmnqt_7esp_hal3fmt15___unwrap_failedNtNtNtB4_9interrupt5riscv5ErrorEB4_",
+    "demangledName": "esp_hal::fmt::__unwrap_failed::<esp_hal::interrupt::riscv::Error>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/fmt.rs",
+    "line": 237
+  },
+  {
+    "mangledName": "_RNvXs4_NtNtCsj5sWx6Nmnqt_7esp_hal9interrupt5riscvNtB5_5ErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<esp_hal::interrupt::riscv::Error as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+    "line": 33
+  },
+  {
+    "mangledName": "_RNvNtCsj5sWx6Nmnqt_7esp_hal8debugger20set_stack_watchpoint",
+    "demangledName": "esp_hal::debugger::set_stack_watchpoint",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/num/uint_macros.rs",
+    "line": 3663
+  },
+  {
+    "mangledName": "_RNvNtNtNtCsj5sWx6Nmnqt_7esp_hal9interrupt5riscv8vectored14bind_interrupt",
+    "demangledName": "esp_hal::interrupt::riscv::vectored::bind_interrupt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+    "line": 455
+  },
+  {
+    "mangledName": "_RNvYNCNvMs2_NtCsj5sWx6Nmnqt_7esp_hal6systemINtBa_22GenericPeripheralGuardKh8_E3new0INtNtNtCscm5cui4NbCP_4core3ops8function6FnOnceuE9call_onceBc_",
+    "demangledName": "<<esp_hal::system::GenericPeripheralGuard<8>>::new::{closure#0} as core::ops::function::FnOnce<()>>::call_once",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/ops/function.rs",
+    "line": 250
+  },
+  {
+    "mangledName": "_RNvXs2_NtCs5ahebS4LRsk_9riscv_pac6resultNtB5_5ErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<riscv_pac::result::Error as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-pac-0.2.0/src/result.rs",
+    "line": 7
+  },
+  {
+    "mangledName": "_RNvNtNtNtCsj5sWx6Nmnqt_7esp_hal9interrupt5riscv7classic16current_runlevel",
+    "demangledName": "esp_hal::interrupt::riscv::classic::current_runlevel",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+    "line": 593
+  },
+  {
+    "mangledName": "_RNvXs3_NtCsj5sWx6Nmnqt_7esp_hal9interruptNtB5_23InterruptStatusIteratorNtNtNtNtCscm5cui4NbCP_4core4iter6traits8iterator8Iterator4next",
+    "demangledName": "<esp_hal::interrupt::InterruptStatusIterator as core::iter::traits::iterator::Iterator>::next",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/mod.rs",
+    "line": 340
+  },
+  {
+    "mangledName": "_setup_interrupts",
+    "demangledName": "_setup_interrupts",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/interrupt/riscv.rs",
+    "line": 790
+  },
+  {
+    "mangledName": "_RINvMs0_CsgAbNOV1M0bB_8esp_syncINtB6_15GenericRawMutexNtNtB6_3raw23SingleCoreInterruptLockE4lockuNCINvCsaV7hwOh14Xi_11esp_println4withuNCNvMs_B1C_NtB1C_7Printer11write_bytes0E0EB1C_",
+    "demangledName": "<esp_sync::GenericRawMutex<esp_sync::raw::SingleCoreInterruptLock>>::lock::<(), esp_println::with<(), <esp_println::Printer>::write_bytes::{closure#0}>::{closure#0}>",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 274
+  },
+  {
+    "mangledName": "_RNvXCsaV7hwOh14Xi_11esp_printlnNtB2_7PrinterNtNtCscm5cui4NbCP_4core3fmt5Write9write_str",
+    "demangledName": "<esp_println::Printer as core::fmt::Write>::write_str",
+    "size": 16,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-println-0.16.1/src/lib.rs",
+    "line": 118
+  },
+  {
+    "mangledName": "_RNvYNtCsaV7hwOh14Xi_11esp_println7PrinterNtNtCscm5cui4NbCP_4core3fmt5Write10write_charB4_",
+    "demangledName": "<esp_println::Printer as core::fmt::Write>::write_char",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 183
+  },
+  {
+    "mangledName": "_RNvYNtCsaV7hwOh14Xi_11esp_println7PrinterNtNtCscm5cui4NbCP_4core3fmt5Write9write_fmtB4_",
+    "demangledName": "<esp_println::Printer as core::fmt::Write>::write_fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 212
+  },
+  {
+    "mangledName": "_RNvXs1i_NtCscm5cui4NbCP_4core3fmtRNtB6_9ArgumentsNtB6_7Display3fmtCsaV7hwOh14Xi_11esp_println",
+    "demangledName": "<&core::fmt::Arguments as core::fmt::Display>::fmt",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvNtCsf3YDLBL5mSL_11esp_rom_sys7syscall15not_implemented",
+    "demangledName": "esp_rom_sys::syscall::not_implemented",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/syscall/mod.rs",
+    "line": 62
+  },
+  {
+    "mangledName": "_RNvNtCsf3YDLBL5mSL_11esp_rom_sys7syscall13abort_wrapper",
+    "demangledName": "esp_rom_sys::syscall::abort_wrapper",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/syscall/mod.rs",
+    "line": 66
+  },
+  {
+    "mangledName": "__assert_func",
+    "demangledName": "__assert_func",
+    "size": 80,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/lib.rs",
+    "line": 52
+  },
+  {
+    "mangledName": "_RNvXs9_NtNtCscm5cui4NbCP_4core3str5errorNtB5_9Utf8ErrorNtNtB9_3fmt5Debug3fmt",
+    "demangledName": "<core::str::error::Utf8Error as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/str/error.rs",
+    "line": 45
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRINtNtB8_6option6OptionhENtB6_5Debug3fmtCsf3YDLBL5mSL_11esp_rom_sys",
+    "demangledName": "<&core::option::Option<u8> as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "_RNvXs1g_NtCscm5cui4NbCP_4core3fmtRhNtB6_5Debug3fmtCsf3YDLBL5mSL_11esp_rom_sys",
+    "demangledName": "<&u8 as core::fmt::Debug>::fmt",
+    "size": 16,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/fmt/mod.rs",
+    "line": 2865
+  },
+  {
+    "mangledName": "__atoi",
+    "demangledName": "__atoi",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/lib.rs",
+    "line": 121
+  },
+  {
+    "mangledName": "__mktime",
+    "demangledName": "__mktime",
+    "size": 64,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/lib.rs",
+    "line": 174
+  },
+  {
+    "mangledName": "__strnlen",
+    "demangledName": "__strnlen",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rom-sys-0.1.3/src/lib.rs",
+    "line": 99
+  },
+  {
+    "mangledName": "_RINvNtCs1O1nqj1fvXX_8esp_rtos3fmt15___unwrap_failedNtNtCscm5cui4NbCP_4core4cell14BorrowMutErrorEB4_",
+    "demangledName": "esp_rtos::fmt::__unwrap_failed::<core::cell::BorrowMutError>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+    "line": 237
+  },
+  {
+    "mangledName": "_RINvNtCs1O1nqj1fvXX_8esp_rtos3fmt15___unwrap_failedNtB2_9NoneErrorEB4_",
+    "demangledName": "esp_rtos::fmt::__unwrap_failed::<esp_rtos::fmt::NoneError>",
+    "size": 32,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+    "line": 237
+  },
+  {
+    "mangledName": "_RNvXNtCs1O1nqj1fvXX_8esp_rtos4taskINtNtNtCscm5cui4NbCP_4core3ptr8non_null7NonNullNtB2_4TaskENtB2_7TaskExt9set_state",
+    "demangledName": "<core::ptr::non_null::NonNull<esp_rtos::task::Task> as esp_rtos::task::TaskExt>::set_state",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/task/mod.rs",
+    "line": 158
+  },
+  {
+    "mangledName": "_RNvXs3_NtCs1O1nqj1fvXX_8esp_rtos3fmtNtB5_9NoneErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt",
+    "demangledName": "<esp_rtos::fmt::NoneError as core::fmt::Debug>::fmt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/fmt.rs",
+    "line": 275
+  },
+  {
+    "mangledName": "_RNvXs1d_NtCscm5cui4NbCP_4core4cellNtB6_14BorrowMutErrorNtNtB8_3fmt5Debug3fmt.135",
+    "demangledName": "<core::cell::BorrowMutError as core::fmt::Debug>::fmt.135",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/cell.rs",
+    "line": 867
+  },
+  {
+    "mangledName": "_RNvMs0_NtCs1O1nqj1fvXX_8esp_rtos9schedulerNtB5_14SchedulerState19delete_marked_tasks",
+    "demangledName": "<esp_rtos::scheduler::SchedulerState>::delete_marked_tasks",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/core/src/mem/mod.rs",
+    "line": 897
+  },
+  {
+    "mangledName": "_RNvMs0_NtCs1O1nqj1fvXX_8esp_rtos5timerNtB5_10TimeDriver15arm_next_wakeup",
+    "demangledName": "<esp_rtos::timer::TimeDriver>::arm_next_wakeup",
+    "size": 80,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/timer/mod.rs",
+    "line": 158
+  },
+  {
+    "mangledName": "_RNvXse_NtCsj5sWx6Nmnqt_7esp_hal5timerNtB5_5ErrorNtNtCscm5cui4NbCP_4core3fmt5Debug3fmt.136",
+    "demangledName": "<esp_hal::timer::Error as core::fmt::Debug>::fmt.136",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-hal-1.0.0/src/timer/mod.rs",
+    "line": 67
+  },
+  {
+    "mangledName": "_RNvMs_NtCs1O1nqj1fvXX_8esp_rtos7embassyNtB4_10ThreadFlag3new",
+    "demangledName": "<esp_rtos::embassy::ThreadFlag>::new",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-rtos-0.2.0/src/embassy/mod.rs",
+    "line": 52
+  },
+  {
+    "mangledName": "_RNvCsgAbNOV1M0bB_8esp_sync24panic_lock_not_reentrant",
+    "demangledName": "esp_sync::panic_lock_not_reentrant",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/esp-sync-0.1.1/src/lib.rs",
+    "line": 427
+  },
+  {
+    "mangledName": "_RNvXsh_Cs9dg3DdyXDdo_3logNtB5_9NopLoggerNtB5_3Log7enabled",
+    "demangledName": "<log::NopLogger as log::Log>::enabled",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+    "line": 1288
+  },
+  {
+    "mangledName": "_RNvXsh_Cs9dg3DdyXDdo_3logNtB5_9NopLoggerNtB5_3Log3log",
+    "demangledName": "<log::NopLogger as log::Log>::log",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+    "line": 1290
+  },
+  {
+    "mangledName": "_RNvXs3_Cs9dg3DdyXDdo_3logNtB5_5LevelNtNtCscm5cui4NbCP_4core3fmt7Display3fmt",
+    "demangledName": "<log::Level as core::fmt::Display>::fmt",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.29/src/lib.rs",
+    "line": 562
+  },
+  {
+    "mangledName": "_default_setup_interrupts",
+    "demangledName": "_default_setup_interrupts",
+    "size": 0,
+    "file": "/home/caden/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/riscv-0.15.0/src/bits.rs",
+    "line": 7
+  },
+  {
+    "mangledName": "strlen",
+    "demangledName": "strlen",
+    "size": 0,
+    "file": "/mnt/caden/sub-container-homes/fedora-coolify-gnome/caden/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/library/compiler-builtins/compiler-builtins/src/macros.rs",
+    "line": 415
+  }
+]

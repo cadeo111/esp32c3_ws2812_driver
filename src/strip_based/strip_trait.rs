@@ -7,7 +7,6 @@ use heapless::Vec;
 use smart_leds::RGB8;
 use thiserror::Error;
 
-
 /// save RGB as u32 color value (24bit) representation for neopixel
 ///
 /// e.g. rgb: (1,2,4)
@@ -84,7 +83,11 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     }
     fn _zero_out_index_unchecked(&mut self, index: usize);
     fn _set_led_unchecked(&mut self, index: usize, color: C);
-    fn set_led<C24B:Color24bit>(&mut self, index: usize, color: C24B) -> core::result::Result<(), Self::Error> {
+    fn set_led<C24B: Color24bit>(
+        &mut self,
+        index: usize,
+        color: C24B,
+    ) -> core::result::Result<(), Self::Error> {
         if index >= LENGTH {
             Err(LedStripTraitError::IndexOutOfRangeOfStrip {
                 length: LENGTH,
@@ -111,10 +114,12 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
         &mut self,
     ) -> core::result::Result<heapless::Vec<Self::SignalPeriodType, MIN_SIGNAL_LENGTH>, Self::Error>
     {
+        use const_format::formatcp;
+
         const {
             assert!(
                 MIN_SIGNAL_LENGTH >= LENGTH * 24,
-                "Buffer size must be at least 24 x LENGTH (the number of leds) !"
+                concat!("Buffer size must be at least 24 x LENGTH (the number of leds)!")
             );
         }
 

@@ -7,6 +7,7 @@ pub use strip_esp32c3::{
     Esp32c3StripError,
     LedStripEsp32C3,
     StripResult,
+    duration_to_ticks,
     min_length_times_24_plus_one,
 };
 pub use strip_trait::{
@@ -14,5 +15,5 @@ pub use strip_trait::{
     LedStrip,
     LedStripTraitError,
     SignalPeriod,
-    rgb_to_packed
+    rgb_to_packed,
 };
