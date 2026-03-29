@@ -1,3 +1,4 @@
 #![no_std]
 
-pub mod neopixel;
+pub mod strip_based;
+pub mod grid_based;

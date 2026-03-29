@@ -18,7 +18,8 @@ use esp_hal::{
     timer::timg::TimerGroup,
 };
 use log::info;
-use ws2812_driver::neopixel::{
+use ws2812_driver::strip_based::{
+    Color24bit,
     LedStrip,
     LedStripEsp32C3,
     Rgb,
@@ -52,7 +53,7 @@ async fn main(spawner: Spawner) -> ! {
 
     info!("Embassy initialized!");
 
-    const LED_LENGTH: u8 = 64;
+    const LED_LENGTH: u8 = 1;
     let mut strip: LedStripEsp32C3<
         '_,
         { LED_LENGTH as usize },
@@ -84,9 +85,9 @@ async fn main(spawner: Spawner) -> ! {
         idx += 1;
         idx %= { LED_LENGTH as usize };
         // Timer::after(Duration::from_secs(1)).await;
-        if idx == 5 {
-            break;
-        }
+        // if idx == 5 {
+        //     break;
+        // }
     }
 
     use myrtio_light_composer::{
@@ -104,7 +105,6 @@ async fn main(spawner: Spawner) -> ! {
         bounds::RenderingBounds,
         filter::BrightnessFilterConfig,
     };
-    use ws2812_driver::neopixel::Color24bit;
 
     // 1. Create communication channel (static for 'static lifetime)
     static INTENTS: IntentChannel<16> = IntentChannel::new();
