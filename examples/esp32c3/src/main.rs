@@ -7,6 +7,8 @@
 )]
 #![deny(clippy::large_stack_frames)]
 
+// #![feature(min_generic_const_args)]
+
 use embassy_executor::Spawner;
 use embassy_time::{
     Duration,
@@ -18,17 +20,52 @@ use esp_hal::{
     timer::timg::TimerGroup,
 };
 use log::info;
-use ws2812_driver::neopixel::{
-    LedStrip,
-    LedStripEsp32C3,
-    Rgb,
-    SignalPeriod,
-    min_length_times_24_plus_one,
+use ws2812_driver::{
+    generate_grid_definition,
+    grid_based::RowsSameDirection,
+    strip_based::{
+        Color24bit,
+        LedStrip,
+        LedStripEsp32C3,
+        Rgb,
+        SignalPeriod,
+        min_length_times_24_plus_one,
+    },
 };
 
 // This creates a default app-descriptor required by the esp-idf bootloader.
 // For more information see: <https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/app_image_format.html#application-description>
 esp_bootloader_esp_idf::esp_app_desc!();
+
+macro_rules! error_then_panic {
+    // This pattern captures the format string ($fmt) and any arguments ($arg)
+    ($fmt:expr $(, $($arg:tt)*)?) => {
+        {
+            // We use a block to keep the scope clean
+            let file = file!();
+            let line = line!();
+
+            // Log it first
+            log::error!(concat!("[{}:{}] ", $fmt), file, line $(, $($arg)*)?);
+
+            // Panic with the same formatted string
+            panic!(concat!("[{}:{}] ", $fmt), file, line $(, $($arg)*)?);
+        }
+    };
+}
+
+macro_rules! panic_escape {
+    ($result:expr) => {
+        match $result {
+            Ok(val) => val,
+            Err(e) => {
+                // Passes the error to your previous macro
+                // This will include the file and line of the panic_escape! call
+                error_then_panic!("Error: {:#?}", e);
+            }
+        }
+    };
+}
 
 #[allow(
     clippy::large_stack_frames,
@@ -51,18 +88,114 @@ async fn main(spawner: Spawner) -> ! {
     esp_rtos::start(timg0.timer0, sw_interrupt.software_interrupt0);
 
     info!("Embassy initialized!");
+    // led_strip_example(peripherals.GPIO6, peripherals.RMT).await;
+    led_grid_example(peripherals.GPIO6, peripherals.RMT).await;
 
-    const LED_LENGTH: u8 = 64;
+    loop {}
+    // for inspiration have a look at the examples at https://github.com/esp-rs/esp-hal/tree/esp-hal-v1.0.0/examples
+}
+
+#[allow(clippy::large_stack_frames)]
+pub async fn led_grid_example<'a>(
+    led_pin: impl esp_hal::gpio::interconnect::PeripheralOutput<'a>,
+    rmt: esp_hal::peripherals::RMT<'a>,
+) -> ! {
+    // use ws2812_driver::grid_based::GridDimensions;
+    // use ws2812_driver::grid_based::LedGrid8x8;
+    use ws2812_driver::grid_based::LedGridEsp32c3;
+
+    generate_grid_definition!(MyGrid, 8, 8, 1);
+
+    let mut grid = panic_escape!(MyGrid::create(led_pin, rmt, RowsSameDirection));
+
+    let color = Rgb::CYBER_PURPLE;
+    let mut index = 0;
+
+    fn comparison((x, y): &(usize, usize), index: u8) -> bool {
+        let index = index as usize;
+        match index % 4 {
+            0 => *x == (0 + (index / 4)) % 4,
+            1 => *y == (0 + (index / 4)) % 4,
+            2 => *x == MyGrid::WIDTH - (1 + (0 + (index / 4)) % 4),
+            _ => *y == MyGrid::HEIGHT - (1 + (0 + (index / 4)) % 4),
+        }
+    }
+
+    loop {
+        grid.get_z_mut(0).clear();
+
+        grid.get_z_mut(0)
+            .iter_mut()
+            .filter(|(p, _)| comparison(p, index))
+            .for_each(|(_, rgb)| {
+                rgb.update_self(&color);
+            });
+        panic_escape!(grid.refresh());
+
+        index += 1;
+        // index %= 4;
+        Timer::after(Duration::from_millis(250)).await;
+
+        // Timer::after(Duration::from_millis(250)).await;
+        // grid.get_z_mut(0)
+        //     .iter_mut()
+        //     .filter(|((_, y), _)| *y == 0)
+        //     .for_each(|(_, rgb)| {
+        //         rgb.update_self(&color);
+        //     });
+        // grid.refresh();
+
+        // Timer::after(Duration::from_millis(250)).await;
+        // grid.get_z_mut(0)
+        //     .iter_mut()
+        //     .filter(|((x, _), _)| *x == MyGrid::WIDTH - 1)
+        //     .for_each(|(_, rgb)| {
+        //         rgb.update_self(&color);
+        //     });
+        // grid.refresh();
+
+        // Timer::after(Duration::from_millis(250)).await;
+        // grid.get_z_mut(0)
+        //     .iter_mut()
+        //     .filter(|((_, y), _)| *y == MyGrid::HEIGHT - 1)
+        //     .for_each(|(_, rgb)| {
+        //         rgb.update_self(&color);
+        //     });
+        // grid.refresh();
+    }
+}
+
+#[allow(clippy::large_stack_frames)]
+// clippy says this is 1168 bytes on the stack a little over the 1024 limit for the error
+pub async fn led_strip_example<'a>(
+    led_pin: impl esp_hal::gpio::interconnect::PeripheralOutput<'a>,
+    rmt: esp_hal::peripherals::RMT<'a>,
+) -> ! {
+    use myrtio_light_composer::{
+        Duration,
+        EffectId,
+        FilterProcessorConfig,
+        Instant,
+        IntentChannel,
+        LightChangeIntent,
+        LightEngineConfig,
+        LightStateIntent,
+        Renderer,
+        Rgb as ComposerRGB,
+        TransitionTimings,
+        bounds::RenderingBounds,
+        filter::BrightnessFilterConfig,
+    };
+
+    const LED_LENGTH: u8 = 1;
     let mut strip: LedStripEsp32C3<
         '_,
         { LED_LENGTH as usize },
         { min_length_times_24_plus_one(LED_LENGTH as usize) },
-    > = LedStripEsp32C3::new(peripherals.GPIO6, peripherals.RMT).unwrap();
+    > = LedStripEsp32C3::new(led_pin, rmt).unwrap();
     strip.set_led(0, Rgb::RED).unwrap();
     strip.refresh().unwrap();
 
-    // TODO: Spawn some tasks
-    let _ = spawner;
     let mut idx = 0;
     let mut step = 0;
     let max_step = 360;
@@ -84,27 +217,10 @@ async fn main(spawner: Spawner) -> ! {
         idx += 1;
         idx %= { LED_LENGTH as usize };
         // Timer::after(Duration::from_secs(1)).await;
-        if idx == 5 {
-            break;
-        }
+        // if idx == 5 {
+        //     break;
+        // }
     }
-
-    use myrtio_light_composer::{
-        Duration,
-        EffectId,
-        FilterProcessorConfig,
-        Instant,
-        IntentChannel,
-        LightChangeIntent,
-        LightEngineConfig,
-        LightStateIntent,
-        Renderer,
-        Rgb as ComposerRGB,
-        TransitionTimings,
-        bounds::RenderingBounds,
-        filter::BrightnessFilterConfig,
-    };
-    use ws2812_driver::neopixel::Color24bit;
 
     // 1. Create communication channel (static for 'static lifetime)
     static INTENTS: IntentChannel<16> = IntentChannel::new();
@@ -179,8 +295,6 @@ async fn main(spawner: Spawner) -> ! {
         Timer::after(Duration::from_millis(10)).await;
         time_ms += 10;
     }
-
-    // for inspiration have a look at the examples at https://github.com/esp-rs/esp-hal/tree/esp-hal-v1.0.0/examples
 }
 
 mod logger {
