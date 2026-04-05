@@ -6,11 +6,13 @@ version = "0.1.0"
 
 
 [dependencies]
-esp-hal = { version = "~1.0", features = ["esp32c3", "log-04", "unstable"] }
+esp-hal = { version = "~1.0", features = ["esp32c3", "unstable"] }
 
 # esp-rtos = { version = "0.2.0", features = ["embassy", "esp32c3", "log-04"] }
 
-log = "0.4.27"
+# log = "0.4.27"
+# defmt = { version = "1.0.1" }
+
 
 
 heapless = "0.9.2"
