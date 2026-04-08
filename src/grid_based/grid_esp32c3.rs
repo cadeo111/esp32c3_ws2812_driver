@@ -524,7 +524,7 @@ $crate::grid_based::paste::paste!{
             >,
         > {
             let _ = grid_layout;
-            LedGridEsp32c3::new(led_pin, rmt)
+            $crate::grid_based::LedGridEsp32c3::new(led_pin, rmt)
         }
 
     }
