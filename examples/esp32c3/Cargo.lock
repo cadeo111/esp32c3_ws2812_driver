@@ -1379,7 +1379,6 @@ dependencies = [
  "const_format",
  "esp-hal",
  "heapless 0.9.2",
- "log",
  "paste",
  "smart-leds",
  "thiserror",

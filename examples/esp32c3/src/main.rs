@@ -89,7 +89,7 @@ async fn main(spawner: Spawner) -> ! {
 
     info!("Embassy initialized!");
     // led_strip_example(peripherals.GPIO6, peripherals.RMT).await;
-    led_grid_example(peripherals.GPIO6, peripherals.RMT).await;
+    led_grid_example(peripherals.GPIO9, peripherals.RMT).await;
 
     loop {}
     // for inspiration have a look at the examples at https://github.com/esp-rs/esp-hal/tree/esp-hal-v1.0.0/examples
@@ -109,9 +109,9 @@ pub async fn led_grid_example<'a>(
     let mut grid = panic_escape!(MyGrid::create(led_pin, rmt, RowsSameDirection));
 
     let color = Rgb::CYBER_PURPLE;
-    let mut index = 0;
+    let mut index: usize = 0;
 
-    fn comparison((x, y): &(usize, usize), index: u8) -> bool {
+    fn comparison((x, y): &(usize, usize), index: usize) -> bool {
         let index = index as usize;
         match index % 4 {
             0 => *x == (0 + (index / 4)) % 4,
@@ -122,6 +122,9 @@ pub async fn led_grid_example<'a>(
     }
 
     loop {
+        if index > 1000 {
+            index = 0;
+        }
         grid.get_z_mut(0).clear();
 
         grid.get_z_mut(0)
