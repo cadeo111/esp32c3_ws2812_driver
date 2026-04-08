@@ -459,6 +459,10 @@ impl<'a, const HEIGHT: usize, const WIDTH: usize, T: Default + Copy + Visibility
 impl<'a, const HEIGHT: usize, const WIDTH: usize, T: Default + Copy + Visibility>
     Grid2dMut<'a, WIDTH, HEIGHT, T>
 {
+    pub fn get_x_y(&mut self, (x, y): (usize, usize)) -> &mut T {
+        &mut self.0[Grid2d::<'a, WIDTH, HEIGHT, T>::get_index_from_x_y(x, y)]
+    }
+
     pub fn iter_mut(&mut self) -> impl Iterator<Item = ((usize, usize), &mut T)> {
         self.0
             .iter_mut()
