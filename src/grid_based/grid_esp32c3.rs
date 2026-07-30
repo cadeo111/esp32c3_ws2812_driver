@@ -501,6 +501,18 @@ $crate::grid_based::paste::paste!{
     // const [<__ $name  _ SIZE>]: usize = { $height * $width * $depth };
     pub struct $name;
 
+    pub type [< $name TypeRowsSameDirectionStatic >] = $crate::grid_based::LedGridEsp32c3<
+                'static,
+                {$height},
+                {$width},
+                {  $height * $width  },
+                { $height * $width * 24 + 1},
+                {$depth},
+                { $height * $width * $depth },
+                 $crate::grid_based::RowsSameDirection<{ $height }, {$width}>,
+            >;
+
+
 
     impl $name {
 
@@ -510,6 +522,9 @@ $crate::grid_based::paste::paste!{
         pub const GRID_SIZE_TIMES_24_PLUS_1: usize = { $height * $width * 24 + 1 };
         pub const DEPTH: usize = { $depth };
         pub const SIZE: usize = { $height * $width * $depth };
+
+        pub const TOP_INDEX:usize = 0;
+        pub const BOTTOM_INDEX:usize = Self::DEPTH-1;
 
         pub fn create<'strip_lifetime, P: $crate::grid_based::PhyisicalGridLayout<{Self::HEIGHT}, { Self::WIDTH}>>(
             led_pin: impl esp_hal::gpio::interconnect::PeripheralOutput<'strip_lifetime>,

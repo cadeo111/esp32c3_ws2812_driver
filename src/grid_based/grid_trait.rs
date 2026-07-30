@@ -6,17 +6,14 @@ pub trait LedGrid<
     const DEPTH: usize,
     const TOTAL: usize,
     GridItem: Copy + Sized + Color24bit,
-    GridType: Grid<HEIGHT, WIDTH, GridItem>
+    GridType: Grid<HEIGHT, WIDTH, GridItem>,
 >
 {
-  
-
     fn clear_all(&mut self);
     fn get_grid_mut(&mut self, z: usize) -> &mut GridType;
 }
 
-pub trait Grid<const HEIGHT: usize, const WIDTH: usize, GridItem: Copy + Sized>
-{
+pub trait Grid<const HEIGHT: usize, const WIDTH: usize, GridItem: Copy + Sized> {
     fn get_at_mut(&mut self, x: usize, y: usize) -> &mut GridItem;
 
     fn apply_to_all<M: Fn(&mut GridItem), F: Fn(&mut GridItem) -> bool>(

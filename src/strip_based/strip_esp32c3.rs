@@ -136,8 +136,6 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     }
 }
 
-
-
 impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     LedStrip<LENGTH, LENGTH_TIMES_24_PLUS_1, Rgb>
     for LedStripEsp32C3<'a, LENGTH, LENGTH_TIMES_24_PLUS_1>
@@ -152,10 +150,9 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     fn _set_led_unchecked(&mut self, index: usize, color: Rgb) {
         self.data[index] = color;
     }
-       fn _get_led_unchecked(&self, index: usize) -> Rgb {
+    fn _get_led_unchecked(&self, index: usize) -> Rgb {
         self.data[index]
     }
-
 
     fn _convert_from_signal_period(
         &self,
@@ -163,11 +160,11 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
     ) -> core::result::Result<Self::SignalPeriodType, Self::Error> {
         let tick_rate = self.tick_rate;
         Ok(PulseCode::new(
-                Level::High,
-                duration_to_ticks(tick_rate, &signal_period.high())?,
-                Level::Low,
-                duration_to_ticks(tick_rate, &signal_period.low())?,
-            ))
+            Level::High,
+            duration_to_ticks(tick_rate, &signal_period.high())?,
+            Level::Low,
+            duration_to_ticks(tick_rate, &signal_period.low())?,
+        ))
     }
 
     fn _transmit_signal(
@@ -197,6 +194,4 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
 
         Ok(())
     }
-    
- 
 }
