@@ -38,7 +38,7 @@ pub enum Esp32c3StripError {
     #[error("failed to convert ticks to u16")]
     FailedToConvertTickError(#[from] TryFromIntError),
     #[error("failed to configure rmt: {0}")]
-    FailedToConfigureRMT(#[source] esp_hal::rmt::Error),
+    FailedToConfigureRMT(#[source] esp_hal::rmt::ConfigError),
     #[error("index {index} out of range  of length {length}")]
     IndexOutOfRangeOfStrip { length: usize, index: usize },
     #[error("signal vector was too small for transmission")]
@@ -103,8 +103,9 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
 
         let tx: Channel<'_, Blocking, Tx> = rmt
             .channel0
-            .configure_tx(led_pin, config)
-            .map_err(Esp32c3StripError::FailedToConfigureRMT)?;
+            .configure_tx(&config)
+            .map_err(Esp32c3StripError::FailedToConfigureRMT)?
+            .with_pin(led_pin);
 
         // let tx: Channel<Async, ConstChannelAccess<Tx, 0>> =   channel.configure_tx(
         //     led_pin,
@@ -169,29 +170,68 @@ impl<'a, const LENGTH: usize, const LENGTH_TIMES_24_PLUS_1: usize>
 
     fn _transmit_signal(
         &mut self,
-        mut signal: heapless::Vec<Self::SignalPeriodType, LENGTH_TIMES_24_PLUS_1>,
+        signal: heapless::Vec<Self::SignalPeriodType, LENGTH_TIMES_24_PLUS_1>,
     ) -> core::result::Result<(), Self::Error> {
-        signal
-            .push(PulseCode::end_marker())
-            // TODO this should probably panic as there is already a const assert that should make this impossible
-            .map_err(|_| Esp32c3StripError::SignalVectorTooSmall)?;
-
-        let tx = self.tx.take();
-        assert!(
-            tx.is_some(),
-            "TX should always be some unless an error has occured"
-        );
-        let tx = tx.expect("TX should always be some unless an error has occured");
-
-        let transaction = tx
-            .transmit(&signal)
-            .map_err(Esp32c3StripError::FailedToTransmit)?;
-        let tx = transaction
-            .wait()
-            // TODO: maybe hand the tx and self back in an error case for graceful recovery?
-            .map_err(|(err, _)| Esp32c3StripError::FailedToWait(err))?;
-        self.tx = Some(tx);
-
-        Ok(())
+        if let Err(err) = transmit_signal(&mut self.tx, signal) {
+            Err(match err {
+                TransmitSignalError::SignalVectorTooSmall => Esp32c3StripError::SignalVectorTooSmall,
+                TransmitSignalError::FailedToTransmit(error) => Esp32c3StripError::FailedToTransmit(error),
+                TransmitSignalError::FailedToWait(error) => Esp32c3StripError::FailedToWait(error),
+            })
+        } else {
+            Ok(())
+        }
     }
+}
+
+#[derive(Error, Debug)]
+pub enum TransmitSignalError {
+    #[error("signal vector was too small for transmission")]
+    SignalVectorTooSmall,
+    #[error("failed to transmit on rmt: {0}")]
+    FailedToTransmit(#[source] esp_hal::rmt::Error),
+    #[error("failed to wait on rmt transmition: {0}")]
+    FailedToWait(#[source] esp_hal::rmt::Error),
+}
+
+pub fn transmit_signal<'a, const LENGTH_TIMES_24_PLUS_1: usize>(
+    tx_option: &mut Option<Channel<'a, Blocking, Tx>>,
+    mut signal: heapless::Vec<PulseCode, LENGTH_TIMES_24_PLUS_1>,
+) -> core::result::Result<(), TransmitSignalError> {
+    signal
+        .push(PulseCode::end_marker())
+        // TODO this should probably panic as there is already a const assert that should make this impossible
+        .map_err(|_| panic!("{}", TransmitSignalError::SignalVectorTooSmall));
+
+    let tx = tx_option.take();
+    assert!(
+        tx.is_some(),
+        "TX should always be some unless an error has occured"
+    );
+    let tx = tx.expect("TX should always be some unless an error has occured");
+
+    let transaction = match tx
+        .transmit(&signal)
+        .map_err(|(err, tx)| (TransmitSignalError::FailedToTransmit(err), tx))
+    {
+        Ok(v) => v,
+        Err((err, tx)) => {
+            tx_option.replace(tx);
+            Err(err)?
+        }
+    };
+    let tx = match transaction
+        .wait()
+        // TODO: maybe hand the tx and self back in an error case for graceful recovery?
+        .map_err(|(err, tx)| (TransmitSignalError::FailedToWait(err), tx))
+    {
+        Ok(v) => v,
+        Err((err, tx)) => {
+            tx_option.replace(tx);
+            Err(err)?
+        }
+    };
+    tx_option.replace(tx);
+
+    Ok(())
 }

@@ -2,6 +2,9 @@ mod rgb;
 mod strip_esp32c3;
 mod strip_trait;
 
+
+pub(crate) use strip_esp32c3::{transmit_signal, TransmitSignalError};
+
 pub use rgb::Rgb;
 pub use strip_esp32c3::{
     Esp32c3StripError,

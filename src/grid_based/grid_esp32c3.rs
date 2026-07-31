@@ -40,8 +40,10 @@ use crate::{
         Rgb,
         SignalPeriod,
         StripResult,
+        TransmitSignalError,
         duration_to_ticks,
         min_length_times_24_plus_one,
+        transmit_signal,
     },
 };
 
@@ -158,8 +160,9 @@ impl<
 
         let tx: Channel<'_, Blocking, Tx> = rmt
             .channel0
-            .configure_tx(led_pin, config)
-            .map_err(Esp32c3StripError::FailedToConfigureRMT)?;
+            .configure_tx(&config)
+            .map_err(Esp32c3StripError::FailedToConfigureRMT)?
+            .with_pin(led_pin);
 
         // let tx: Channel<Async, ConstChannelAccess<Tx, 0>> =   channel.configure_tx(
         //     led_pin,
@@ -276,30 +279,21 @@ impl<
 
     fn _transmit_signal(
         &mut self,
-        mut signal: heapless::Vec<Self::SignalPeriodType, GRID_SIZE_TIMES_24_PLUS_1>,
+        signal: heapless::Vec<Self::SignalPeriodType, GRID_SIZE_TIMES_24_PLUS_1>,
     ) -> core::result::Result<(), Self::Error> {
-        signal
-            .push(PulseCode::end_marker())
-            // TODO this should probably panic as there is already a const assert that should make this impossible
-            .map_err(|_| Esp32c3StripError::SignalVectorTooSmall)?;
-
-        let tx = self.0.take();
-        assert!(
-            tx.is_some(),
-            "TX should always be some unless an error has occured"
-        );
-        let tx = tx.expect("TX should always be some unless an error has occured");
-
-        let transaction = tx
-            .transmit(&signal)
-            .map_err(Esp32c3StripError::FailedToTransmit)?;
-        let tx = transaction
-            .wait()
-            // TODO: maybe hand the tx and self back in an error case for graceful recovery?
-            .map_err(|(err, _)| Esp32c3StripError::FailedToWait(err))?;
-        self.0.replace(tx);
-
-        Ok(())
+        if let Err(err) = transmit_signal(self.0, signal) {
+            Err(match err {
+                TransmitSignalError::SignalVectorTooSmall => {
+                    Esp32c3StripError::SignalVectorTooSmall
+                }
+                TransmitSignalError::FailedToTransmit(error) => {
+                    Esp32c3StripError::FailedToTransmit(error)
+                }
+                TransmitSignalError::FailedToWait(error) => Esp32c3StripError::FailedToWait(error),
+            })
+        } else {
+            Ok(())
+        }
     }
 }
 
@@ -388,6 +382,10 @@ impl<
     T: Default + Copy + Visibility,
 > Grid3d<HEIGHT, WIDTH, DEPTH, SIZE, T>
 {
+    pub fn clear_all(&mut self) {
+        self.iter_mut().for_each(|r| *r = T::invisible());
+    }
+
     // 0 is top
     pub fn get_z_mut(&mut self, z_index: usize) -> Grid2dMut<'_, HEIGHT, WIDTH, T> {
         let start_index = z_index * HEIGHT * WIDTH;
