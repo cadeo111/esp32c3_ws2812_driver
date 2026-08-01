@@ -21,6 +21,7 @@ thiserror = { version = "2.0.18", default-features = false }
 smart-leds = "0.4"
 const_format = { version = "0.2.35", features = ["rust_1_83"] }
 paste = "1.0.15"
+critical-section = "1.2.0"
 
 [profile.dev]
 # Rust debug is too slow.

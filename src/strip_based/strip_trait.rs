@@ -72,9 +72,9 @@ pub trait LedStrip<const LENGTH: usize, const MIN_SIGNAL_LENGTH: usize, C: Color
     type SignalPeriodType;
 
     const LOGIC_0: SignalPeriod =
-        SignalPeriod::new(Duration::from_nanos(350), Duration::from_nanos(800));
+        SignalPeriod::new(Duration::from_nanos(400), Duration::from_nanos(850));
     const LOGIC_1: SignalPeriod =
-        SignalPeriod::new(Duration::from_nanos(700), Duration::from_nanos(600));
+        SignalPeriod::new(Duration::from_nanos(800), Duration::from_nanos(450));
 
     fn clear(&mut self) {
         for i in 0..LENGTH {

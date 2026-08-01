@@ -194,6 +194,7 @@ pub enum TransmitSignalError {
     FailedToWait(#[source] esp_hal::rmt::Error),
 }
 
+#[esp_hal::ram]
 pub fn transmit_signal<'a, const LENGTH_TIMES_24_PLUS_1: usize>(
     tx_option: &mut Option<Channel<'a, Blocking, Tx>>,
     mut signal: heapless::Vec<PulseCode, LENGTH_TIMES_24_PLUS_1>,
@@ -210,28 +211,25 @@ pub fn transmit_signal<'a, const LENGTH_TIMES_24_PLUS_1: usize>(
     );
     let tx = tx.expect("TX should always be some unless an error has occured");
 
-    let transaction = match tx
-        .transmit(&signal)
-        .map_err(|(err, tx)| (TransmitSignalError::FailedToTransmit(err), tx))
-    {
-        Ok(v) => v,
-        Err((err, tx)) => {
-            tx_option.replace(tx);
-            Err(err)?
+    let (tx, result) = critical_section::with(|_| {
+        let transaction = match tx
+            .transmit(&signal)
+            .map_err(|(err, tx)| (TransmitSignalError::FailedToTransmit(err), tx))
+        {
+            Ok(v) => v,
+            Err(e) => return (e.1, Err(e.0)),
+        };
+        match transaction
+            .wait()
+            // TODO: maybe hand the tx and self back in an error case for graceful recovery?
+            .map_err(|(err, tx)| (TransmitSignalError::FailedToWait(err), tx))
+        {
+            Ok(v) => (v, Ok(())),
+            Err(e) => (e.1, Err(e.0)),
         }
-    };
-    let tx = match transaction
-        .wait()
-        // TODO: maybe hand the tx and self back in an error case for graceful recovery?
-        .map_err(|(err, tx)| (TransmitSignalError::FailedToWait(err), tx))
-    {
-        Ok(v) => v,
-        Err((err, tx)) => {
-            tx_option.replace(tx);
-            Err(err)?
-        }
-    };
+    });
+
     tx_option.replace(tx);
 
-    Ok(())
+    result
 }
