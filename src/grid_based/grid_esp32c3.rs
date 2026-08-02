@@ -28,23 +28,15 @@ use esp_hal::{
 };
 use heapless::Vec;
 
-use crate::{
-    grid_based::grid_trait::{
-        Grid,
-        LedGrid,
-    },
-    strip_based::{
-        Esp32c3StripError,
-        LedStrip,
-        LedStripEsp32C3,
-        Rgb,
-        SignalPeriod,
-        StripResult,
-        TransmitSignalError,
-        duration_to_ticks,
-        min_length_times_24_plus_one,
-        transmit_signal,
-    },
+use crate::strip_based::{
+    Esp32c3StripError,
+    LedStrip,
+    Rgb,
+    SignalPeriod,
+    StripResult,
+    TransmitSignalError,
+    duration_to_ticks,
+    transmit_signal,
 };
 
 // struct BasicArrayBasedGrid<'a,
@@ -79,9 +71,9 @@ pub trait PhyisicalGridLayout<const HEIGHT: usize, const WIDTH: usize> {
     fn get_index_in_strip_from_x_y(x: usize, y: usize) -> usize;
     fn get_x_y_in_strip_from_index(index: usize) -> (usize, usize);
 }
-pub struct RowsSameDirection<const HEIGHT: usize, const WIDTH: usize>;
+pub struct RowsSameDirectionMirrored<const HEIGHT: usize, const WIDTH: usize>;
 impl<const HEIGHT: usize, const WIDTH: usize> PhyisicalGridLayout<HEIGHT, WIDTH>
-    for RowsSameDirection<HEIGHT, WIDTH>
+    for RowsSameDirectionMirrored<HEIGHT, WIDTH>
 {
     fn get_index_in_strip_from_x_y(x: usize, y: usize) -> usize {
         assert!(
@@ -92,6 +84,10 @@ impl<const HEIGHT: usize, const WIDTH: usize> PhyisicalGridLayout<HEIGHT, WIDTH>
             y < HEIGHT,
             concat!("Y must be less than ", stringify!(HEIGHT))
         );
+        let temp_y = y;
+        let y = x;
+        let x = temp_y;
+
         y * WIDTH + x
     }
     fn get_x_y_in_strip_from_index(index: usize) -> (usize, usize) {
@@ -107,6 +103,9 @@ impl<const HEIGHT: usize, const WIDTH: usize> PhyisicalGridLayout<HEIGHT, WIDTH>
 
         let x = index % WIDTH;
         let y = index / WIDTH;
+        let temp_y = y;
+        let y = x;
+        let x = temp_y;
         (x, y)
     }
 }
@@ -197,7 +196,7 @@ impl<
 
     fn strip(
         &mut self,
-    ) -> impl LedStrip<SIZE, GRID_SIZE_TIMES_24_PLUS_1, Rgb, Error = Esp32c3StripError> {
+    ) -> impl LedStrip<GRID_SIZE, GRID_SIZE_TIMES_24_PLUS_1, Rgb, Error = Esp32c3StripError> {
         self.get_strip_interface()
     }
 
@@ -499,7 +498,7 @@ $crate::grid_based::paste::paste!{
     // const [<__ $name  _ SIZE>]: usize = { $height * $width * $depth };
     pub struct $name;
 
-    pub type [< $name TypeRowsSameDirectionStatic >] = $crate::grid_based::LedGridEsp32c3<
+    pub type [< $name TypeRowsSameDirectionMirroredStatic >] = $crate::grid_based::LedGridEsp32c3<
                 'static,
                 {$height},
                 {$width},
@@ -507,7 +506,7 @@ $crate::grid_based::paste::paste!{
                 { $height * $width * 24 + 1},
                 {$depth},
                 { $height * $width * $depth },
-                 $crate::grid_based::RowsSameDirection<{ $height }, {$width}>,
+                 $crate::grid_based::RowsSameDirectionMirrored<{ $height }, {$width}>,
             >;
 
 

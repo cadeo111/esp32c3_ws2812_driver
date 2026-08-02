@@ -6,6 +6,6 @@ pub use grid_esp32c3::{
     Grid2dMut,
     LedGridEsp32c3,
     PhyisicalGridLayout,
-    RowsSameDirection,
+    RowsSameDirectionMirrored,
     paste, //used by a macro
 };
